@@ -52,7 +52,7 @@ const Gauge: React.FC = () => {
 export const MG01: React.FC = () => (
   <Stage dur={MG01_DUR} banner="Saldo Tinggal Seperempat">
     <PopIn at={46}>
-      <Boil seed="gauge" amp={1}>
+      <Boil seed="gauge" amp={0.4} rot={0.05}>
         <Gauge />
       </Boil>
     </PopIn>

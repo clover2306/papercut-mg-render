@@ -1,6 +1,7 @@
 // Shared papercut stage + helpers for the 13 kelas-menengah MG scenes.
 // Landscape 1280x720. Built only from dimension-agnostic kit primitives
 // (Slab/Paper/Pill/PopIn/Boil) + plain divs. Never Room/TapeBanner:
+// Gerakan boil/weave DIREDAM (Bos, 2026-11-14: MG harus lebih tenang) — jangan kembalikan ke default kit tanpa persetujuan Bos.
 // both hardcode vertical 1080x1920 coordinates.
 import React from 'react';
 import {AbsoluteFill, Easing, interpolate, useCurrentFrame} from 'remotion';
@@ -16,7 +17,7 @@ export const fmtID = (v: number, dec = 2) => v.toFixed(dec).replace('.', ',');
 
 const Banner: React.FC<{text: string; size?: number}> = ({text, size = 46}) => (
   <PopIn at={0}>
-    <Boil seed="banner">
+    <Boil seed="banner" amp={0.4} rot={0.05}>
       <div style={{position: 'absolute', top: 44, left: '50%', translate: '-50% 0', rotate: '-1deg'}}>
         <div
           style={{
@@ -39,7 +40,7 @@ const Banner: React.FC<{text: string; size?: number}> = ({text, size = 46}) => (
 export const Stage: React.FC<{dur: number; banner: string; bannerSize?: number; corner?: string; children: React.ReactNode}> = ({dur, banner, bannerSize, corner, children}) => (
   <AbsoluteFill style={{backgroundColor: C.creamHi}}>
     <PaperDefs />
-    <FilmWeave>
+    <FilmWeave amp={0.25} flicker={0.25}>
       <CameraPush dur={dur} to={1.05} origin="50% 45%">
         <Slab x={0} y={0} w={1280} h={720} color={C.creamHi} r={0} grain={0.55} />
         <AbsoluteFill
@@ -72,7 +73,7 @@ export const Stage: React.FC<{dur: number; banner: string; bannerSize?: number; 
 
 export const Tag: React.FC<{x: number; y: number; text: string; at: number; bg?: string; color?: string; size?: number; rot?: number; seed?: string}> = ({x, y, text, at, bg = C.tag, color = C.tagText, size = 34, rot = -2, seed = 'tag'}) => (
   <PopIn at={at}>
-    <Boil seed={seed}>
+    <Boil seed={seed} amp={0.4} rot={0.05}>
       <div
         style={{
           position: 'absolute', left: x, top: y, translate: '-50% 0', rotate: `${rot}deg`, whiteSpace: 'nowrap',

@@ -9,7 +9,7 @@ export const MG03_DUR = 489;
 
 export const MG03: React.FC = () => (
   <Stage dur={MG03_DUR} banner="Kelas Menengah Menyusut">
-    <Boil seed="bars" amp={1.2}>
+    <Boil seed="bars" amp={0.4} rot={0.05}>
       <BarV cx={450} w={240} h={330} color="#2F5A5A" shade="#234343" hi="#3E6E6E" value={57.33} unit="JUTA" cue={[0, 152]} pill="2019" />
       <BarV cx={830} w={240} h={275} color={C.hero} shade={C.heroLo} hi="#E08A6F" value={47.85} unit="JUTA" cue={[177, 364]} pill="2024" />
     </Boil>
