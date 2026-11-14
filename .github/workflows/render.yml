@@ -1,19 +1,60 @@
-name: Render MG Contoh
+name: Render MG papercut
 
-# Render komposisi ContohMG (519 frame, 1280x720, 30fps) dalam 6 potongan
-# paralel, lalu digabung jadi satu video. Video hasil TIDAK bersuara:
+# Render komposisi MG01-MG13 (1280x720, 30fps) dalam potongan paralel,
+# lalu gabungkan tiap MG jadi satu video. Video hasil TIDAK bersuara:
 # potongan narasi digabung secara lokal oleh Clover (audio tidak masuk repo).
+# Input mgs memungkinkan render ulang sebagian MG saja.
 on:
   workflow_dispatch:
+    inputs:
+      mgs:
+        description: 'MG ids, comma-separated (default: all 13)'
+        required: false
+        default: 'MG01,MG02,MG03,MG04,MG05,MG06,MG07,MG08,MG09,MG10,MG11,MG12,MG13'
 
 jobs:
+  plan:
+    name: Plan matrices
+    runs-on: ubuntu-latest
+    outputs:
+      render: ${{ steps.mk.outputs.render }}
+      stitch: ${{ steps.mk.outputs.stitch }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Compute frame ranges
+        id: mk
+        env:
+          MGS: ${{ inputs.mgs }}
+        run: |
+          python3 - <<'EOF'
+          import json, os
+          mgs = [m.strip() for m in os.environ["MGS"].split(",") if m.strip()]
+          durs = json.load(open("mg-durations.json"))
+          inc = []
+          for mg in mgs:
+              total = durs[mg]
+              n = 6
+              size = (total + n - 1) // n
+              for c in range(n):
+                  s = c * size
+                  e = min(total, s + size) - 1
+                  if s <= e:
+                      inc.append({"mg": mg, "chunk": c, "start": s, "end": e})
+          out = open(os.environ["GITHUB_OUTPUT"], "a")
+          out.write("render=" + json.dumps({"include": inc}) + "\n")
+          out.write("stitch=" + json.dumps({"include": [{"mg": mg} for mg in mgs]}) + "\n")
+          out.close()
+          EOF
+
   render:
-    name: Render chunk ${{ matrix.chunk }}
+    name: Render ${{ matrix.mg }} chunk ${{ matrix.chunk }}
+    needs: plan
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      matrix:
-        chunk: [0, 1, 2, 3, 4, 5]
+      matrix: ${{ fromJSON(needs.plan.outputs.render) }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -38,30 +79,28 @@ jobs:
 
       - name: Render frame chunk
         run: |
-          TOTAL=519
-          CHUNKS=6
-          SIZE=$(( (TOTAL + CHUNKS - 1) / CHUNKS ))
-          START=$(( ${{ matrix.chunk }} * SIZE ))
-          END=$(( START + SIZE - 1 ))
-          if [ "$END" -ge "$TOTAL" ]; then END=$(( TOTAL - 1 )); fi
-          echo "chunk ${{ matrix.chunk }}: frames $START-$END"
-          npx remotion render ContohMG chunk-${{ matrix.chunk }}.mp4 --frames=$START-$END --log=error
+          echo "${{ matrix.mg }} chunk ${{ matrix.chunk }}: frames ${{ matrix.start }}-${{ matrix.end }}"
+          npx remotion render ${{ matrix.mg }} chunk-${{ matrix.mg }}-${{ matrix.chunk }}.mp4 --frames=${{ matrix.start }}-${{ matrix.end }} --log=error
 
       - name: Upload chunk
         uses: actions/upload-artifact@v4
         with:
-          name: chunk-${{ matrix.chunk }}
-          path: chunk-${{ matrix.chunk }}.mp4
-          retention-days: 7
+          name: chunk-${{ matrix.mg }}-${{ matrix.chunk }}
+          path: chunk-${{ matrix.mg }}-${{ matrix.chunk }}.mp4
+          retention-days: 2
 
   stitch:
-    name: Stitch chunks
-    needs: render
+    name: Stitch ${{ matrix.mg }}
+    needs: [plan, render]
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.plan.outputs.stitch) }}
     steps:
       - name: Download chunks
         uses: actions/download-artifact@v4
         with:
+          pattern: chunk-${{ matrix.mg }}-*
           path: chunks
 
       - name: Ensure ffmpeg
@@ -70,14 +109,14 @@ jobs:
 
       - name: Concatenate
         run: |
-          for i in 0 1 2 3 4 5; do echo "file 'chunks/chunk-$i/chunk-$i.mp4'" >> list.txt; done
+          for i in 0 1 2 3 4 5; do echo "file 'chunks/chunk-${{ matrix.mg }}-$i/chunk-${{ matrix.mg }}-$i.mp4'" >> list.txt; done
           cat list.txt
-          ffmpeg -y -f concat -safe 0 -i list.txt -c:v libx264 -pix_fmt yuv420p -crf 18 contoh-mg-video.mp4
-          ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 contoh-mg-video.mp4
+          ffmpeg -y -f concat -safe 0 -i list.txt -c:v libx264 -pix_fmt yuv420p -crf 18 ${{ matrix.mg }}.mp4
+          ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 ${{ matrix.mg }}.mp4
 
       - name: Upload final video (silent, narration is muxed locally)
         uses: actions/upload-artifact@v4
         with:
-          name: contoh-mg-video
-          path: contoh-mg-video.mp4
+          name: mg-${{ matrix.mg }}-video
+          path: ${{ matrix.mg }}.mp4
           retention-days: 30
