@@ -1,0 +1,125 @@
+{
+ "fps": 30,
+ "durationInFrames": 241,
+ "scenes": [
+  {
+   "id": "S01Hello",
+   "from": 0,
+   "durationInFrames": 116,
+   "words": [
+    {
+     "text": "This",
+     "f": 6,
+     "e": 16
+    },
+    {
+     "text": "whole",
+     "f": 16,
+     "e": 27
+    },
+    {
+     "text": "reel",
+     "f": 27,
+     "e": 36
+    },
+    {
+     "text": "is",
+     "f": 36,
+     "e": 43
+    },
+    {
+     "text": "cut",
+     "f": 43,
+     "e": 50
+    },
+    {
+     "text": "paper.",
+     "f": 50,
+     "e": 63
+    },
+    {
+     "text": "Watch",
+     "f": 63,
+     "e": 74
+    },
+    {
+     "text": "the",
+     "f": 74,
+     "e": 82
+    },
+    {
+     "text": "camera",
+     "f": 82,
+     "e": 95
+    },
+    {
+     "text": "move.",
+     "f": 95,
+     "e": 106
+    }
+   ]
+  },
+  {
+   "id": "S02Cta",
+   "from": 116,
+   "durationInFrames": 125,
+   "words": [
+    {
+     "text": "Want",
+     "f": 3,
+     "e": 12
+    },
+    {
+     "text": "the",
+     "f": 12,
+     "e": 20
+    },
+    {
+     "text": "kit?",
+     "f": 20,
+     "e": 29
+    },
+    {
+     "text": "Comment",
+     "f": 29,
+     "e": 43
+    },
+    {
+     "text": "PAPER",
+     "f": 43,
+     "e": 53
+    },
+    {
+     "text": "and",
+     "f": 53,
+     "e": 61
+    },
+    {
+     "text": "it's",
+     "f": 61,
+     "e": 70
+    },
+    {
+     "text": "yours.",
+     "f": 70,
+     "e": 83
+    }
+   ]
+  }
+ ],
+ "hook": {
+  "lines": [
+   [
+    "ALL",
+    "CUT"
+   ],
+   [
+    "PAPER"
+   ]
+  ],
+  "hot": [
+   "PAPER"
+  ],
+  "outAt": 48
+ }
+}
