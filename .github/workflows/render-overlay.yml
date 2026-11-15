@@ -73,10 +73,25 @@ jobs:
           echo "overlay chunk ${{ matrix.chunk }}: frames ${{ matrix.start }}-${{ matrix.end }} (${{ matrix.count }} frames)"
           node tools/render-overlay-frames.mjs ${{ matrix.start }} ${{ matrix.end }} frames-${{ matrix.chunk }} 4
           ls frames-${{ matrix.chunk }} | wc -l
+          echo "first files:"; ls frames-${{ matrix.chunk }} | head -5
+          echo "last files:"; ls frames-${{ matrix.chunk }} | tail -2
 
       - name: Encode QTRLE chunk (alpha)
         run: |
-          ffmpeg -y -v error -framerate 30 -start_number ${{ matrix.start }} -i frames-${{ matrix.chunk }}/element-%d.png -c:v qtrle -pix_fmt argb overlay-chunk-${{ matrix.chunk }}.mov
+          # Normalize frame filenames: chunks 0 and 3 failed twice with
+          # ffmpeg image2 finding no element-%d.png although 2808 files
+          # were listed (cause unconfirmed on the runner; local repro
+          # with the same Remotion version works). Version-sort the PNGs
+          # and rename sequentially so the encode cannot depend on the
+          # original naming scheme.
+          i=0
+          for f in $(ls frames-${{ matrix.chunk }}/*.png | sort -V); do
+            printf -v n 'seq-%06d.png' $i
+            mv "$f" "frames-${{ matrix.chunk }}/$n"
+            i=$((i+1))
+          done
+          test "$i" = "${{ matrix.count }}"
+          ffmpeg -y -v error -framerate 30 -start_number 0 -i frames-${{ matrix.chunk }}/seq-%06d.png -c:v qtrle -pix_fmt argb overlay-chunk-${{ matrix.chunk }}.mov
           ffprobe -v error -count_frames -show_entries stream=codec_name,pix_fmt,nb_read_frames -show_entries format=duration -of default=nw=1 overlay-chunk-${{ matrix.chunk }}.mov
           test "$(ffprobe -v error -count_frames -show_entries stream=nb_read_frames -of csv=p=0 overlay-chunk-${{ matrix.chunk }}.mov)" = "${{ matrix.count }}"
 
