@@ -1,1234 +1,936 @@
-// Adegan D01 "Kalkulator di Warung" (scene 11-18, 636 frame @ 30fps): kalkulator kertas di warung malam mengubah gaji menjadi andaian lima ribu dolar.
-// Dunia teater kertas warung kopi: tokoh tanpa wajah bersyal terakota, menara koin hijau bercincin, kartu berbingkai putus-putus, dan gumam meja sebelah.
+// Adegan D01 — Kalkulator di Warung (scene 11-18, 636 frame, 30 fps, kanvas 1280x720).
+// Teater kertas warung kopi: dari layar kalkulator bergaji Rp5.000.000 dibagi 1.000 menjadi US$5.000 hingga gumaman meja warung.
 import React from 'react';
 import {AbsoluteFill, Easing, interpolate, useCurrentFrame} from 'remotion';
-import {C, FONT, ROOM} from '../../lib/tokens';
+import {C, FONT, H, ROOM, W} from '../../lib/tokens';
 import {
-  Boil,
+  Disc,
   DrawOnEllipse,
   GrainOverlay,
-  Paper,
   PaperDefs,
-  Slab,
   SparkleBurst,
+  bob,
 } from '../../lib/paper/kit';
 import {FilmWeave} from '../../lib/paper/look';
+import {Boil, Figure, FLOOR_Y, Paper, PopIn, Slab, SlideIn, Tag} from './mgkit';
 
 export const D01_DUR = 636;
 
-const CLAMP = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
-const FLOOR_Y = 612;
+const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 
-const GreenDollarCoin: React.FC<{x: number; y: number; r?: number; rot?: number}> = ({
-  x,
-  y,
-  r = 22,
-  rot = 0,
-}) => (
-  <div
-    style={{
-      position: 'absolute',
-      left: x - r,
-      top: y - r,
-      width: r * 2,
-      height: r * 2,
-      borderRadius: '50%',
-      backgroundColor: '#6F8F63',
-      border: `2.5px solid ${C.sageLo}`,
-      boxShadow: '0 3px 5px rgba(0,0,0,0.34), inset 0 2px 2px rgba(255,255,255,0.28)',
-      transform: `rotate(${rot}deg)`,
-      boxSizing: 'border-box',
-    }}
-  >
-    <div
-      style={{
-        position: 'absolute',
-        inset: Math.max(4, Math.round(r * 0.24)),
-        borderRadius: '50%',
-        border: '2px solid #B7CFA9',
-        boxSizing: 'border-box',
-      }}
-    />
+// Koin dolar hijau zaitun bercincin tanpa teks/simbol
+const DollarCoin: React.FC<{x: number; y: number; d?: number}> = ({x, y, d = 44}) => (
+  <div style={{position: 'absolute', left: x - d / 2, top: y - d / 2, width: d, height: d}}>
+    <Disc x={d / 2} y={d / 2} d={d} color={C.sage} shade={C.sageLo}>
+      <div
+        style={{
+          position: 'absolute',
+          left: d * 0.18,
+          top: d * 0.18,
+          width: d * 0.64,
+          height: d * 0.64,
+          borderRadius: '50%',
+          border: `${Math.max(2, Math.round(d * 0.08))}px solid ${C.creamHi}`,
+          opacity: 0.75,
+          boxSizing: 'border-box',
+        }}
+      />
+    </Disc>
   </div>
 );
 
-const CoffeeCupWithSteam: React.FC<{x: number; y: number; frame: number; scale?: number}> = ({
-  x,
-  y,
-  frame,
-  scale = 1,
-}) => {
-  const wisps = [0, 1, 2].map((i) => {
-    const cycle = ((frame + i * 28) % 84) / 84;
-    const dy = interpolate(cycle, [0, 1], [0, -54], CLAMP);
-    const dx = Math.sin(cycle * Math.PI * 2 + i * 1.4) * 6;
-    const op = interpolate(cycle, [0, 0.2, 0.75, 1], [0, 0.52, 0.36, 0], CLAMP);
-    return {dy, dx, op, i};
-  });
+// Koin rupiah kuning madu polos tanpa teks/simbol
+const RupiahCoin: React.FC<{x: number; y: number; d?: number}> = ({x, y, d = 36}) => (
+  <Disc x={x} y={y} d={d} color={C.amber} shade={C.brassLo} />
+);
 
+// Gelas kopi kertas dengan uap tipis bergerak tenang (alas gelas berada di y + 52)
+const CoffeeCup: React.FC<{x: number; y: number; f: number; seed?: number}> = ({x, y, f, seed = 0}) => {
+  const w1 = bob(f, 48, 3, seed);
+  const w2 = bob(f, 54, 4, seed + 15);
   return (
-    <div
-      style={{
-        position: 'absolute',
-        left: x,
-        top: y,
-        transform: `scale(${scale})`,
-        transformOrigin: 'bottom center',
-      }}
-    >
-      {wisps.map(({dy, dx, op, i}) => (
-        <svg
-          key={i}
-          width={24}
-          height={44}
-          viewBox="0 0 24 44"
-          style={{
-            position: 'absolute',
-            left: -12 + (i - 1) * 8 + dx,
-            top: -86 + dy,
-            opacity: op,
-            overflow: 'visible',
-          }}
-        >
-          <path
-            d="M12 42 C6 32, 18 22, 11 12 C7 6, 14 2, 12 0"
-            fill="none"
-            stroke={C.creamHi}
-            strokeWidth={2.6}
-            strokeLinecap="round"
-          />
-        </svg>
-      ))}
-      <Paper lift={4}>
-        <Slab x={-26} y={-8} w={52} h={8} color={C.creamLo} r={4} />
-        <Slab x={15} y={-34} w={13} h={20} color={C.creamLo} r={7} />
-        <Slab x={-19} y={-44} w={38} h={38} color={C.creamHi} shade={C.creamLo} shadeH={0.22} r="4px 4px 12px 12px" />
-        <Slab x={-17} y={-44} w={34} h={6} color={C.woodLo} r={3} />
+    <div style={{position: 'absolute', left: x, top: y, width: 48, height: 54}}>
+      <svg
+        width={48}
+        height={42}
+        viewBox="0 0 48 42"
+        style={{position: 'absolute', left: 0, top: -34, overflow: 'visible', opacity: 0.58}}
+      >
+        <path
+          d={`M ${16 + w1} 36 C ${10 - w1} 24, ${22 + w1} 14, ${15 + w2 * 0.5} 2`}
+          stroke={C.creamHi}
+          strokeWidth={3}
+          strokeLinecap="round"
+          fill="none"
+        />
+        <path
+          d={`M ${30 + w2} 38 C ${36 - w2} 26, ${24 + w2} 16, ${31 - w1 * 0.5} 4`}
+          stroke={C.creamHi}
+          strokeWidth={2.5}
+          strokeLinecap="round"
+          fill="none"
+        />
+      </svg>
+      <Paper lift={3}>
+        <Slab x={6} y={44} w={36} h={8} color={C.creamLo} shade={C.woodLo} shadeH={0.3} r={4} />
+        <Slab x={10} y={12} w={28} h={34} color={C.creamHi} shade={C.creamLo} shadeH={0.22} r="3px 3px 8px 8px" />
+        <Slab x={10} y={22} w={28} h={12} color={C.wood} shade={C.woodLo} shadeH={0.25} r={0} />
       </Paper>
     </div>
   );
 };
 
-const PaperTVCorner: React.FC<{x: number; y: number; warmth: number}> = ({x, y, warmth}) => (
-  <div style={{position: 'absolute', left: x, top: y}}>
+// Televisi kertas berlayar polos bercahaya (jangkar warung, menempel pada rak di y + 122)
+const PaperTV: React.FC<{x: number; y: number; glow?: number}> = ({x, y, glow = 1}) => (
+  <div style={{position: 'absolute', left: x, top: y, width: 150, height: 124}}>
+    <div
+      style={{
+        position: 'absolute',
+        left: -28,
+        top: -20,
+        width: 206,
+        height: 170,
+        borderRadius: '50%',
+        background: `radial-gradient(circle, rgba(245,197,66,${0.22 * glow}) 0%, rgba(245,197,66,0) 72%)`,
+      }}
+    />
     <Paper lift={5}>
-      <Slab x={18} y={118} w={14} h={118} color={C.woodLo} r={3} />
-      <Slab x={138} y={118} w={14} h={118} color={C.woodLo} r={3} />
-      <Slab x={12} y={145} w={146} h={12} color={C.wood} r={3} />
-      <Slab x={56} y={-34} w={4} h={42} color={C.metalLo} rot={-26} r={2} />
-      <Slab x={106} y={-34} w={4} h={42} color={C.metalLo} rot={26} r={2} />
-      <Slab x={0} y={0} w={170} h={122} color={C.wood} shade={C.woodLo} shadeH={0.14} r={10} />
-      <Slab
-        x={14}
-        y={14}
-        w={112}
-        h={94}
-        color={warmth > 0.5 ? '#EDE0C4' : '#C9DCE8'}
-        r={8}
+      <div
+        style={{
+          position: 'absolute',
+          left: 52,
+          top: -24,
+          width: 4,
+          height: 28,
+          background: C.inkSoft,
+          transformOrigin: 'bottom center',
+          rotate: '-28deg',
+        }}
       />
       <div
         style={{
           position: 'absolute',
-          left: 18,
-          top: 18,
-          width: 104,
-          height: 86,
-          borderRadius: 6,
-          background:
-            warmth > 0.5
-              ? 'radial-gradient(circle at 40% 35%, rgba(255,244,210,0.85), rgba(226,198,142,0.25))'
-              : 'radial-gradient(circle at 40% 35%, rgba(235,246,255,0.8), rgba(162,190,214,0.2))',
+          left: 88,
+          top: -24,
+          width: 4,
+          height: 28,
+          background: C.inkSoft,
+          transformOrigin: 'bottom center',
+          rotate: '26deg',
         }}
       />
-      <Slab x={138} y={28} w={18} h={18} color={C.brass} r={9} />
-      <Slab x={138} y={56} w={18} h={18} color={C.tape} r={9} />
-      <Slab x={136} y={84} w={22} h={20} color={C.woodLo} r={3} />
+      <Slab x={0} y={0} w={150} h={108} color={C.wood} shade={C.woodLo} shadeH={0.2} r={10} />
+      <Slab x={14} y={14} w={98} h={80} color={C.creamHi} hi="#FFF8E7" hiH={0.35} shade={C.tape} shadeH={0.15} r={8} />
+      <Disc x={130} y={36} d={16} color={C.brass} shade={C.brassLo} />
+      <Disc x={130} y={62} d={16} color={C.brass} shade={C.brassLo} />
+      <Slab x={22} y={106} w={16} h={18} color={C.woodLo} r={3} />
+      <Slab x={112} y={106} w={16} h={18} color={C.woodLo} r={3} />
     </Paper>
   </div>
 );
 
-const HeroKamu: React.FC<{
-  x: number;
-  y: number;
-  frame: number;
-  armReach: number;
-  holdingCalc: boolean;
-  scarfBright: number;
-}> = ({x, y, frame, armReach, holdingCalc, scarfBright}) => {
-  const breathe = Math.sin((frame / 54) * Math.PI * 2) * 1.6;
-  const scarfSway = Math.sin((frame / 66) * Math.PI * 2) * 2.2;
-  const armRot = interpolate(armReach, [0, 1], [-14, -64], CLAMP);
-  const scarfMain = scarfBright > 0.5 ? '#E37E5E' : C.hero;
-
-  return (
-    <div style={{position: 'absolute', left: x, top: y}}>
-      <Paper lift={6}>
-        {/* Kaki duduk di bangku warung */}
-        <Slab x={-24} y={-68} w={22} h={68} color={C.inkSoft} r={6} />
-        <Slab x={4} y={-68} w={22} h={68} color={C.inkSoft} r={6} />
-        <Slab x={-36} y={-76} w={74} h={14} color={C.wood} shade={C.woodLo} shadeH={0.35} r={5} />
-        <Slab x={-28} y={-62} w={12} h={62} color={C.woodLo} r={3} />
-        <Slab x={18} y={-62} w={12} h={62} color={C.woodLo} r={3} />
-
-        {/* Badan kemeja krem */}
-        <div style={{transform: `translateY(${breathe}px)`}}>
-          <Slab
-            x={-34}
-            y={-158}
-            w={68}
-            h={88}
-            color={C.creamHi}
-            shade={C.creamLo}
-            shadeH={0.14}
-            r="14px 14px 8px 8px"
-          />
-
-          {/* Tali & tas selempang kecil */}
-          <Slab x={-26} y={-154} w={10} h={82} color={C.wood} rot={-32} r={4} />
-          <Slab x={-44} y={-106} w={30} h={28} color={C.brassLo} shade={C.woodLo} shadeH={0.25} r={6} />
-          <Slab x={-44} y={-106} w={30} h={11} color={C.wood} r="6px 6px 3px 3px" />
-
-          {/* Syal kertas terakota panjang */}
-          <Slab
-            x={10}
-            y={-148}
-            w={16}
-            h={68}
-            color={C.heroLo}
-            rot={-6 + scarfSway * 0.7}
-            r="4px 4px 8px 8px"
-          />
-          <Slab
-            x={18}
-            y={-146}
-            w={18}
-            h={78}
-            color={scarfMain}
-            rot={-12 + scarfSway}
-            r="4px 4px 10px 10px"
-          />
-          <Slab x={-28} y={-162} w={56} h={20} color={scarfMain} shade={C.heroLo} shadeH={0.25} r={10} />
-
-          {/* Kepala bulat polos TANPA WAJAH */}
-          <div
-            style={{
-              position: 'absolute',
-              left: -26,
-              top: -218,
-              width: 52,
-              height: 52,
-              borderRadius: '50%',
-              backgroundColor: C.creamLo,
-              border: `3px solid ${C.inkSoft}`,
-              boxSizing: 'border-box',
-              boxShadow: '0 3px 6px rgba(0,0,0,0.24)',
-            }}
-          />
-
-          {/* Lengan kanan meraih ponsel / memegang kalkulator */}
-          <div
-            style={{
-              position: 'absolute',
-              left: 16,
-              top: -144,
-              transformOrigin: '8px 8px',
-              transform: `rotate(${holdingCalc ? -58 : armRot}deg)`,
-            }}
-          >
-            <Slab x={0} y={0} w={56} h={16} color={C.cream} shade={C.creamLo} shadeH={0.22} r={8} />
-            <Slab x={48} y={1} w={16} h={14} color={C.creamLo} r={7} />
-          </div>
-        </div>
-      </Paper>
-    </div>
-  );
-};
-
-const NeighborFigure: React.FC<{
-  x: number;
-  y: number;
-  shirt: string;
-  frame: number;
-  seedOffset?: number;
-  standAmount?: number;
-  raiseArm?: number;
-}> = ({x, y, shirt, frame, seedOffset = 0, standAmount = 0, raiseArm = 0}) => {
-  const sway = Math.sin(((frame + seedOffset) / 62) * Math.PI * 2) * 1.4;
-  const liftY = -28 * standAmount;
-  const armDeg = interpolate(raiseArm, [0, 1], [16, -126], CLAMP);
-
-  return (
-    <div style={{position: 'absolute', left: x, top: y}}>
-      <Paper lift={4}>
-        {/* Kursi warung */}
-        <Slab x={-30} y={-68} w={60} h={12} color={C.woodLo} r={4} />
-        <Slab x={-24} y={-56} w={10} h={56} color={C.woodLo} r={3} />
-        <Slab x={14} y={-56} w={10} h={56} color={C.woodLo} r={3} />
-
-        {/* Kaki */}
-        <Slab x={-20} y={-64 + liftY * 0.4} w={18} h={64 - liftY * 0.4} color={C.inkSoft} r={5} />
-        <Slab x={4} y={-64 + liftY * 0.4} w={18} h={64 - liftY * 0.4} color={C.inkSoft} r={5} />
-
-        {/* Tubuh */}
-        <div style={{transform: `translateY(${liftY + sway}px)`}}>
-          <Slab x={-30} y={-148} w={60} h={82} color={shirt} r="12px 12px 8px 8px" />
-          {/* Lengan yang bisa terangkat saat berseru */}
-          <div
-            style={{
-              position: 'absolute',
-              left: -18,
-              top: -136,
-              transformOrigin: '8px 8px',
-              transform: `rotate(${armDeg}deg)`,
-            }}
-          >
-            <Slab x={0} y={0} w={54} h={14} color={shirt} r={7} />
-            <Slab x={46} y={0} w={14} h={14} color={C.creamLo} r={7} />
-          </div>
-          {/* Kepala bulat polos TANPA WAJAH */}
-          <div
-            style={{
-              position: 'absolute',
-              left: -24,
-              top: -204,
-              width: 48,
-              height: 48,
-              borderRadius: '50%',
-              backgroundColor: C.creamLo,
-              border: `3px solid ${C.inkSoft}`,
-              boxSizing: 'border-box',
-              boxShadow: '0 3px 6px rgba(0,0,0,0.22)',
-            }}
-          />
-        </div>
-      </Paper>
-    </div>
-  );
-};
-
-const WarungTableProp: React.FC<{x: number; y: number; w?: number}> = ({x, y, w = 190}) => (
-  <div style={{position: 'absolute', left: x, top: y}}>
-    <Paper lift={4}>
-      <Slab x={18} y={14} w={14} h={112} color={C.woodLo} r={3} />
-      <Slab x={w - 32} y={14} w={14} h={112} color={C.woodLo} r={3} />
-      <Slab x={0} y={0} w={w} h={18} color={C.woodHi} shade={C.woodLo} shadeH={0.35} r={5} />
-    </Paper>
-  </div>
-);
-
-const WhistleRibbons: React.FC<{x: number; y: number; frame: number; startAt: number; endAt: number}> = ({
-  x,
-  y,
-  frame,
-  startAt,
-  endAt,
-}) => {
-  const enter = interpolate(frame, [startAt, startAt + 18], [0, 1], {
-    ...CLAMP,
-    easing: Easing.out(Easing.cubic),
-  });
-  const exit = interpolate(frame, [endAt - 14, endAt], [1, 0], CLAMP);
-  const alpha = enter * exit;
-  if (alpha <= 0.01) return null;
-
-  const drift = interpolate(frame, [startAt, endAt], [0, -28], CLAMP);
-  const wave = Math.sin(((frame - startAt) / 28) * Math.PI * 2) * 5;
-
-  return (
+// Lampu gantung warung dengan sorot cahaya kuning madu
+const HangingLamp: React.FC<{x: number; wireH: number; warmth?: number}> = ({x, wireH, warmth = 1}) => (
+  <div style={{position: 'absolute', left: x, top: 0, width: 0, height: 0}}>
     <div
       style={{
         position: 'absolute',
-        left: x,
-        top: y + drift,
-        opacity: alpha,
-        transform: `translateY(${(1 - enter) * 18}px) scale(${0.86 + enter * 0.14})`,
+        left: -210,
+        top: wireH + 28,
+        width: 420,
+        height: 520,
+        background: `linear-gradient(180deg, rgba(245,197,66,${0.22 * warmth}) 0%, rgba(243,165,59,${0.09 * warmth}) 55%, rgba(243,165,59,0) 100%)`,
+        clipPath: 'polygon(42% 0%, 58% 0%, 100% 100%, 0% 100%)',
+        pointerEvents: 'none',
       }}
-    >
-      <svg width={150} height={96} viewBox="0 0 150 96" style={{overflow: 'visible'}}>
-        <defs>
-          <filter id="ribbonShadow" x="-20%" y="-20%" width="140%" height="140%">
-            <feDropShadow dx="1" dy="4" stdDeviation="3" floodColor="#000" floodOpacity="0.32" />
-          </filter>
-        </defs>
-        <path
-          d={`M 8 68 C 34 ${52 + wave}, 54 ${76 - wave}, 86 ${54 + wave} C 106 ${40 - wave}, 124 ${48 + wave}, 142 32`}
-          fill="none"
-          stroke={C.creamHi}
-          strokeWidth={7}
-          strokeLinecap="round"
-          filter="url(#ribbonShadow)"
-        />
-        <path
-          d={`M 18 44 C 42 ${28 - wave}, 66 ${48 + wave}, 96 ${28 - wave} C 114 ${16 + wave}, 128 20, 144 10`}
-          fill="none"
-          stroke={C.amber}
-          strokeWidth={5.5}
-          strokeLinecap="round"
-          filter="url(#ribbonShadow)"
-        />
-        <path
-          d={`M 26 84 C 52 ${74 - wave}, 78 ${88 + wave}, 112 72`}
-          fill="none"
-          stroke={C.tape}
-          strokeWidth={4.5}
-          strokeLinecap="round"
-          filter="url(#ribbonShadow)"
-        />
-      </svg>
-    </div>
-  );
-};
+    />
+    <Paper lift={4}>
+      <Slab x={-3} y={-40} w={6} h={wireH + 42} color={C.inkSoft} r={0} />
+      <Slab x={-48} y={wireH} w={96} h={34} color={C.amber} shade={C.amberDim} shadeH={0.28} r="48px 48px 6px 6px" />
+      <Disc x={0} y={wireH + 34} d={22} color={C.sparkYellow} />
+    </Paper>
+  </div>
+);
 
+// Tirai teater terakota di tepi kiri dan kanan panggung (dipasang di bingkai proscenium)
+const StageCurtains: React.FC = () => (
+  <Paper lift={6}>
+    {/* Pelmet / valance atas */}
+    <Slab x={-10} y={-8} w={W + 20} h={36} color={ROOM.terracotta} shade={C.heroLo} shadeH={0.35} r={6} />
+    {/* Tirai kiri */}
+    <Slab x={-24} y={0} w={76} h={H + 10} color={ROOM.terracotta} shade={C.heroLo} shadeH={0.18} r="0 0 26px 0" />
+    <Slab x={34} y={0} w={26} h={H - 40} color={C.heroLo} r="0 0 20px 10px" />
+    <Slab x={-16} y={328} w={74} h={16} color={C.brass} shade={C.brassLo} shadeH={0.35} r={8} rot={-6} />
+    {/* Tirai kanan */}
+    <Slab x={W - 52} y={0} w={76} h={H + 10} color={ROOM.terracotta} shade={C.heroLo} shadeH={0.18} r="0 0 0 26px" />
+    <Slab x={W - 60} y={0} w={26} h={H - 40} color={C.heroLo} r="0 0 10px 20px" />
+    <Slab x={W - 58} y={328} w={74} h={16} color={C.brass} shade={C.brassLo} shadeH={0.35} r={8} rot={6} />
+  </Paper>
+);
+
+// Kartu hasil berbingkai PUTUS-PUTUS (andaian)
 const DashedResultCard: React.FC<{
   x: number;
   y: number;
-  scale?: number;
+  w: number;
+  h: number;
+  fontSize: number;
   rot?: number;
-}> = ({x, y, scale = 1, rot = -1.5}) => (
-  <Boil seed="usd5000card" amp={0.4} rot={0.05}>
+}> = ({x, y, w, h, fontSize, rot = -2}) => (
+  <Paper lift={6}>
     <div
       style={{
         position: 'absolute',
         left: x,
         top: y,
-        transform: `translate(-50%, -50%) scale(${scale}) rotate(${rot}deg)`,
-        backgroundColor: '#F3EFE4',
-        border: `3.5px dashed ${C.inkSoft}`,
+        width: w,
+        height: h,
+        translate: '-50% -50%',
+        rotate: `${rot}deg`,
+        backgroundColor: C.creamHi,
         borderRadius: 12,
-        padding: '16px 28px 18px',
-        boxShadow: '0 8px 18px rgba(0,0,0,0.36)',
-        whiteSpace: 'nowrap',
+        border: `5px dashed ${C.goDim}`,
+        boxShadow: 'inset 0 0 0 4px rgba(45,163,77,0.16)',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        padding: '8px 20px',
+        boxSizing: 'border-box',
       }}
     >
       <div
         style={{
-          fontFamily: FONT.caption,
-          fontWeight: 900,
-          fontSize: 48,
-          lineHeight: 1,
+          fontFamily: FONT.banner,
+          fontSize,
           color: C.ink,
-          letterSpacing: '-0.02em',
+          letterSpacing: '0.01em',
+          lineHeight: 1,
+          whiteSpace: 'nowrap',
         }}
       >
         US$5.000
       </div>
     </div>
-  </Boil>
+  </Paper>
 );
-
-const HeroPaperCalculator: React.FC<{
-  frame: number;
-  openProgress: number;
-  cx: number;
-  cy: number;
-  scale: number;
-}> = ({frame, openProgress, cx, cy, scale}) => {
-  if (openProgress <= 0.01) return null;
-
-  // Scene 13 (rel 117-173): "Rp5.000.000" masuk utuh, lalu keluar rapi sebelum "÷ 1.000" & "US$5.000"
-  const salaryIn = interpolate(frame, [117, 125], [0, 1], {
-    ...CLAMP,
-    easing: Easing.out(Easing.back(1.3)),
-  });
-  const salaryOut = interpolate(frame, [188, 206], [0, 1], {
-    ...CLAMP,
-    easing: Easing.in(Easing.cubic),
-  });
-  const showSalary = frame >= 117 && frame < 208;
-
-  // Scene 14a (rel 188-232): tab "÷ 1.000" dicap di sisi layar lalu masuk rapi
-  const divTabIn = interpolate(frame, [188, 196], [0, 1], {
-    ...CLAMP,
-    easing: Easing.out(Easing.back(1.4)),
-  });
-  const divTabOut = interpolate(frame, [218, 232], [0, 1], {
-    ...CLAMP,
-    easing: Easing.in(Easing.cubic),
-  });
-  const showDivTab = frame >= 188 && frame < 234;
-
-  // Scene 14b (rel 228-272) & Scene 15 (rel 302-322): menara koin hijau tumbuh dari dalam layar
-  const coinGrow1 = interpolate(frame, [228, 270], [0, 1], {
-    ...CLAMP,
-    easing: Easing.out(Easing.cubic),
-  });
-  const coinGrow2 = interpolate(frame, [302, 320], [0, 1], {
-    ...CLAMP,
-    easing: Easing.out(Easing.back(1.3)),
-  });
-  const showCoins = frame >= 228 && frame < 385;
-  const coinFadeOut = interpolate(frame, [355, 382], [1, 0], CLAMP);
-
-  // Kartu hasil "US$5.000" berbingkai putus-putus (scene 14b - scene 15; keluar sebelum scene 17 di rel 473)
-  const cardIn = interpolate(frame, [230, 240], [0, 1], {
-    ...CLAMP,
-    easing: Easing.out(Easing.back(1.35)),
-  });
-  const cardOut = interpolate(frame, [438, 456], [1, 0], CLAMP);
-  const showResultCard = frame >= 230 && frame < 458;
-
-  const calcW = 390;
-  const calcH = 468;
-  const buttonColors = [
-    C.cream, C.cream, C.cream, C.tape,
-    C.cream, C.cream, C.cream, C.tape,
-    C.cream, C.cream, C.cream, C.hero,
-    C.creamLo, C.cream, C.tape, C.brass,
-  ];
-
-  const leftStackCount = Math.round(coinGrow1 * 7 + coinGrow2 * 2);
-  const rightStackCount = Math.round(coinGrow1 * 9 + coinGrow2 * 2);
-
-  return (
-    <div
-      style={{
-        position: 'absolute',
-        left: cx,
-        top: cy,
-        width: calcW,
-        height: calcH,
-        transform: `translate(-50%, -50%) scale(${openProgress * scale})`,
-        opacity: interpolate(openProgress, [0, 0.25], [0, 1], CLAMP),
-      }}
-    >
-      {/* Menara koin hijau bercincin tumbuh dari atas layar kalkulator */}
-      {showCoins ? (
-        <div style={{opacity: coinFadeOut}}>
-          {Array.from({length: leftStackCount}).map((_, idx) => (
-            <GreenDollarCoin
-              key={`lc-${idx}`}
-              x={145 + (idx % 2 === 0 ? -3 : 3)}
-              y={66 - idx * 16}
-              r={24}
-              rot={(idx % 3 - 1) * 3}
-            />
-          ))}
-          {Array.from({length: rightStackCount}).map((_, idx) => (
-            <GreenDollarCoin
-              key={`rc-${idx}`}
-              x={215 + (idx % 2 === 0 ? 4 : -2)}
-              y={66 - idx * 16}
-              r={25}
-              rot={(idx % 3 - 1) * -3}
-            />
-          ))}
-        </div>
-      ) : null}
-
-      {/* Bodi kalkulator kertas berlapis */}
-      <Paper lift={8}>
-        <Slab
-          x={0}
-          y={0}
-          w={calcW}
-          h={calcH}
-          color={C.board}
-          shade={C.boardLo}
-          shadeH={0.08}
-          r={24}
-        />
-        <Slab x={12} y={12} w={calcW - 24} h={calcH - 24} color={C.creamLo} r={18} />
-        <Slab x={18} y={18} w={calcW - 36} h={calcH - 36} color={C.cream} r={14} />
-
-        {/* Layar kalkulator menyala hangat */}
-        <Slab
-          x={32}
-          y={34}
-          w={calcW - 64}
-          h={112}
-          color="#F7E7C4"
-          shade="#DFC896"
-          shadeH={0.14}
-          r={12}
-        />
-        <div
-          style={{
-            position: 'absolute',
-            left: 36,
-            top: 38,
-            width: calcW - 72,
-            height: 104,
-            borderRadius: 10,
-            background:
-              'radial-gradient(circle at 50% 45%, rgba(255,250,235,0.9), rgba(243,195,95,0.28))',
-            overflow: 'hidden',
-          }}
-        >
-          {/* Tempelan gaji Rp5.000.000 (Scene 13) */}
-          {showSalary ? (
-            <div
-              style={{
-                position: 'absolute',
-                inset: 0,
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                transform: `translateX(${-salaryOut * 340}px) scale(${0.86 + salaryIn * 0.14})`,
-                opacity: salaryIn * (1 - salaryOut),
-              }}
-            >
-              <span
-                style={{
-                  fontFamily: FONT.caption,
-                  fontWeight: 900,
-                  fontSize: 44,
-                  color: C.ink,
-                  letterSpacing: '-0.02em',
-                  whiteSpace: 'nowrap',
-                }}
-              >
-                Rp5.000.000
-              </span>
-            </div>
-          ) : null}
-        </div>
-
-        {/* Tombol kalkulator berupa cakram polos (TANPA angka/simbol) */}
-        {buttonColors.map((col, idx) => {
-          const row = Math.floor(idx / 4);
-          const cIdx = idx % 4;
-          const bx = 46 + cIdx * 79;
-          const by = 172 + row * 66;
-          return (
-            <div
-              key={idx}
-              style={{
-                position: 'absolute',
-                left: bx,
-                top: by,
-                width: 58,
-                height: 52,
-                borderRadius: '50%',
-                backgroundColor: col,
-                boxShadow: '0 4px 0 rgba(58,56,50,0.34), inset 0 2px 2px rgba(255,255,255,0.45)',
-              }}
-            />
-          );
-        })}
-      </Paper>
-
-      {/* Tab kertas "÷ 1.000" dicap di sisi layar (Scene 14) */}
-      {showDivTab ? (
-        <div
-          style={{
-            position: 'absolute',
-            left: calcW - 22 + (1 - divTabIn) * 65 - divTabOut * 85,
-            top: 52,
-            opacity: divTabIn * (1 - divTabOut),
-            transform: `rotate(${-2 + (1 - divTabIn) * 8}deg)`,
-          }}
-        >
-          <div
-            style={{
-              backgroundColor: C.hero,
-              color: C.tagText,
-              padding: '14px 24px 16px',
-              borderRadius: '6px 14px 14px 6px',
-              fontFamily: FONT.caption,
-              fontWeight: 900,
-              fontSize: 38,
-              lineHeight: 1,
-              boxShadow: '0 6px 14px rgba(0,0,0,0.34)',
-              whiteSpace: 'nowrap',
-            }}
-          >
-            ÷ 1.000
-          </div>
-        </div>
-      ) : null}
-
-      {/* Kartu hasil berbingkai PUTUS-PUTUS "US$5.000" (Scene 14-15) */}
-      {showResultCard ? (
-        <div style={{opacity: cardIn * cardOut}}>
-          <DashedResultCard
-            x={calcW + 108}
-            y={54}
-            scale={0.85 + cardIn * 0.15}
-            rot={-1.5}
-          />
-        </div>
-      ) : null}
-    </div>
-  );
-};
 
 export const D01: React.FC = () => {
   const f = useCurrentFrame();
 
-  // Gerak kamera berkesinambungan tanpa potongan:
-  // 1. Beat 1 (rel 45-92): dolly-in pelan dari sudut warung ke kalkulator
-  // 2. Beat 3 (rel 302-335): dolly-in sedikit lebih dekat saat "Lima ribu dolar"
-  // 3. Beat 4 (rel 352-415 & 455-485): pull-out dan pan kanan menyusur meja sebelah & meja lain
-  // 4. Beat 5 (rel 554-598): pull-out kembali ke bidikan lebar warung hangat, berhenti tenang di 598
-  const zoomIn1 = interpolate(f, [45, 92], [0, 1], {
-    ...CLAMP,
+  // Gerak kamera antar-beat (halus, tenang, ter-clamp):
+  // Beat 1-3: dari agak lebar ke fokus meja/kalkulator, lalu Beat 4 pan ke meja sebelah & meja kanan, Beat 5 kembali lebar dan tahan.
+  const camScale = interpolate(
+    f,
+    [0, 55, 96, 302, 348, 395, 545, 592, D01_DUR],
+    [1.04, 1.12, 1.15, 1.15, 1.2, 1.1, 1.1, 1.0, 1.0],
+    {...clamp, easing: Easing.inOut(Easing.quad)},
+  );
+  const camX = interpolate(
+    f,
+    [0, 55, 96, 348, 410, 470, 545, 592, D01_DUR],
+    [70, 115, 0, 0, -80, -180, -180, 0, 0],
+    {...clamp, easing: Easing.inOut(Easing.quad)},
+  );
+  const camY = interpolate(
+    f,
+    [0, 55, 96, 348, 410, 545, 592, D01_DUR],
+    [-12, -24, 0, 4, -16, -16, 0, 0],
+    {...clamp, easing: Easing.inOut(Easing.quad)},
+  );
+
+  // Tangan "kamu" meraih ponsel di Beat 1 (scene 11: rel 0-45) dan memegang kalkulator di Beat 5
+  const reachP = interpolate(f, [6, 34, 62, 92, 355, 385], [0, 1, 1, 0.4, 0.4, 0.85], clamp);
+  const phoneLift = interpolate(f, [24, 58, 92, 350, 385], [0, -24, -60, -60, -10], {
+    ...clamp,
     easing: Easing.inOut(Easing.cubic),
   });
-  const zoomIn2 = interpolate(f, [302, 335], [0, 1], {
-    ...CLAMP,
+
+  // Panel kalkulator besar di tengah panggung (Beat 1 akhir s/d Beat 3: rel 60-380)
+  const calcHeroIn = interpolate(f, [60, 94], [0, 1], {
+    ...clamp,
     easing: Easing.out(Easing.cubic),
   });
-  const pullOutToTables = interpolate(f, [352, 412], [0, 1], {
-    ...CLAMP,
+  const calcHeroOut = interpolate(f, [350, 380], [1, 0], {
+    ...clamp,
     easing: Easing.inOut(Easing.cubic),
   });
-  const panToFarTable = interpolate(f, [455, 485], [0, 1], {
-    ...CLAMP,
-    easing: Easing.inOut(Easing.cubic),
-  });
-  const pullBackWide = interpolate(f, [554, 598], [0, 1], {
-    ...CLAMP,
-    easing: Easing.inOut(Easing.cubic),
-  });
+  const calcHeroVis = calcHeroIn * calcHeroOut;
+  const smallPhoneOpacity = interpolate(calcHeroVis, [0, 0.12], [1, 0], clamp);
 
-  const camScale =
-    1 +
-    zoomIn1 * 0.42 +
-    zoomIn2 * 0.08 -
-    pullOutToTables * 0.44 -
-    pullBackWide * 0.08;
+  // String 1: "Rp5.000.000" (scene 13: rel 117-173; keluar rapi sebelum string berikutnya di rel 188)
+  const gajiOut = interpolate(f, [174, 185], [1, 0], clamp);
+  const gajiShiftY = interpolate(f, [174, 185], [0, -24], clamp);
 
-  const camPanX =
-    -zoomIn1 * 48 -
-    pullOutToTables * 265 -
-    panToFarTable * 135 +
-    pullBackWide * 335;
+  // String 2: "÷ 1.000" pada tab kertas (scene 14: mulai rel 188, keluar bersama kalkulator besar di rel 352-374)
+  const divTabOut = interpolate(f, [352, 374], [1, 0], clamp);
 
-  const camPanY =
-    -zoomIn1 * 24 +
-    pullOutToTables * 20 +
-    pullBackWide * 4;
-
-  // Beat 1: "kamu" meraih ponsel (rel 8-42) dan membuka kalkulator (rel 56-92)
-  const phoneReach = interpolate(f, [8, 38], [0, 1], {
-    ...CLAMP,
+  // Menara koin hijau & String 3: "US$5.000" berbingkai putus-putus di Beat 3 (scene 14-15: rel 214-374, keluar sebelum scene 17)
+  const towerGrow1 = interpolate(f, [214, 268], [0, 5], {
+    ...clamp,
     easing: Easing.out(Easing.cubic),
   });
-  const calcOpen = interpolate(f, [56, 92], [0, 1], {
-    ...CLAMP,
+  const towerGrow2 = interpolate(f, [302, 336], [0, 3], {
+    ...clamp,
     easing: Easing.out(Easing.cubic),
   });
-  const calcClose = interpolate(f, [352, 392], [0, 1], {
-    ...CLAMP,
-    easing: Easing.inOut(Easing.cubic),
-  });
-  const heroCalcProgress = calcOpen * (1 - calcClose);
+  const totalCoins = Math.round(towerGrow1 + towerGrow2);
+  const usCardHeroOut = interpolate(f, [352, 374], [1, 0], clamp);
 
-  // Beat 4: tokoh meja lain berdiri mengangkat tangan (scene 17, rel 473-492)
-  const neighborStand = interpolate(f, [473, 492], [0, 1], {
-    ...CLAMP,
+  // Beat 4 (scene 16: rel 365-436): meja sebelah bersiul — pita kertas melengkung melayang pelan
+  const whistleIn = interpolate(f, [365, 392], [0, 1], {
+    ...clamp,
     easing: Easing.out(Easing.cubic),
   });
-  const neighborArm = interpolate(f, [475, 494], [0, 1], {
-    ...CLAMP,
-    easing: Easing.out(Easing.back(1.2)),
+
+  // Beat 4 (scene 17: rel 473-545): meja kanan mengangkat tangan + gelembung ucapan "KITA KAYA"
+  const cheerRaise = interpolate(f, [468, 496], [0, 1], {
+    ...clamp,
+    easing: Easing.out(Easing.back(1.4)),
   });
 
-  // Beat 5 (scene 18, rel 561-636): warung menghangat, koin hijau melayang pelan, garis putus-putus mengelilingi warung
-  const beat5Warmth = interpolate(f, [561, 595], [0, 1], {
-    ...CLAMP,
+  // Beat 5 (scene 18: rel 561-636): lampu warung menghangat, koin hijau melayang pelan,
+  // garis putus-putus samar mengelilingi warung, kartu putus-putus US$5.000 di sisi kalkulator "kamu"
+  const beat5Warmth = interpolate(f, [556, 592], [1, 1.45], clamp);
+  const beat5Progress = interpolate(f, [558, 595], [0, 1], {
+    ...clamp,
     easing: Easing.out(Easing.cubic),
   });
-  const dashedOutlineProgress = interpolate(f, [566, 608], [0, 1], {
-    ...CLAMP,
-    easing: Easing.out(Easing.cubic),
-  });
-  const endCardIn = interpolate(f, [574, 594], [0, 1], {
-    ...CLAMP,
-    easing: Easing.out(Easing.back(1.25)),
-  });
 
-  // Partikel debu kertas melayang sangat pelan
-  const dustSpecs = [
-    {bx: 260, by: 210, r: 3.5, sp: 0.25},
-    {bx: 470, by: 165, r: 4, sp: 0.18},
-    {bx: 690, by: 245, r: 3, sp: 0.22},
-    {bx: 910, by: 190, r: 4, sp: 0.16},
-    {bx: 1110, by: 260, r: 3.5, sp: 0.2},
-    {bx: 380, by: 340, r: 3, sp: 0.19},
-    {bx: 820, by: 320, r: 3.5, sp: 0.24},
-  ];
-
-  // Koin hijau melayang lembut di Beat 5
-  const floatingEndCoins = [
-    {x: 310, yStart: 390, yEnd: 245, r: 21, rot: -10},
-    {x: 525, yStart: 370, yEnd: 215, r: 24, rot: 8},
-    {x: 785, yStart: 405, yEnd: 255, r: 20, rot: -6},
-    {x: 1035, yStart: 385, yEnd: 230, r: 22, rot: 12},
-  ];
+  // Hentikan ayunan napas halus secara bertahap menjelang akhir agar pose akhir benar-benar tenang ditahan
+  const idleAmp = interpolate(f, [560, 595], [2.2, 0], clamp);
+  const breathYou = bob(f, 52, idleAmp, 0);
+  const breathMid = bob(f, 48, idleAmp, 18);
+  const breathRight = bob(f, 44, idleAmp, 34);
 
   return (
-    <AbsoluteFill style={{backgroundColor: '#1E2638', overflow: 'hidden'}}>
+    <AbsoluteFill style={{backgroundColor: C.creamHi}}>
       <PaperDefs />
       <FilmWeave amp={0.25} flicker={0.25}>
-        {/* LAPISAN 0: Dinding belakang warung malam & jendela (paralaks latar) */}
-        <div
+        <AbsoluteFill
           style={{
-            position: 'absolute',
-            inset: 0,
-            transform: `translate(${camPanX * 0.45}px, ${camPanY * 0.45}px) scale(${1 + (camScale - 1) * 0.45})`,
-            transformOrigin: '50% 50%',
+            transformOrigin: '640px 380px',
+            transform: `translate(${camX}px, ${camY}px) scale(${camScale})`,
           }}
         >
-          <Slab x={-160} y={-80} w={1960} h={860} color={ROOM.navy} r={0} grain={0.55} />
-          {/* Lapisan cahaya malam hangat */}
-          <div
-            style={{
-              position: 'absolute',
-              inset: -160,
-              background: `radial-gradient(ellipse at 45% 38%, rgba(255, 206, 118, ${0.14 + beat5Warmth * 0.18}) 0%, rgba(28, 36, 56, 0.35) 68%, rgba(12, 16, 26, 0.65) 100%)`,
-            }}
-          />
+          {/* Latar dinding teater warung kopi (krem hangat dengan suasana senja/malam) */}
+          <Slab x={-160} y={-100} w={W + 320} h={FLOOR_Y + 120} color={C.cream} r={0} grain={0.55} />
+          <Slab x={-160} y={-100} w={W + 320} h={210} color={C.creamLo} r={0} grain={0.45} style={{opacity: 0.45}} />
 
-          {/* Jendela malam warung */}
+          {/* Panel kayu dado warung */}
+          <Slab x={-160} y={FLOOR_Y - 150} w={W + 320} h={150} color={ROOM.khaki} shade={C.woodLo} shadeH={0.12} r={0} />
+          <Slab x={-160} y={FLOOR_Y - 156} w={W + 320} h={10} color={C.wood} r={0} />
+
+          {/* Jendela malam warung di latar tengah */}
           <Paper lift={4}>
-            <Slab x={235} y={118} w={210} h={245} color={C.creamLo} r={6} />
-            <Slab x={250} y={133} w={180} h={215} color="#17223B" r={3} />
-            {/* Bulan sabit & bintang kertas polos */}
-            <div
-              style={{
-                position: 'absolute',
-                left: 368,
-                top: 162,
-                width: 34,
-                height: 34,
-                borderRadius: '50%',
-                backgroundColor: '#F3E6C8',
-              }}
-            />
-            <div
-              style={{
-                position: 'absolute',
-                left: 358,
-                top: 156,
-                width: 30,
-                height: 30,
-                borderRadius: '50%',
-                backgroundColor: '#17223B',
-              }}
-            />
-            {[
-              [282, 168],
-              [315, 212],
-              [274, 275],
-              [395, 286],
-            ].map(([sx, sy], i) => (
-              <div
-                key={i}
-                style={{
-                  position: 'absolute',
-                  left: sx,
-                  top: sy,
-                  width: 5,
-                  height: 5,
-                  borderRadius: '50%',
-                  backgroundColor: C.creamHi,
-                  opacity: 0.85,
-                }}
-              />
-            ))}
-            <Slab x={336} y={133} w={8} h={215} color={C.creamLo} r={0} />
-            <Slab x={250} y={236} w={180} h={8} color={C.creamLo} r={0} />
-          </Paper>
-
-          {/* Rak kayu & papan menu kosong (bebas teks/angka) */}
-          <Paper lift={4}>
-            <Slab x={690} y={136} w={175} h={124} color={C.wood} r={6} />
-            <Slab x={702} y={148} w={151} h={100} color={C.boardLo} r={3} />
-            <Slab x={950} y={215} w={230} h={16} color={C.wood} shade={C.woodLo} shadeH={0.35} r={3} />
-            <Slab x={972} y={163} w={34} h={52} color={C.cream} r={6} />
-            <Slab x={1018} y={173} w={28} h={42} color={C.sage} r={5} />
-            <Slab x={1062} y={157} w={38} h={58} color={C.brass} r={7} />
-          </Paper>
-
-          {/* Panel dinding kayu bawah */}
-          <Slab x={-160} y={445} w={1960} h={175} color={C.woodLo} r={0} grain={0.5} />
-          <Slab x={-160} y={442} w={1960} h={12} color={C.wood} r={0} />
-
-          {/* Dua lampu gantung kuning madu */}
-          {[435, 1020].map((lx, idx) => (
-            <div key={idx} style={{position: 'absolute', left: lx, top: 0}}>
-              <div
-                style={{
-                  position: 'absolute',
-                  left: -210,
-                  top: 112,
-                  width: 420,
-                  height: 495,
-                  background: `radial-gradient(ellipse at 50% 0%, rgba(255, 218, 128, ${0.26 + beat5Warmth * 0.2}) 0%, rgba(255, 200, 96, ${0.08 + beat5Warmth * 0.08}) 52%, rgba(255, 200, 96, 0) 78%)`,
-                  clipPath: 'polygon(36% 0%, 64% 0%, 100% 100%, 0% 100%)',
-                }}
-              />
-              <Slab x={-2} y={0} w={4} h={74} color={C.inkSoft} r={0} />
-              <Paper lift={5}>
-                <Slab
-                  x={-48}
-                  y={72}
-                  w={96}
-                  h={44}
-                  color={C.amber}
-                  shade={C.amberDim}
-                  shadeH={0.22}
-                  r="44px 44px 6px 6px"
-                />
+            <Slab x={520} y={108} w={210} h={220} color={C.wood} shade={C.woodLo} shadeH={0.15} r={6} />
+            <Slab x={534} y={122} w={182} h={192} color={ROOM.navy} r={4}>
+              {[
+                [28, 34],
+                [134, 42],
+                [76, 82],
+                [146, 138],
+                [42, 148],
+              ].map(([sx, sy], i) => (
                 <div
+                  key={i}
                   style={{
                     position: 'absolute',
-                    left: -14,
-                    top: 110,
-                    width: 28,
-                    height: 14,
-                    borderRadius: '0 0 14px 14px',
-                    backgroundColor: '#FFF3C4',
+                    left: sx,
+                    top: sy,
+                    width: 6,
+                    height: 6,
+                    borderRadius: '50%',
+                    background: C.creamHi,
+                    opacity: 0.85,
                   }}
                 />
-              </Paper>
-            </div>
-          ))}
-        </div>
+              ))}
+              {/* Bulan sabit kertas tanpa teks */}
+              <Disc x={132} y={54} d={28} color={C.sparkYellow} />
+              <Disc x={140} y={48} d={24} color={ROOM.navy} />
+              <div style={{position: 'absolute', left: 88, top: 0, bottom: 0, width: 6, background: C.wood}} />
+              <div style={{position: 'absolute', left: 0, right: 0, top: 93, height: 6, background: C.wood}} />
+            </Slab>
+          </Paper>
 
-        {/* LAPISAN 1 & 2: Panggung utama warung kopi (meja-meja, TV, kopi, "kamu", tetangga) */}
-        <div
-          style={{
-            position: 'absolute',
-            inset: 0,
-            transform: `translate(${camPanX}px, ${camPanY}px) scale(${camScale})`,
-            transformOrigin: '520px 410px',
-          }}
-        >
+          {/* Rak warung + Televisi kertas berlayar polos bercahaya di sudut kiri (kaki TV menempel tepat di rak y=248) */}
+          <Paper lift={4}>
+            <Slab x={106} y={248} w={204} h={18} color={C.wood} shade={C.woodLo} shadeH={0.35} r={4} />
+            <Slab x={126} y={266} w={14} h={28} color={C.woodLo} r={2} />
+            <Slab x={276} y={266} w={14} h={28} color={C.woodLo} r={2} />
+          </Paper>
+          <PaperTV x={132} y={126} glow={beat5Warmth} />
+
+          {/* Rak botol/toples polos di dinding kanan (semua botol menempel tepat di atas rak y=228) */}
+          <Paper lift={4}>
+            <Slab x={810} y={228} w={230} h={16} color={C.wood} shade={C.woodLo} shadeH={0.35} r={4} />
+            <Slab x={830} y={244} w={14} h={24} color={C.woodLo} r={2} />
+            <Slab x={1006} y={244} w={14} h={24} color={C.woodLo} r={2} />
+            <Slab x={834} y={172} w={42} h={58} color={C.amber} shade={C.brassLo} shadeH={0.22} r="8px 8px 3px 3px" />
+            <Slab x={842} y={162} w={26} h={12} color={C.woodLo} r={3} />
+            <Slab x={894} y={180} w={38} h={50} color={C.sage} shade={C.sageLo} shadeH={0.22} r="8px 8px 3px 3px" />
+            <Slab x={950} y={168} w={46} h={62} color={C.creamHi} shade={C.creamLo} shadeH={0.25} r="8px 8px 3px 3px" />
+          </Paper>
+
+          {/* Lampu gantung kuning madu di atas tiga meja warung */}
+          <HangingLamp x={290} wireH={78} warmth={beat5Warmth} />
+          <HangingLamp x={650} wireH={64} warmth={beat5Warmth} />
+          <HangingLamp x={980} wireH={78} warmth={beat5Warmth} />
+
           {/* Lantai papan kertas panggung */}
-          <Slab x={-180} y={FLOOR_Y} w={2040} h={220} color={C.floor} r={0} grain={0.6} />
-          <div
-            style={{
-              position: 'absolute',
-              left: -180,
-              width: 2040,
-              top: FLOOR_Y + 34,
-              height: 3,
-              backgroundColor: C.floorLo,
-              opacity: 0.85,
-            }}
-          />
-          <div
-            style={{
-              position: 'absolute',
-              left: -180,
-              width: 2040,
-              top: FLOOR_Y + 72,
-              height: 3,
-              backgroundColor: C.floorLo,
-              opacity: 0.85,
-            }}
-          />
+          <Slab x={-160} y={FLOOR_Y} w={W + 320} h={H - FLOOR_Y + 100} color={C.floor} r={0} grain={0.6} />
+          <div style={{position: 'absolute', left: -160, right: -160, top: FLOOR_Y + 38, height: 3, background: C.floorLo, opacity: 0.8}} />
+          <div style={{position: 'absolute', left: -160, right: -160, top: FLOOR_Y + 78, height: 3, background: C.floorLo, opacity: 0.8}} />
+          <Slab x={-160} y={FLOOR_Y - 22} w={W + 320} h={24} color={C.woodLo} shade={C.floorLo} shadeH={0.35} r={0} />
 
-          {/* Jangkar Warung 1: Televisi kertas berlayar polos di sudut kiri */}
-          <PaperTVCorner x={125} y={376} warmth={beat5Warmth} />
-
-          {/* MEJA SEBELAH (Beat 4 - Scene 16: seseorang bersiul) */}
-          <NeighborFigure
-            x={820}
-            y={FLOOR_Y}
-            shirt={ROOM.slate}
-            frame={f}
-            seedOffset={12}
-          />
-          <WarungTableProp x={845} y={486} w={175} />
-          <CoffeeCupWithSteam x={905} y={486} frame={f + 16} scale={0.86} />
-          <WhistleRibbons x={842} y={335} frame={f} startAt={368} endAt={455} />
-
-          {/* MEJA LAIN (Beat 4 - Scene 17: seseorang berkata "KITA KAYA") */}
-          <WarungTableProp x={1110} y={486} w={195} />
-          <CoffeeCupWithSteam x={1168} y={486} frame={f + 34} scale={0.86} />
-          <NeighborFigure
-            x={1245}
-            y={FLOOR_Y}
-            shirt={ROOM.khaki}
-            frame={f}
-            seedOffset={29}
-            standAmount={neighborStand}
-            raiseArm={neighborArm}
-          />
-          <NeighborFigure
-            x={1375}
-            y={FLOOR_Y}
-            shirt={ROOM.sage}
-            frame={f}
-            seedOffset={43}
-          />
-
-          {/* Gelembung ucapan "KITA KAYA" (Scene 17, rel 473-545; keluar sebelum scene 18) */}
-          {/* QA Clover: pola Tag mgkit — div gelembung absolute langsung di dalam Boil (struktur lama: Boil inset:0 di dalam wrapper 0-lebar membuat latar menciut dan teks meluber, cacat yang sama seperti papan D02). */}
-          {f >= 474 && f <= 558 ? (
-            <Boil seed="kitakaya" amp={0.4} rot={0.05}>
-              <div
-                style={{
-                  position: 'absolute',
-                  left: 1185,
-                  top: 235,
-                  translate: '-50% 0',
-                  opacity:
-                    interpolate(f, [474, 484], [0, 1], CLAMP) *
-                    interpolate(f, [546, 557], [1, 0], CLAMP),
-                  transform: `scale(${interpolate(f, [474, 486], [0.85, 1], {
-                    ...CLAMP,
-                    easing: Easing.out(Easing.back(1.3)),
-                  })})`,
-                  backgroundColor: C.creamHi,
-                  padding: '16px 28px 18px',
-                  borderRadius: 20,
-                  boxShadow: '0 8px 18px rgba(0,0,0,0.38)',
-                  whiteSpace: 'nowrap',
-                }}
-              >
-                  <span
-                    style={{
-                      fontFamily: FONT.banner,
-                      fontSize: 34,
-                      color: C.ink,
-                      letterSpacing: '0.01em',
-                    }}
-                  >
-                    KITA KAYA
-                  </span>
-                  <div
-                    style={{
-                      position: 'absolute',
-                      right: 38,
-                      bottom: -14,
-                      width: 22,
-                      height: 22,
-                      backgroundColor: C.creamHi,
-                      clipPath: 'polygon(15% 0%, 100% 0%, 75% 100%)',
-                    }}
-                  />
-              </div>
-            </Boil>
-          ) : null}
-
-          {/* MEJA UTAMA & TOKOH "KAMU" (Syal Terakota) */}
-          <HeroKamu
-            x={425}
-            y={FLOOR_Y}
-            frame={f}
-            armReach={phoneReach}
-            holdingCalc={f >= 352}
-            scarfBright={beat5Warmth}
-          />
-          <WarungTableProp x={445} y={486} w={215} />
-
-          {/* Jangkar Warung 2: Gelas kopi kertas dengan uap tipis */}
-          <CoffeeCupWithSteam x={605} y={486} frame={f} scale={1} />
-
-          {/* Ponsel kertas di meja yang diraih "kamu" pada scene 11 (rel 0-45) */}
-          {calcOpen < 0.35 ? (
-            <div
-              style={{
-                position: 'absolute',
-                left: 515 - phoneReach * 28,
-                top: 476 - phoneReach * 42,
-                transform: `rotate(${-6 - phoneReach * 16}deg) scale(${1 + calcOpen * 0.4})`,
-                opacity: interpolate(calcOpen, [0.1, 0.35], [1, 0], CLAMP),
-              }}
-            >
-              <Paper lift={4}>
-                <Slab x={-16} y={-28} w={32} h={52} color={C.board} r={6} />
-                <Slab x={-12} y={-22} w={24} h={38} color="#DCEAF2" r={3} />
-              </Paper>
-            </div>
-          ) : null}
-
-          {/* Kalkulator kecil bercahaya di tangan "kamu" saat kamera pull-out (Beat 4-5) */}
-          {calcClose > 0.3 ? (
-            <div
-              style={{
-                position: 'absolute',
-                left: 486,
-                top: 416,
-                opacity: interpolate(calcClose, [0.3, 0.75], [0, 1], CLAMP),
-                transform: 'rotate(-8deg)',
-              }}
-            >
-              <Paper lift={5}>
-                <Slab x={-22} y={-30} w={44} h={58} color={C.board} r={7} />
-                <Slab x={-17} y={-24} w={34} h={16} color="#FFF1C2" r={4} />
-                <div
-                  style={{
-                    position: 'absolute',
-                    left: -26,
-                    top: -34,
-                    width: 52,
-                    height: 66,
-                    borderRadius: 12,
-                    background: 'radial-gradient(circle, rgba(255,232,150,0.45), rgba(255,232,150,0))',
-                  }}
-                />
-              </Paper>
-            </div>
-          ) : null}
-
-          {/* POSE AKHIR (Scene 18, rel 574-636): kartu hasil berbingkai PUTUS-PUTUS di sisi "kamu" */}
-          {endCardIn > 0.01 ? (
-            <div style={{opacity: endCardIn}}>
-              <DashedResultCard
-                x={635}
-                y={332}
-                scale={0.78 + endCardIn * 0.14}
-                rot={-2}
-              />
-            </div>
-          ) : null}
-
-          {/* Koin hijau bercincin melayang pelan ke atas di Beat 5 (Scene 18) */}
-          {beat5Warmth > 0.01 ? (
-            <div style={{opacity: beat5Warmth}}>
-              {floatingEndCoins.map((c, idx) => {
-                const floatProg = interpolate(f, [564 + idx * 5, 616], [0, 1], {
-                  ...CLAMP,
-                  easing: Easing.out(Easing.cubic),
+          {/* ==================== BEAT 5: KOIN HIJAU MELAYANG PELAN DI LATAR (SCENE 18: rel 561+) ==================== */}
+          {f >= 558 ? (
+            <div style={{opacity: beat5Progress}}>
+              {[
+                {x: 310, y0: 292, d: 36, ph: 0},
+                {x: 548, y0: 278, d: 34, ph: 12},
+                {x: 762, y0: 256, d: 38, ph: 24},
+                {x: 1126, y0: 392, d: 34, ph: 36},
+              ].map((c, idx) => {
+                const liftY = interpolate(f, [558, 595], [26, 0], {
+                  ...clamp,
+                  easing: Easing.out(Easing.quad),
                 });
-                const curY = interpolate(floatProg, [0, 1], [c.yStart, c.yEnd], CLAMP);
                 return (
-                  <GreenDollarCoin
+                  <DollarCoin
                     key={idx}
                     x={c.x}
-                    y={curY}
-                    r={c.r}
-                    rot={c.rot + floatProg * 8}
+                    y={c.y0 + liftY + bob(f, 46, idleAmp, c.ph)}
+                    d={c.d}
                   />
                 );
               })}
             </div>
           ) : null}
 
-          {/* Debu kertas melayang sangat pelan */}
-          {dustSpecs.map((d, idx) => {
-            const dy = Math.sin((f * d.sp) / 14 + idx) * 9;
-            const dx = Math.cos((f * d.sp) / 18 + idx) * 7;
-            return (
+          {/* ==================== MEJA 1 (KIRI): TOKOH UTAMA "KAMU" (SYAL TERAKOTA) ==================== */}
+          <div style={{position: 'absolute', left: 0, top: 0}}>
+            {/* Kursi & tokoh "kamu" */}
+            <Paper lift={4}>
+              <Slab x={182} y={488} w={68} h={112} color={C.woodLo} r={6} />
+            </Paper>
+            <div style={{position: 'absolute', left: 0, top: breathYou}}>
+              <Figure x={232} y={FLOOR_Y} s={1.08} shirt={C.cream} />
+              {/* Tas selempang kecil */}
+              <Paper lift={3}>
+                <Slab x={204} y={462} w={56} h={10} color={C.woodLo} r={4} rot={32} />
+                <Slab x={192} y={494} w={30} h={26} color={C.wood} shade={C.woodLo} shadeH={0.25} r={5} />
+              </Paper>
+              {/* SYAL KERTAS TERAKOTA panjang (penanda utama "kamu") */}
+              <Paper lift={4}>
+                <Slab x={198} y={448} w={68} h={22} color={C.tag} shade={C.heroLo} shadeH={0.25} r={8} />
+                <Slab
+                  x={240}
+                  y={458}
+                  w={24}
+                  h={68}
+                  color={C.tag}
+                  shade={C.heroLo}
+                  shadeH={0.22}
+                  r="4px 4px 10px 10px"
+                  rot={-8 + bob(f, 40, idleAmp * 0.8, 5)}
+                />
+                <Slab
+                  x={214}
+                  y={462}
+                  w={18}
+                  h={46}
+                  color={ROOM.terracotta}
+                  r="4px 4px 8px 8px"
+                  rot={6}
+                />
+              </Paper>
+              {/* Lengan meraih ponsel / memegang kalkulator bercahaya */}
+              <Paper lift={3}>
+                <Slab
+                  x={248}
+                  y={472 - reachP * 8}
+                  w={68}
+                  h={18}
+                  color={C.cream}
+                  shade={C.creamLo}
+                  shadeH={0.25}
+                  r={9}
+                  rot={-10 - reachP * 12}
+                />
+              </Paper>
+            </div>
+
+            {/* Meja warung kiri (permukaan meja di y=486) */}
+            <Paper lift={5}>
+              <Slab x={268} y={486} w={210} h={20} color={C.woodHi} shade={C.wood} shadeH={0.35} r={5} />
+              <Slab x={288} y={506} w={18} h={94} color={C.wood} shade={C.woodLo} shadeH={0.2} r={3} />
+              <Slab x={442} y={506} w={18} h={94} color={C.wood} shade={C.woodLo} shadeH={0.2} r={3} />
+            </Paper>
+
+            {/* Gelas kopi bertuap menempel tepat di permukaan meja kiri (436 + 52 = 488) */}
+            <CoffeeCup x={408} y={436} f={f} seed={3} />
+            {/* Koin rupiah polos menempel di meja kiri */}
+            <RupiahCoin x={378} y={476} d={22} />
+
+            {/* Ponsel / kalkulator kecil bercahaya di tangan "kamu" di atas meja */}
+            {smallPhoneOpacity > 0.01 ? (
               <div
-                key={idx}
                 style={{
                   position: 'absolute',
-                  left: d.bx + dx,
-                  top: d.by + dy,
-                  width: d.r * 2,
-                  height: d.r * 2,
-                  borderRadius: '50%',
-                  backgroundColor: '#FFF3D1',
-                  opacity: 0.28,
+                  left: 298,
+                  top: 432 + phoneLift,
+                  opacity: smallPhoneOpacity,
                 }}
-              />
-            );
-          })}
-        </div>
+              >
+                <div
+                  style={{
+                    position: 'absolute',
+                    left: -24,
+                    top: -24,
+                    width: 94,
+                    height: 104,
+                    borderRadius: '50%',
+                    background: 'radial-gradient(circle, rgba(245,197,66,0.5) 0%, rgba(245,197,66,0) 70%)',
+                  }}
+                />
+                <Paper lift={4}>
+                  <Slab x={0} y={0} w={44} h={56} color={C.board} shade={C.boardLo} shadeH={0.22} r={7} rot={-8}>
+                    <Slab x={5} y={6} w={34} h={20} color={C.sparkYellow} hi={C.creamHi} hiH={0.3} r={4} />
+                    {[0, 1, 2, 3, 4, 5].map((bi) => (
+                      <Disc
+                        key={bi}
+                        x={11 + (bi % 3) * 11}
+                        y={34 + Math.floor(bi / 3) * 11}
+                        d={7}
+                        color={C.creamHi}
+                      />
+                    ))}
+                  </Slab>
+                </Paper>
+              </div>
+            ) : null}
 
-        {/* LAPISAN 3: Kalkulator Kertas Besar & Lingkaran Sorot Beat 2-3 */}
-        {heroCalcProgress > 0.01 ? (
-          <AbsoluteFill style={{pointerEvents: 'none'}}>
-            {/* Redup latar halus agar layar kalkulator & data menjadi bintang */}
+            {/* POSE AKHIR (Beat 5, scene 18): kartu hasil berbingkai putus-putus di sisi kalkulator "kamu" */}
+            {f >= 558 ? (
+              <div style={{opacity: beat5Progress}}>
+                <Boil seed="final-us-card" amp={0.4} rot={0.05}>
+                  <DashedResultCard x={428} y={366} w={236} h={84} fontSize={40} rot={-2} />
+                </Boil>
+              </div>
+            ) : null}
+          </div>
+
+          {/* ==================== MEJA 2 (TENGAH): WARGA BERSIUL (SCENE 16) ==================== */}
+          <div style={{position: 'absolute', left: 0, top: 0}}>
+            <div style={{position: 'absolute', left: 0, top: breathMid}}>
+              <Figure x={650} y={FLOOR_Y} s={1.04} shirt={ROOM.dusk} />
+              {/* Postur bahu/kerah warga tengah */}
+              <Paper lift={3}>
+                <Slab x={618} y={454} w={64} h={16} color={C.brass} shade={C.brassLo} shadeH={0.25} r={6} />
+              </Paper>
+            </div>
+
+            {/* Meja warung tengah (permukaan meja di y=492) */}
+            <Paper lift={5}>
+              <Slab x={566} y={492} w={176} h={18} color={C.woodHi} shade={C.wood} shadeH={0.35} r={5} />
+              <Slab x={584} y={510} w={16} h={90} color={C.wood} r={3} />
+              <Slab x={710} y={510} w={16} h={90} color={C.wood} r={3} />
+            </Paper>
+            {/* Gelas kopi menempel tepat di permukaan meja tengah (442 + 52 = 494) */}
+            <CoffeeCup x={588} y={442} f={f} seed={19} />
+
+            {/* Pita kertas melengkung melayang pelan (siulan tanpa teks/simbol, scene 16: rel 365+) */}
+            {f >= 365 ? (
+              <div style={{position: 'absolute', left: 668, top: 344, opacity: whistleIn}}>
+                <Boil seed="whistle-ribbons" amp={0.4} rot={0.05}>
+                  <svg
+                    width={170}
+                    height={110}
+                    viewBox="0 0 170 110"
+                    style={{
+                      position: 'absolute',
+                      left: 0,
+                      top: bob(f, 42, idleAmp * 1.2, 7),
+                      overflow: 'visible',
+                      filter: 'url(#rough) drop-shadow(2px 4px 5px rgba(0,0,0,0.28))',
+                    }}
+                  >
+                    <path
+                      d="M 8 78 C 36 52, 68 84, 104 48 C 126 26, 146 38, 162 18"
+                      stroke={C.amber}
+                      strokeWidth={10}
+                      strokeLinecap="round"
+                      fill="none"
+                      strokeDasharray={220}
+                      strokeDashoffset={220 * (1 - whistleIn)}
+                    />
+                    <path
+                      d="M 18 96 C 48 76, 82 98, 118 68 C 136 52, 150 58, 164 44"
+                      stroke={C.creamHi}
+                      strokeWidth={7}
+                      strokeLinecap="round"
+                      fill="none"
+                      strokeDasharray={200}
+                      strokeDashoffset={200 * (1 - whistleIn)}
+                    />
+                    <path
+                      d="M 4 54 C 28 32, 58 50, 88 24 C 106 10, 124 16, 138 4"
+                      stroke={C.tag}
+                      strokeWidth={7}
+                      strokeLinecap="round"
+                      fill="none"
+                      strokeDasharray={180}
+                      strokeDashoffset={180 * (1 - whistleIn)}
+                    />
+                  </svg>
+                </Boil>
+              </div>
+            ) : null}
+          </div>
+
+          {/* ==================== MEJA 3 (KANAN): WARGA BERKATA "KITA KAYA" (SCENE 17) ==================== */}
+          <div style={{position: 'absolute', left: 0, top: 0}}>
+            <div
+              style={{
+                position: 'absolute',
+                left: 0,
+                top: breathRight - cheerRaise * 8,
+              }}
+            >
+              {/* Kedua lengan di samping tubuh, lalu terangkat ke atas saat "kita kaya" (scene 17: rel 468+) */}
+              <Paper lift={3}>
+                <Slab
+                  x={944 - cheerRaise * 6}
+                  y={468 - cheerRaise * 50}
+                  w={20}
+                  h={58}
+                  color={ROOM.sage}
+                  shade={C.sageLo}
+                  shadeH={0.22}
+                  r={9}
+                  rot={10 - cheerRaise * 46}
+                />
+                <Slab
+                  x={1012 + cheerRaise * 6}
+                  y={468 - cheerRaise * 50}
+                  w={20}
+                  h={58}
+                  color={ROOM.sage}
+                  shade={C.sageLo}
+                  shadeH={0.22}
+                  r={9}
+                  rot={-10 + cheerRaise * 46}
+                />
+              </Paper>
+              <Figure x={988} y={FLOOR_Y} s={1.06} shirt={ROOM.sage} />
+            </div>
+
+            {/* Meja warung kanan (permukaan meja di y=492) */}
+            <Paper lift={5}>
+              <Slab x={900} y={492} w={184} h={18} color={C.woodHi} shade={C.wood} shadeH={0.35} r={5} />
+              <Slab x={918} y={510} w={16} h={90} color={C.wood} r={3} />
+              <Slab x={1050} y={510} w={16} h={90} color={C.wood} r={3} />
+            </Paper>
+            {/* Gelas kopi menempel tepat di permukaan meja kanan (442 + 52 = 494) */}
+            <CoffeeCup x={1014} y={442} f={f} seed={31} />
+
+            {/* Gelembung ucapan kertas "KITA KAYA" (scene 17: rel 473 s/d akhir) */}
+            {f >= 470 ? (
+              <PopIn at={470} seed="kita-kaya" origin="988px 310px">
+                <Boil seed="kita-kaya-boil" amp={0.4} rot={0.05}>
+                  <Paper lift={6}>
+                    {/* Ekor gelembung ucapan menempel langsung ke gelembung dan menunjuk ke tokoh kanan */}
+                    <div
+                      style={{
+                        position: 'absolute',
+                        left: 970,
+                        top: 342,
+                        width: 34,
+                        height: 36,
+                        background: C.ink,
+                        clipPath: 'polygon(10% 0%, 90% 0%, 50% 100%)',
+                      }}
+                    />
+                    <div
+                      style={{
+                        position: 'absolute',
+                        left: 974,
+                        top: 338,
+                        width: 26,
+                        height: 32,
+                        background: C.creamHi,
+                        clipPath: 'polygon(12% 0%, 88% 0%, 50% 100%)',
+                      }}
+                    />
+                    <Slab
+                      x={844}
+                      y={252}
+                      w={284}
+                      h={94}
+                      color={C.creamHi}
+                      shade={C.creamLo}
+                      shadeH={0.14}
+                      r={22}
+                      rot={1.5}
+                      style={{
+                        border: `4px solid ${C.ink}`,
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                      }}
+                    >
+                      <div
+                        style={{
+                          fontFamily: FONT.banner,
+                          fontSize: 42,
+                          color: C.ink,
+                          letterSpacing: '0.02em',
+                          lineHeight: 1,
+                          whiteSpace: 'nowrap',
+                        }}
+                      >
+                        KITA KAYA
+                      </div>
+                    </Slab>
+                  </Paper>
+                </Boil>
+              </PopIn>
+            ) : null}
+          </div>
+
+          {/* ==================== BEAT 2 & 3: KALKULATOR KERTAS BESAR DI TENGAH (SCENE 12-15) ==================== */}
+          {calcHeroVis > 0.01 ? (
             <div
               style={{
                 position: 'absolute',
                 inset: 0,
-                backgroundColor: `rgba(18, 22, 34, ${heroCalcProgress * 0.42})`,
+                opacity: calcHeroVis,
+                transformOrigin: '640px 410px',
+                transform: `translateY(${(1 - calcHeroVis) * 70}px) scale(${0.74 + 0.26 * calcHeroVis})`,
+              }}
+            >
+              {/* Redup lembut latar belakang supaya kalkulator dan angka sangat kontras & terbaca */}
+              <AbsoluteFill
+                style={{
+                  background:
+                    'radial-gradient(circle at 640px 380px, rgba(28,27,23,0.12) 0%, rgba(28,27,23,0.44) 100%)',
+                }}
+              />
+
+              <Boil seed="calc-hero" amp={0.4} rot={0.05}>
+                {/* Bodi kalkulator kertas besar */}
+                <Paper lift={10}>
+                  <Slab
+                    x={430}
+                    y={218}
+                    w={420}
+                    h={418}
+                    color={C.board}
+                    shade={C.boardLo}
+                    shadeH={0.14}
+                    hi={C.boardHi}
+                    hiH={0.08}
+                    r={22}
+                  />
+                  {/* Bingkai dalam kertas krem */}
+                  <Slab x={452} y={240} w={376} h={374} color={C.creamLo} shade={C.tape} shadeH={0.12} r={16} />
+
+                  {/* Layar kalkulator menyala hangat */}
+                  <Slab
+                    x={472}
+                    y={256}
+                    w={336}
+                    h={114}
+                    color={C.amber}
+                    hi={C.sparkYellow}
+                    hiH={0.35}
+                    shade={C.brass}
+                    shadeH={0.18}
+                    r={12}
+                    style={{
+                      boxShadow: 'inset 0 0 24px rgba(255,248,220,0.65), 0 0 28px rgba(245,197,66,0.45)',
+                    }}
+                  />
+
+                  {/* Deretan tombol cakram polos TANPA ANGKA */}
+                  {[0, 1, 2].map((row) =>
+                    [0, 1, 2, 3].map((col) => (
+                      <Disc
+                        key={`${row}-${col}`}
+                        x={516 + col * 82}
+                        y={418 + row * 70}
+                        d={50}
+                        color={col === 3 ? C.tag : C.creamHi}
+                        shade={col === 3 ? C.heroLo : C.creamLo}
+                      />
+                    )),
+                  )}
+                </Paper>
+
+                {/* Lingkaran sorot lembut tanpa teks pada layar di Beat 3 */}
+                {f >= 188 && f <= 368 ? (
+                  <DrawOnEllipse
+                    at={190}
+                    x={640}
+                    y={313}
+                    w={386}
+                    h={150}
+                    color={C.sparkYellow}
+                    stroke={6}
+                    dur={14}
+                  />
+                ) : null}
+
+                {/* String 1: "Rp5.000.000" utuh sekaligus di layar kalkulator (scene 13: rel 115-184) */}
+                {f >= 115 && f < 186 ? (
+                  <PopIn at={115} seed="gaji-rp" origin="640px 313px">
+                    <div
+                      style={{
+                        position: 'absolute',
+                        left: 640,
+                        top: 313 + gajiShiftY,
+                        translate: '-50% -50%',
+                        opacity: gajiOut,
+                      }}
+                    >
+                      <Paper lift={4}>
+                        <Slab
+                          x={-152}
+                          y={-39}
+                          w={304}
+                          h={78}
+                          color={C.creamHi}
+                          shade={C.creamLo}
+                          shadeH={0.18}
+                          r={8}
+                          style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                          }}
+                        >
+                          <div
+                            style={{
+                              fontFamily: FONT.banner,
+                              fontSize: 44,
+                              color: C.ink,
+                              letterSpacing: '0.01em',
+                              lineHeight: 1,
+                              whiteSpace: 'nowrap',
+                            }}
+                          >
+                            Rp5.000.000
+                          </div>
+                        </Slab>
+                      </Paper>
+                    </div>
+                  </PopIn>
+                ) : null}
+
+                {/* String 2: Tab kertas "÷ 1.000" dicap di sisi kanan layar (scene 14: rel 186-374) */}
+                {f >= 186 && f < 375 ? (
+                  <div style={{opacity: divTabOut}}>
+                    <SlideIn at={186} dx={48} dy={0} dur={10}>
+                      <Tag
+                        x={888}
+                        y={284}
+                        text="÷ 1.000"
+                        at={186}
+                        bg={C.tag}
+                        color={C.tagText}
+                        size={40}
+                        rot={4}
+                        seed="div-1000"
+                      />
+                    </SlideIn>
+                  </div>
+                ) : null}
+
+                {/* Menara koin hijau tumbuh dari dalam layar kalkulator (scene 14-15: rel 214-374) */}
+                {f >= 214 && f < 375 ? (
+                  <div style={{opacity: usCardHeroOut}}>
+                    {Array.from({length: totalCoins}).map((_, ci) => (
+                      <DollarCoin
+                        key={ci}
+                        x={640 + ((ci % 2) - 0.5) * 6}
+                        y={334 - ci * 16}
+                        d={62}
+                      />
+                    ))}
+
+                    {/* Kilau lembut pada pengulangan "Lima ribu dolar" (scene 15: rel 302+) */}
+                    <SparkleBurst at={304} x={494} y={146} seed="sp-left" spread={1.2} />
+                    <SparkleBurst at={312} x={786} y={146} seed="sp-right" spread={1.2} />
+                  </div>
+                ) : null}
+
+                {/* String 3: Kartu berbingkai PUTUS-PUTUS "US$5.000" di atas menara koin (scene 14-15: rel 218-374) */}
+                {f >= 218 && f < 375 ? (
+                  <div style={{opacity: usCardHeroOut}}>
+                    <PopIn at={218} seed="us-5000-hero" origin="640px 148px">
+                      <DashedResultCard x={640} y={148} w={316} h={100} fontSize={54} rot={-2} />
+                    </PopIn>
+                  </div>
+                ) : null}
+              </Boil>
+            </div>
+          ) : null}
+
+          {/* Debu kertas melayang sangat pelan */}
+          {[
+            [210, 190, 0],
+            [460, 150, 11],
+            [760, 170, 23],
+            [1040, 210, 37],
+            [580, 390, 49],
+          ].map(([dx, dy, ph], i) => (
+            <div
+              key={i}
+              style={{
+                position: 'absolute',
+                left: dx + bob(f, 90, 8, ph),
+                top: dy + bob(f, 76, 6, ph + 10),
+                width: 5,
+                height: 5,
+                borderRadius: '50%',
+                background: C.creamHi,
+                opacity: 0.35,
+                pointerEvents: 'none',
               }}
             />
-            {/* Anotasi tanpa teks: lingkaran sorot lembut pada layar & hasil di Beat 3 */}
-            {f >= 224 && f <= 375 ? (
-              <div
-                style={{
-                  opacity:
-                    interpolate(f, [224, 236], [0, 0.85], CLAMP) *
-                    interpolate(f, [352, 375], [1, 0], CLAMP),
-                }}
-              >
-                <DrawOnEllipse
-                  at={224}
-                  x={435}
-                  y={104}
-                  w={560}
-                  h={218}
-                  color={C.sparkYellow}
-                  stroke={4}
-                  dur={16}
-                />
-              </div>
-            ) : null}
+          ))}
+        </AbsoluteFill>
 
-            <HeroPaperCalculator
-              frame={f}
-              openProgress={heroCalcProgress}
-              cx={580}
-              cy={412}
-              scale={1 + zoomIn2 * 0.06}
-            />
+        {/* Tirai teater terakota di tepi kiri-kanan panggung (proscenium tetap) */}
+        <StageCurtains />
 
-            {f >= 302 && f <= 355 ? (
-              <SparkleBurst at={304} x={765} y={135} seed="coinshimmer" spread={72} />
-            ) : null}
-          </AbsoluteFill>
-        ) : null}
-
-        {/* Beat 5 (Scene 18): seutas garis putus-putus samar mengelilingi seluruh warung */}
-        {dashedOutlineProgress > 0.01 ? (
-          <svg
-            width={1280}
-            height={720}
-            viewBox="0 0 1280 720"
-            style={{
-              position: 'absolute',
-              inset: 0,
-              pointerEvents: 'none',
-              opacity: dashedOutlineProgress * 0.62,
-            }}
-          >
-            <rect
-              x={106}
-              y={66}
-              width={1068}
-              height={594}
-              rx={26}
-              fill="none"
-              stroke={C.creamHi}
-              strokeWidth={3.5}
-              strokeDasharray="18 14"
-              strokeDashoffset={Math.round((1 - dashedOutlineProgress) * 420)}
-            />
-          </svg>
-        ) : null}
-
-        {/* LAPISAN 4: Tirai Teater Kertas Terakota di Kedua Sisi Panggung */}
-        <AbsoluteFill style={{pointerEvents: 'none'}}>
-          {/* Tirai Kiri */}
-          <Paper lift={10}>
-            <Slab x={-16} y={-10} w={92} h={740} color={ROOM.terracotta} r={0} grain={0.5} />
-            <Slab x={56} y={-10} w={28} h={740} color={C.heroLo} r="0 16px 16px 0" />
-            <Slab x={-10} y={405} w={96} h={16} color={C.tape} rot={-6} r={6} />
-          </Paper>
-
-          {/* Tirai Kanan */}
-          <Paper lift={10}>
-            <Slab x={1204} y={-10} w={92} h={740} color={ROOM.terracotta} r={0} grain={0.5} />
-            <Slab x={1196} y={-10} w={28} h={740} color={C.heroLo} r="16px 0 0 16px" />
-            <Slab x={1194} y={405} w={96} h={16} color={C.tape} rot={6} r={6} />
-          </Paper>
-
-          {/* Valance tirai atas panggung */}
-          <Paper lift={12}>
-            <Slab x={-20} y={-14} w={1320} h={48} color={C.heroLo} r={0} />
-            <Slab x={-20} y={-14} w={1320} h={36} color={ROOM.terracotta} r={0} />
-          </Paper>
-
-          {/* Vinyet lembut teater */}
+        {/* Seutas garis putus-putus samar mengelilingi seluruh warung di Beat 5 (scene 18: rel 561+) */}
+        {f >= 558 ? (
           <div
             style={{
               position: 'absolute',
-              inset: 0,
-              background:
-                'radial-gradient(ellipse at 50% 48%, rgba(0,0,0,0) 56%, rgba(12,14,20,0.34) 100%)',
+              left: 66,
+              top: 44,
+              width: W - 132,
+              height: H - 78,
+              borderRadius: 20,
+              border: `4px dashed ${C.creamHi}`,
+              opacity: 0.55 * beat5Progress,
+              boxShadow: 'inset 0 0 40px rgba(245,197,66,0.18)',
+              pointerEvents: 'none',
             }}
           />
-        </AbsoluteFill>
+        ) : null}
+
+        {/* Vinyet lembut teater */}
+        <AbsoluteFill
+          style={{
+            background:
+              'radial-gradient(ellipse at 50% 45%, rgba(255,248,230,0.08) 0%, rgba(0,0,0,0) 52%, rgba(0,0,0,0.34) 100%)',
+            pointerEvents: 'none',
+          }}
+        />
       </FilmWeave>
       <GrainOverlay />
     </AbsoluteFill>
