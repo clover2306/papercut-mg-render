@@ -51,7 +51,7 @@ export const CaptionOverlay: React.FC = () => {
   return (
     <AbsoluteFill>
       <PaperDefs />
-      <div style={{position: 'absolute', top: 720 * band, left: 90, right: 90, display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '2px 2px'}}>
+      <div key={page.startMs} style={{position: 'absolute', top: 720 * band, left: 90, right: 90, display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '2px 2px'}}>
         {page.words.map((w, i) => {
           const word = w.text.trim();
           const isActive = i === active;
