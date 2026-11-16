@@ -1,6 +1,6 @@
 name: Render caption overlay (transparent)
 
-# Render CaptionOverlay (1280x720, 30fps, 16846 frames) as PNG sequences
+# Render CaptionOverlay (1280x720, 30fps, 16551 frames) as PNG sequences
 # in 6 parallel chunks, then encode each chunk to QTRLE .mov (alpha).
 # QTRLE is the alpha path: VP8/VP9 silently drop the alpha plane in
 # ffmpeg/libvpx (verified 2026-11-15), while QTRLE preserves it.
@@ -21,7 +21,7 @@ jobs:
         run: |
           python3 - <<'EOF'
           import json, os
-          total = 16846
+          total = 16551
           n = 6
           size = (total + n - 1) // n
           inc = []
