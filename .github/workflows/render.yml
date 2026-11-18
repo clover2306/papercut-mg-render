@@ -1,6 +1,6 @@
 name: Render MG papercut
 
-# Render komposisi MG01-MG13 (1280x720, 30fps) dalam potongan paralel,
+# Render komposisi MGA-MGK UMP (1280x720, 30fps) dalam potongan paralel,
 # lalu gabungkan tiap MG jadi satu video. Video hasil TIDAK bersuara:
 # potongan narasi digabung secara lokal oleh Clover (audio tidak masuk repo).
 # Input mgs memungkinkan render ulang sebagian MG saja.
@@ -8,9 +8,9 @@ on:
   workflow_dispatch:
     inputs:
       mgs:
-        description: 'MG ids, comma-separated (default: all 13)'
+        description: 'MG ids, comma-separated (default: all 11 UMP)'
         required: false
-        default: 'MG01,MG02,MG03,MG04,MG05,MG06,MG07,MG08,MG09,MG10,MG11,MG12,MG13'
+        default: 'MGA,MGB,MGC,MGD,MGE,MGF,MGG,MGH,MGI,MGJ,MGK'
 
 jobs:
   plan:
