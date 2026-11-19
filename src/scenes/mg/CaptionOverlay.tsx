@@ -1,4 +1,4 @@
-// Caption overlay untuk video penuh UMP: lapisan TRANSPARAN
+// Caption overlay untuk video penuh Pajak Bijak: lapisan TRANSPARAN
 // (tanpa latar) yang di-render terpisah lalu di-overlay di ffmpeg.
 // Gaya hybrid yang di-ACC Bos (demo2c): halaman 4-5 kata (pageWords
 // repo, maks 5), spasi rapat, tag kertas sobek HANYA di kata yang
@@ -27,7 +27,7 @@ const OUTLINE =
 
 const inMg = (ms: number) => BANDS.some(([a, b]) => ms >= a && ms < b);
 
-export const CAPTION_OVERLAY_DUR = 16855; // 561.82s @30fps, ceil
+export const CAPTION_OVERLAY_DUR = 16656; // 555.20s @30fps
 
 export const CaptionOverlay: React.FC = () => {
   const frame = useCurrentFrame();

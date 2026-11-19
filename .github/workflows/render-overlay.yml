@@ -21,7 +21,7 @@ jobs:
         run: |
           python3 - <<'EOF'
           import json, os
-          total = 16855
+          total = 16656
           n = 6
           size = (total + n - 1) // n
           inc = []
