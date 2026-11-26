@@ -27,7 +27,7 @@ const OUTLINE =
 
 const inMg = (ms: number) => BANDS.some(([a, b]) => ms >= a && ms < b);
 
-export const CAPTION_OVERLAY_DUR = 16149; // 538.3s @30fps
+export const CAPTION_OVERLAY_DUR = 16795; // 559.8s @30fps
 
 export const CaptionOverlay: React.FC = () => {
   const frame = useCurrentFrame();
