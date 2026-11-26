@@ -1,5927 +1,6152 @@
 [
  {
-  "text": "Di",
+  "text": "Motor",
   "startMs": 0,
-  "endMs": 440
+  "endMs": 300
  },
  {
-  "text": "pasar,",
-  "startMs": 440,
-  "endMs": 760
- },
- {
-  "text": "tengkulak",
-  "startMs": 1260,
-  "endMs": 1660
+  "text": "ojol",
+  "startMs": 300,
+  "endMs": 680
  },
  {
   "text": "itu",
-  "startMs": 1660,
-  "endMs": 1840
+  "startMs": 680,
+  "endMs": 840
  },
  {
-  "text": "menawar",
-  "startMs": 1840,
-  "endMs": 2240
+  "text": "mati",
+  "startMs": 840,
+  "endMs": 1180
  },
  {
-  "text": "sayurmu",
-  "startMs": 2240,
-  "endMs": 2700
- },
- {
-  "text": "seribu",
-  "startMs": 2700,
-  "endMs": 3060
- },
- {
-  "text": "perak",
-  "startMs": 3060,
-  "endMs": 3320
- },
- {
-  "text": "lebih",
-  "startMs": 3320,
-  "endMs": 3500
- },
- {
-  "text": "murah.",
-  "startMs": 3500,
-  "endMs": 3920
- },
- {
-  "text": "Ia",
-  "startMs": 3920,
-  "endMs": 4840
- },
- {
-  "text": "tidak",
-  "startMs": 4840,
-  "endMs": 5020
- },
- {
-  "text": "tahu,",
-  "startMs": 5020,
-  "endMs": 5440
- },
- {
-  "text": "durian",
-  "startMs": 5920,
-  "endMs": 6240
- },
- {
-  "text": "yang",
-  "startMs": 6240,
-  "endMs": 6440
- },
- {
-  "text": "ia",
-  "startMs": 6440,
-  "endMs": 6640
- },
- {
-  "text": "jual",
-  "startMs": 6640,
-  "endMs": 6920
- },
- {
-  "text": "dengan",
-  "startMs": 6920,
-  "endMs": 7120
- },
- {
-  "text": "untung",
-  "startMs": 7120,
-  "endMs": 7460
- },
- {
-  "text": "besar",
-  "startMs": 7460,
-  "endMs": 7740
- },
- {
-  "text": "tumbuh",
-  "startMs": 7740,
-  "endMs": 8220
+  "text": "mendadak",
+  "startMs": 1180,
+  "endMs": 1580
  },
  {
   "text": "di",
-  "startMs": 8220,
-  "endMs": 8360
+  "startMs": 1580,
+  "endMs": 1700
  },
  {
-  "text": "kebunmu.",
-  "startMs": 8360,
-  "endMs": 9420
+  "text": "tengah",
+  "startMs": 1700,
+  "endMs": 1900
  },
  {
-  "text": "Di",
-  "startMs": 9420,
-  "endMs": 9700
+  "text": "jalan.",
+  "startMs": 1900,
+  "endMs": 2160
  },
  {
-  "text": "balik",
-  "startMs": 9700,
-  "endMs": 9900
+  "text": "Si",
+  "startMs": 2920,
+  "endMs": 3140
  },
  {
-  "text": "bukit.",
-  "startMs": 9900,
-  "endMs": 10140
+  "text": "driver",
+  "startMs": 3140,
+  "endMs": 3480
  },
  {
-  "text": "Dua",
-  "startMs": 10140,
-  "endMs": 11300
- },
- {
-  "text": "hektar.",
-  "startMs": 11300,
-  "endMs": 11780
- },
- {
-  "text": "Namun",
-  "startMs": 12820,
-  "endMs": 13220
- },
- {
-  "text": "sebelum",
-  "startMs": 13220,
-  "endMs": 13600
- },
- {
-  "text": "sampai",
-  "startMs": 13600,
-  "endMs": 13920
- },
- {
-  "text": "ke",
-  "startMs": 13920,
-  "endMs": 14060
- },
- {
-  "text": "sana,",
-  "startMs": 14060,
-  "endMs": 14380
- },
- {
-  "text": "kita",
-  "startMs": 14580,
-  "endMs": 14700
- },
- {
-  "text": "mundur",
-  "startMs": 14700,
-  "endMs": 15020
- },
- {
-  "text": "dulu.",
-  "startMs": 15020,
-  "endMs": 15280
- },
- {
-  "text": "Dua",
-  "startMs": 15280,
-  "endMs": 15600
- },
- {
-  "text": "puluh",
-  "startMs": 15600,
-  "endMs": 15920
- },
- {
-  "text": "lima",
-  "startMs": 15920,
-  "endMs": 16240
- },
- {
-  "text": "tahun",
-  "startMs": 16240,
-  "endMs": 16740
- },
- {
-  "text": "ke",
-  "startMs": 16740,
-  "endMs": 16900
- },
- {
-  "text": "belakang.",
-  "startMs": 16900,
-  "endMs": 17340
- },
- {
-  "text": "Ke",
-  "startMs": 17340,
-  "endMs": 17950
- },
- {
-  "text": "sebuah",
-  "startMs": 17950,
-  "endMs": 18560
- },
- {
-  "text": "bukit",
-  "startMs": 18560,
-  "endMs": 18900
- },
- {
-  "text": "dan",
-  "startMs": 18900,
-  "endMs": 19180
- },
- {
-  "text": "bibit",
-  "startMs": 19180,
-  "endMs": 19520
- },
- {
-  "text": "pertamamu.",
-  "startMs": 19520,
-  "endMs": 21240
- },
- {
-  "text": "Tahun",
-  "startMs": 21240,
-  "endMs": 21740
- },
- {
-  "text": "dua",
-  "startMs": 21740,
-  "endMs": 22120
- },
- {
-  "text": "ribu",
-  "startMs": 22120,
-  "endMs": 22500
- },
- {
-  "text": "satu,",
-  "startMs": 22500,
-  "endMs": 22880
- },
- {
-  "text": "kamu",
-  "startMs": 22880,
-  "endMs": 23040
- },
- {
-  "text": "mendaki",
-  "startMs": 23040,
-  "endMs": 23440
- },
- {
-  "text": "bukit",
-  "startMs": 23440,
-  "endMs": 23840
- },
- {
-  "text": "di",
-  "startMs": 23840,
-  "endMs": 24000
- },
- {
-  "text": "belakang",
-  "startMs": 24000,
-  "endMs": 24260
- },
- {
-  "text": "desamu",
-  "startMs": 24260,
-  "endMs": 24780
- },
- {
-  "text": "membawa",
-  "startMs": 24780,
-  "endMs": 25160
- },
- {
-  "text": "keranjang",
-  "startMs": 25160,
-  "endMs": 25600
- },
- {
-  "text": "bibit",
-  "startMs": 25600,
-  "endMs": 25900
- },
- {
-  "text": "durian.",
-  "startMs": 25900,
-  "endMs": 26300
- },
- {
-  "text": "Tanah",
-  "startMs": 26300,
-  "endMs": 27480
- },
- {
-  "text": "warisan",
-  "startMs": 27480,
-  "endMs": 27820
- },
- {
-  "text": "bapakmu",
-  "startMs": 27820,
-  "endMs": 28360
- },
- {
-  "text": "itu",
-  "startMs": 28360,
-  "endMs": 28540
- },
- {
-  "text": "miring,",
-  "startMs": 28540,
-  "endMs": 29000
- },
- {
-  "text": "berbatu,",
-  "startMs": 29340,
-  "endMs": 29900
- },
- {
-  "text": "dan",
-  "startMs": 29900,
-  "endMs": 30100
- },
- {
-  "text": "tidak",
-  "startMs": 30100,
-  "endMs": 30360
- },
- {
-  "text": "diminati",
-  "startMs": 30360,
-  "endMs": 30760
- },
- {
-  "text": "siapa",
-  "startMs": 30760,
-  "endMs": 31360
- },
- {
-  "text": "pun.",
-  "startMs": 31360,
-  "endMs": 31960
- },
- {
-  "text": "Orang",
-  "startMs": 31960,
-  "endMs": 32500
- },
- {
-  "text": "bilang",
-  "startMs": 32500,
-  "endMs": 32780
- },
- {
-  "text": "tanah",
-  "startMs": 33040,
-  "endMs": 33260
- },
- {
-  "text": "itu",
-  "startMs": 33260,
-  "endMs": 33440
- },
- {
-  "text": "tidak",
-  "startMs": 33440,
-  "endMs": 33620
- },
- {
-  "text": "menghasilkan",
-  "startMs": 33620,
-  "endMs": 34220
- },
- {
-  "text": "apa-apa.",
-  "startMs": 34220,
-  "endMs": 35440
- },
- {
-  "text": "Kamu",
-  "startMs": 35440,
-  "endMs": 35840
- },
- {
-  "text": "tidak",
-  "startMs": 35840,
-  "endMs": 36000
- },
- {
-  "text": "peduli.",
-  "startMs": 36000,
-  "endMs": 36300
- },
- {
-  "text": "Kamu",
-  "startMs": 36760,
-  "endMs": 37080
- },
- {
-  "text": "menggali,",
-  "startMs": 37080,
-  "endMs": 37540
- },
- {
-  "text": "menanam,",
-  "startMs": 37980,
-  "endMs": 38560
- },
- {
-  "text": "lalu",
-  "startMs": 38880,
-  "endMs": 39060
- },
- {
-  "text": "menyiram.",
-  "startMs": 39060,
-  "endMs": 39647
- },
- {
-  "text": "Lima",
-  "startMs": 39647,
-  "endMs": 40233
- },
- {
-  "text": "puluh",
-  "startMs": 40233,
-  "endMs": 40820
- },
- {
-  "text": "bibit",
-  "startMs": 40820,
-  "endMs": 41280
- },
- {
-  "text": "hari",
-  "startMs": 41280,
-  "endMs": 41540
- },
- {
-  "text": "itu.",
-  "startMs": 41540,
-  "endMs": 41820
- },
- {
-  "text": "Kamu",
-  "startMs": 42860,
-  "endMs": 43440
- },
- {
-  "text": "tahu",
-  "startMs": 43440,
-  "endMs": 43680
- },
- {
-  "text": "tanah",
-  "startMs": 43680,
-  "endMs": 44240
- },
- {
-  "text": "tidak",
-  "startMs": 44240,
-  "endMs": 44400
- },
- {
-  "text": "berbohong;",
-  "startMs": 44400,
-  "endMs": 44920
- },
- {
-  "text": "ia",
-  "startMs": 44920,
-  "endMs": 45800
- },
- {
-  "text": "hanya",
-  "startMs": 45800,
-  "endMs": 45980
- },
- {
-  "text": "butuh",
-  "startMs": 45980,
-  "endMs": 46220
- },
- {
-  "text": "waktu.",
-  "startMs": 46220,
-  "endMs": 46560
- },
- {
-  "text": "Sementara",
-  "startMs": 47400,
-  "endMs": 47900
- },
- {
-  "text": "bibit",
-  "startMs": 47900,
-  "endMs": 48160
- },
- {
-  "text": "itu",
-  "startMs": 48160,
-  "endMs": 48360
- },
- {
-  "text": "tumbuh,",
-  "startMs": 48360,
-  "endMs": 48800
- },
- {
-  "text": "kamu",
-  "startMs": 49020,
-  "endMs": 49260
- },
- {
-  "text": "hidup",
-  "startMs": 49260,
-  "endMs": 49600
- },
- {
-  "text": "dari",
-  "startMs": 49600,
-  "endMs": 49800
- },
- {
-  "text": "sayur",
-  "startMs": 49800,
-  "endMs": 50220
- },
- {
-  "text": "di",
-  "startMs": 50220,
-  "endMs": 50360
- },
- {
-  "text": "petak",
-  "startMs": 50360,
-  "endMs": 50640
- },
- {
-  "text": "kecil",
-  "startMs": 50640,
-  "endMs": 50920
- },
- {
-  "text": "depan",
-  "startMs": 50920,
-  "endMs": 51200
- },
- {
-  "text": "rumah.",
-  "startMs": 51200,
-  "endMs": 51440
- },
- {
-  "text": "Setiap",
-  "startMs": 52320,
-  "endMs": 52820
- },
- {
-  "text": "hari",
-  "startMs": 52820,
-  "endMs": 53080
- },
- {
-  "text": "kamu",
-  "startMs": 53080,
-  "endMs": 53320
- },
- {
-  "text": "menyiram",
-  "startMs": 53320,
-  "endMs": 53640
- },
- {
-  "text": "dua",
-  "startMs": 53640,
-  "endMs": 53960
- },
- {
-  "text": "tempat:",
-  "startMs": 53960,
-  "endMs": 54400
- },
- {
-  "text": "sayur",
-  "startMs": 54400,
-  "endMs": 55320
- },
- {
-  "text": "di",
-  "startMs": 55320,
-  "endMs": 55480
- },
- {
-  "text": "halaman",
-  "startMs": 55480,
-  "endMs": 55960
- },
- {
-  "text": "dan",
-  "startMs": 55960,
-  "endMs": 56340
- },
- {
-  "text": "durian",
-  "startMs": 56340,
-  "endMs": 56840
- },
- {
-  "text": "di",
-  "startMs": 56840,
-  "endMs": 57020
- },
- {
-  "text": "balik",
-  "startMs": 57020,
-  "endMs": 57220
- },
- {
-  "text": "bukit.",
-  "startMs": 57220,
-  "endMs": 57500
- },
- {
-  "text": "Satu",
-  "startMs": 58160,
-  "endMs": 58760
- },
- {
-  "text": "memberimu",
-  "startMs": 58760,
-  "endMs": 59200
- },
- {
-  "text": "makan",
-  "startMs": 59200,
-  "endMs": 59380
- },
- {
-  "text": "hari",
-  "startMs": 59380,
-  "endMs": 59680
- },
- {
-  "text": "ini,",
-  "startMs": 59680,
-  "endMs": 59920
- },
- {
-  "text": "satunya",
-  "startMs": 60400,
-  "endMs": 60860
- },
- {
-  "text": "lagi",
-  "startMs": 60860,
-  "endMs": 61160
- },
- {
-  "text": "nanti.",
-  "startMs": 61160,
-  "endMs": 61640
- },
- {
-  "text": "Di",
-  "startMs": 62920,
-  "endMs": 63160
- },
- {
-  "text": "tahun-tahun",
-  "startMs": 63160,
-  "endMs": 63560
- },
- {
-  "text": "awal",
-  "startMs": 63560,
-  "endMs": 63860
- },
- {
-  "text": "itu,",
-  "startMs": 63860,
-  "endMs": 64180
- },
- {
-  "text": "semua",
-  "startMs": 64440,
-  "endMs": 64740
- },
- {
-  "text": "orang",
-  "startMs": 64740,
-  "endMs": 65040
- },
- {
-  "text": "mengenalmu",
-  "startMs": 65040,
-  "endMs": 65680
- },
- {
-  "text": "sebagai",
-  "startMs": 65680,
-  "endMs": 65880
- },
- {
-  "text": "petani",
-  "startMs": 65880,
-  "endMs": 66280
- },
- {
-  "text": "sayur.",
-  "startMs": 66280,
-  "endMs": 66760
- },
- {
-  "text": "Setiap",
-  "startMs": 67500,
-  "endMs": 67860
- },
- {
-  "text": "pagi",
-  "startMs": 67860,
-  "endMs": 68160
- },
- {
-  "text": "kamu",
-  "startMs": 68160,
-  "endMs": 68360
- },
- {
-  "text": "ke",
-  "startMs": 68360,
-  "endMs": 68500
- },
- {
-  "text": "pasar",
-  "startMs": 68500,
-  "endMs": 68720
- },
- {
-  "text": "naik",
-  "startMs": 68720,
-  "endMs": 68960
- },
- {
-  "text": "sepeda",
-  "startMs": 68960,
-  "endMs": 69240
- },
- {
-  "text": "tua.",
-  "startMs": 69240,
-  "endMs": 69460
- },
- {
-  "text": "Sayurmu",
-  "startMs": 70160,
-  "endMs": 70760
- },
- {
-  "text": "seratus",
-  "startMs": 70760,
-  "endMs": 70940
- },
- {
-  "text": "ribu",
-  "startMs": 70940,
-  "endMs": 71420
- },
- {
-  "text": "sehari.",
-  "startMs": 71420,
-  "endMs": 71760
- },
- {
-  "text": "Orang",
-  "startMs": 72620,
-  "endMs": 73040
- },
- {
-  "text": "melihatmu",
-  "startMs": 73040,
-  "endMs": 73500
- },
- {
-  "text": "dan",
-  "startMs": 73500,
-  "endMs": 73640
- },
- {
-  "text": "berpikir:",
-  "startMs": 73640,
-  "endMs": 74180
- },
- {
-  "text": "hanya",
-  "startMs": 74740,
-  "endMs": 75020
- },
- {
-  "text": "petani.",
-  "startMs": 75020,
-  "endMs": 75520
- },
- {
-  "text": "Kita",
-  "startMs": 76540,
-  "endMs": 77140
- },
- {
-  "text": "hitung.",
-  "startMs": 77140,
-  "endMs": 77460
- },
- {
-  "text": "Seratus",
-  "startMs": 77460,
-  "endMs": 78280
- },
- {
-  "text": "ribu",
-  "startMs": 78280,
-  "endMs": 78720
- },
- {
-  "text": "sehari",
-  "startMs": 78720,
-  "endMs": 79160
- },
- {
-  "text": "berarti",
-  "startMs": 79160,
-  "endMs": 79660
- },
- {
-  "text": "tiga",
-  "startMs": 79660,
-  "endMs": 79940
- },
- {
-  "text": "juta",
-  "startMs": 79940,
-  "endMs": 80260
- },
- {
-  "text": "sebulan",
-  "startMs": 80260,
-  "endMs": 80720
- },
- {
-  "text": "dari",
-  "startMs": 80720,
-  "endMs": 80900
- },
- {
-  "text": "petak",
-  "startMs": 80900,
-  "endMs": 81160
- },
- {
-  "text": "kecil",
-  "startMs": 81160,
-  "endMs": 81440
- },
- {
-  "text": "depan",
-  "startMs": 81440,
-  "endMs": 81720
- },
- {
-  "text": "rumah.",
-  "startMs": 81720,
-  "endMs": 82020
- },
- {
-  "text": "Memang",
-  "startMs": 82020,
-  "endMs": 83100
- },
- {
-  "text": "tidak",
-  "startMs": 83100,
-  "endMs": 83260
- },
- {
-  "text": "banyak,",
-  "startMs": 83260,
-  "endMs": 83600
- },
- {
-  "text": "tetapi",
-  "startMs": 84120,
-  "endMs": 84520
- },
- {
-  "text": "cukup",
-  "startMs": 84520,
-  "endMs": 84820
- },
- {
-  "text": "untuk",
-  "startMs": 84820,
-  "endMs": 85000
- },
- {
-  "text": "hidup",
-  "startMs": 85000,
-  "endMs": 85360
- },
- {
-  "text": "dan",
-  "startMs": 85360,
-  "endMs": 85520
- },
- {
-  "text": "menunggu.",
-  "startMs": 85520,
-  "endMs": 86000
- },
- {
-  "text": "Di",
-  "startMs": 86940,
-  "endMs": 87500
- },
- {
-  "text": "pasar,",
-  "startMs": 87500,
-  "endMs": 87760
- },
- {
-  "text": "tengkulak",
-  "startMs": 88160,
-  "endMs": 88540
- },
- {
-  "text": "itu",
-  "startMs": 88540,
-  "endMs": 88700
- },
- {
-  "text": "selalu",
-  "startMs": 88700,
-  "endMs": 88980
- },
- {
-  "text": "menunggu.",
-  "startMs": 88980,
-  "endMs": 89420
- },
- {
-  "text": "Ia",
-  "startMs": 90100,
-  "endMs": 90400
- },
- {
-  "text": "menawar",
-  "startMs": 90400,
-  "endMs": 90760
- },
- {
-  "text": "sayurmu",
-  "startMs": 90760,
-  "endMs": 91180
- },
- {
-  "text": "seribu",
-  "startMs": 91180,
-  "endMs": 91380
- },
- {
-  "text": "perak",
-  "startMs": 91380,
-  "endMs": 91780
- },
- {
-  "text": "lebih",
-  "startMs": 91780,
-  "endMs": 91940
- },
- {
-  "text": "murah,",
-  "startMs": 91940,
-  "endMs": 92300
- },
- {
-  "text": "katanya",
-  "startMs": 92780,
-  "endMs": 93220
- },
- {
-  "text": "harga",
-  "startMs": 93220,
-  "endMs": 93580
- },
- {
-  "text": "sedang",
-  "startMs": 93580,
-  "endMs": 93860
- },
- {
-  "text": "turun.",
-  "startMs": 93860,
-  "endMs": 94220
- },
- {
-  "text": "Kamu",
-  "startMs": 94780,
-  "endMs": 95080
- },
- {
-  "text": "tahu",
-  "startMs": 95080,
-  "endMs": 95320
- },
- {
-  "text": "ia",
-  "startMs": 95640,
-  "endMs": 95740
- },
- {
-  "text": "menjualnya",
-  "startMs": 95740,
-  "endMs": 96240
- },
- {
-  "text": "di",
-  "startMs": 96240,
-  "endMs": 96340
- },
- {
-  "text": "kota",
-  "startMs": 96340,
-  "endMs": 96560
- },
- {
-  "text": "jauh",
-  "startMs": 96560,
-  "endMs": 96800
- },
- {
-  "text": "lebih",
-  "startMs": 96800,
-  "endMs": 96980
- },
- {
-  "text": "mahal.",
-  "startMs": 96980,
-  "endMs": 97400
- },
- {
-  "text": "Namun",
-  "startMs": 97980,
-  "endMs": 98300
- },
- {
-  "text": "kamu",
-  "startMs": 98300,
-  "endMs": 98480
- },
- {
-  "text": "tidak",
-  "startMs": 98480,
-  "endMs": 98660
- },
- {
-  "text": "berdebat.",
-  "startMs": 98660,
-  "endMs": 99080
- },
- {
-  "text": "Kamu",
-  "startMs": 99560,
-  "endMs": 99920
- },
- {
-  "text": "terima,",
-  "startMs": 99920,
-  "endMs": 100360
- },
- {
-  "text": "pulang,",
-  "startMs": 100880,
-  "endMs": 101380
- },
- {
-  "text": "lalu",
-  "startMs": 102020,
-  "endMs": 102200
- },
- {
-  "text": "esok",
-  "startMs": 102200,
-  "endMs": 102460
- },
- {
-  "text": "kembali",
-  "startMs": 102460,
-  "endMs": 102760
- },
- {
-  "text": "lagi.",
-  "startMs": 102760,
-  "endMs": 103100
- },
- {
-  "text": "Bukan",
-  "startMs": 104140,
-  "endMs": 104500
- },
- {
-  "text": "hanya",
-  "startMs": 104500,
-  "endMs": 104720
- },
- {
-  "text": "kamu",
-  "startMs": 104720,
-  "endMs": 105000
- },
- {
-  "text": "yang",
-  "startMs": 105000,
-  "endMs": 105140
- },
- {
-  "text": "ia",
-  "startMs": 105140,
-  "endMs": 105280
- },
- {
-  "text": "tekan.",
-  "startMs": 105280,
-  "endMs": 105580
- },
- {
-  "text": "Semua",
-  "startMs": 106200,
-  "endMs": 106600
- },
- {
-  "text": "petani",
-  "startMs": 106600,
-  "endMs": 106940
- },
- {
-  "text": "di",
-  "startMs": 106940,
-  "endMs": 107140
- },
- {
-  "text": "pasar",
-  "startMs": 107140,
-  "endMs": 107320
- },
- {
-  "text": "menjual",
-  "startMs": 107320,
-  "endMs": 107700
- },
- {
-  "text": "kepadanya.",
-  "startMs": 107700,
-  "endMs": 108180
- },
- {
-  "text": "Mereka",
-  "startMs": 108180,
-  "endMs": 109300
- },
- {
-  "text": "menggerutu",
-  "startMs": 109300,
-  "endMs": 109760
- },
- {
-  "text": "di",
-  "startMs": 109760,
-  "endMs": 109840
- },
- {
-  "text": "belakang,",
-  "startMs": 109840,
-  "endMs": 110300
- },
- {
-  "text": "tetapi",
-  "startMs": 110540,
-  "endMs": 110920
- },
- {
-  "text": "pasrah",
-  "startMs": 110920,
-  "endMs": 111340
- },
- {
-  "text": "di",
-  "startMs": 111340,
-  "endMs": 111480
- },
- {
-  "text": "depan",
-  "startMs": 111480,
-  "endMs": 111860
- },
- {
-  "text": "karena",
-  "startMs": 111860,
-  "endMs": 112120
- },
- {
-  "text": "merasa",
-  "startMs": 112120,
-  "endMs": 112520
- },
- {
-  "text": "tak",
-  "startMs": 112520,
-  "endMs": 112760
- },
- {
-  "text": "ada",
-  "startMs": 112760,
-  "endMs": 112920
- },
- {
-  "text": "pembeli",
-  "startMs": 112920,
-  "endMs": 113200
- },
- {
-  "text": "lain.",
-  "startMs": 113200,
-  "endMs": 113480
- },
- {
-  "text": "Kamu",
-  "startMs": 114440,
-  "endMs": 114880
- },
- {
-  "text": "tidak",
-  "startMs": 114880,
-  "endMs": 115020
- },
- {
-  "text": "mengeluh,",
-  "startMs": 115020,
-  "endMs": 115460
- },
- {
-  "text": "hanya",
-  "startMs": 115940,
-  "endMs": 116180
- },
- {
-  "text": "mencatat",
-  "startMs": 116180,
-  "endMs": 116640
- },
- {
-  "text": "dalam",
-  "startMs": 116640,
-  "endMs": 116880
- },
- {
-  "text": "hati",
-  "startMs": 116880,
-  "endMs": 117320
- },
- {
-  "text": "berapa",
-  "startMs": 117320,
-  "endMs": 117580
- },
- {
-  "text": "kali",
-  "startMs": 117580,
-  "endMs": 117880
- },
- {
-  "text": "ia",
-  "startMs": 117880,
-  "endMs": 118060
- },
- {
-  "text": "menekan",
-  "startMs": 118060,
-  "endMs": 118560
- },
- {
-  "text": "hargamu.",
-  "startMs": 118560,
-  "endMs": 119080
- },
- {
-  "text": "Skor",
-  "startMs": 120440,
-  "endMs": 120880
- },
- {
-  "text": "tahun",
-  "startMs": 120880,
-  "endMs": 121080
- },
- {
-  "text": "dua",
-  "startMs": 121080,
-  "endMs": 121527
- },
- {
-  "text": "ribu",
-  "startMs": 121527,
-  "endMs": 121973
- },
- {
-  "text": "satu:",
-  "startMs": 121973,
-  "endMs": 122420
- },
- {
-  "text": "kamu",
-  "startMs": 122420,
-  "endMs": 122820
- },
- {
-  "text": "punya",
-  "startMs": 122820,
-  "endMs": 123040
- },
- {
-  "text": "lima",
-  "startMs": 123040,
-  "endMs": 123230
- },
- {
-  "text": "puluh",
-  "startMs": 123230,
-  "endMs": 123420
- },
- {
-  "text": "bibit",
-  "startMs": 123420,
-  "endMs": 123740
- },
- {
-  "text": "durian",
-  "startMs": 123740,
-  "endMs": 124100
- },
- {
-  "text": "yang",
-  "startMs": 124100,
-  "endMs": 124300
- },
- {
-  "text": "belum",
-  "startMs": 124300,
-  "endMs": 124500
- },
- {
-  "text": "berbuah.",
-  "startMs": 124500,
-  "endMs": 125020
- },
- {
-  "text": "Dia",
-  "startMs": 125720,
-  "endMs": 126040
- },
- {
-  "text": "punya",
-  "startMs": 126040,
-  "endMs": 126360
- },
- {
-  "text": "motor",
-  "startMs": 126360,
-  "endMs": 126620
- },
- {
-  "text": "baru",
-  "startMs": 126620,
-  "endMs": 126980
- },
- {
-  "text": "dan",
-  "startMs": 126980,
-  "endMs": 127260
- },
- {
-  "text": "untung",
-  "startMs": 127260,
-  "endMs": 127740
- },
- {
-  "text": "dari",
-  "startMs": 127740,
-  "endMs": 127940
- },
- {
-  "text": "sayur",
-  "startMs": 127940,
-  "endMs": 128220
- },
- {
-  "text": "orang",
-  "startMs": 128220,
-  "endMs": 128400
- },
- {
-  "text": "lain.",
-  "startMs": 128400,
-  "endMs": 128720
- },
- {
-  "text": "Tujuh",
-  "startMs": 128720,
-  "endMs": 130320
- },
- {
-  "text": "tahun",
-  "startMs": 130320,
-  "endMs": 130560
- },
- {
-  "text": "kemudian,",
-  "startMs": 130560,
-  "endMs": 131140
- },
- {
-  "text": "pohon",
-  "startMs": 131400,
-  "endMs": 131560
- },
- {
-  "text": "pertamamu",
-  "startMs": 131560,
-  "endMs": 131820
- },
- {
-  "text": "berbuah.",
-  "startMs": 131820,
-  "endMs": 132480
- },
- {
-  "text": "Kamu",
-  "startMs": 133100,
-  "endMs": 133480
- },
- {
-  "text": "memetiknya",
-  "startMs": 133480,
-  "endMs": 134040
- },
- {
-  "text": "sendiri,",
-  "startMs": 134040,
-  "endMs": 134360
- },
- {
-  "text": "durian",
-  "startMs": 134360,
-  "endMs": 135500
- },
- {
-  "text": "pertama",
-  "startMs": 135500,
-  "endMs": 135980
- },
- {
-  "text": "dari",
-  "startMs": 135980,
-  "endMs": 136560
- },
- {
-  "text": "tanah",
-  "startMs": 136560,
-  "endMs": 137000
- },
- {
-  "text": "yang",
-  "startMs": 137000,
-  "endMs": 137140
- },
- {
-  "text": "dianggap",
-  "startMs": 137140,
-  "endMs": 137580
- },
- {
-  "text": "tidak",
-  "startMs": 137580,
-  "endMs": 137860
- },
- {
-  "text": "berguna.",
-  "startMs": 137860,
-  "endMs": 138360
- },
- {
-  "text": "Kamu",
-  "startMs": 138860,
-  "endMs": 139580
- },
- {
-  "text": "membawanya",
-  "startMs": 139580,
-  "endMs": 139980
- },
- {
-  "text": "pulang",
-  "startMs": 139980,
-  "endMs": 140480
- },
- {
-  "text": "dan",
-  "startMs": 140480,
-  "endMs": 140760
- },
- {
-  "text": "memakannya",
-  "startMs": 140760,
-  "endMs": 141240
- },
- {
-  "text": "bersama",
-  "startMs": 141240,
-  "endMs": 141580
- },
- {
-  "text": "keluarga.",
-  "startMs": 141580,
-  "endMs": 142180
- },
- {
-  "text": "Rasanya",
-  "startMs": 142800,
-  "endMs": 143300
- },
- {
-  "text": "seperti",
-  "startMs": 143300,
-  "endMs": 143560
- },
- {
-  "text": "kemenangan",
-  "startMs": 143560,
-  "endMs": 143980
- },
- {
-  "text": "kecil.",
-  "startMs": 143980,
-  "endMs": 144400
- },
- {
-  "text": "Sejak",
-  "startMs": 145060,
-  "endMs": 145420
- },
- {
-  "text": "itu",
-  "startMs": 145420,
-  "endMs": 145720
- },
- {
-  "text": "kamu",
-  "startMs": 146080,
-  "endMs": 146380
- },
- {
-  "text": "pelan-pelan",
-  "startMs": 146380,
-  "endMs": 146900
- },
- {
-  "text": "mulai",
-  "startMs": 146900,
-  "endMs": 147200
- },
- {
-  "text": "menambah",
-  "startMs": 147200,
-  "endMs": 147560
- },
- {
-  "text": "bibit",
-  "startMs": 147560,
-  "endMs": 147840
- },
- {
-  "text": "lagi.",
-  "startMs": 147840,
-  "endMs": 148100
- },
- {
-  "text": "Sementara",
-  "startMs": 148940,
-  "endMs": 149660
- },
- {
-  "text": "tengkulak",
-  "startMs": 149660,
-  "endMs": 150280
- },
- {
-  "text": "itu",
-  "startMs": 150280,
-  "endMs": 150480
- },
- {
-  "text": "membeli",
-  "startMs": 150480,
-  "endMs": 150840
- },
- {
-  "text": "mobil",
-  "startMs": 150840,
-  "endMs": 151080
- },
- {
-  "text": "baru",
-  "startMs": 151080,
-  "endMs": 151420
- },
- {
-  "text": "dengan",
-  "startMs": 151420,
-  "endMs": 151660
- },
- {
-  "text": "cicilan",
-  "startMs": 151660,
-  "endMs": 152060
- },
- {
-  "text": "lima",
-  "startMs": 152060,
-  "endMs": 152360
- },
- {
-  "text": "juta",
-  "startMs": 152360,
-  "endMs": 152640
- },
- {
-  "text": "sebulan.",
-  "startMs": 152640,
-  "endMs": 153120
- },
- {
-  "text": "Skor",
-  "startMs": 153660,
-  "endMs": 154120
- },
- {
-  "text": "tahun",
-  "startMs": 154120,
-  "endMs": 154380
- },
- {
-  "text": "dua",
-  "startMs": 154380,
-  "endMs": 154800
- },
- {
-  "text": "ribu",
-  "startMs": 154800,
-  "endMs": 155220
- },
- {
-  "text": "delapan:",
-  "startMs": 155220,
-  "endMs": 155640
- },
- {
-  "text": "kamu",
-  "startMs": 155640,
-  "endMs": 156060
- },
- {
-  "text": "punya",
-  "startMs": 156060,
-  "endMs": 156280
- },
- {
-  "text": "pohon",
-  "startMs": 156280,
-  "endMs": 156500
- },
- {
-  "text": "pertama",
-  "startMs": 156500,
-  "endMs": 156780
- },
- {
-  "text": "berbuah.",
-  "startMs": 156780,
-  "endMs": 157340
- },
- {
-  "text": "Dia",
-  "startMs": 157820,
-  "endMs": 158180
- },
- {
-  "text": "punya",
-  "startMs": 158180,
-  "endMs": 158420
- },
- {
-  "text": "mobil",
-  "startMs": 158420,
-  "endMs": 158780
- },
- {
-  "text": "baru",
-  "startMs": 158780,
-  "endMs": 159060
- },
- {
-  "text": "yang",
-  "startMs": 159060,
-  "endMs": 159260
- },
- {
-  "text": "belum",
-  "startMs": 159260,
-  "endMs": 159480
- },
- {
-  "text": "lunas.",
-  "startMs": 159480,
-  "endMs": 159960
- },
- {
-  "text": "Tahun",
-  "startMs": 160760,
-  "endMs": 161160
- },
- {
-  "text": "dua",
-  "startMs": 161160,
-  "endMs": 161305
- },
- {
-  "text": "ribu",
-  "startMs": 161305,
-  "endMs": 161450
- },
- {
-  "text": "lima",
-  "startMs": 161450,
-  "endMs": 161595
- },
- {
-  "text": "belas,",
-  "startMs": 161595,
-  "endMs": 161740
- },
- {
-  "text": "pohon",
-  "startMs": 161740,
-  "endMs": 163060
- },
- {
-  "text": "durianmu",
-  "startMs": 163060,
-  "endMs": 163480
- },
- {
-  "text": "sudah",
-  "startMs": 163480,
-  "endMs": 163740
- },
- {
-  "text": "seratus",
-  "startMs": 163740,
-  "endMs": 164160
- },
- {
-  "text": "batang.",
-  "startMs": 164160,
-  "endMs": 164660
- },
- {
-  "text": "Kamu",
-  "startMs": 164980,
-  "endMs": 165560
- },
- {
-  "text": "menanam",
-  "startMs": 165560,
-  "endMs": 165920
- },
- {
-  "text": "lima",
-  "startMs": 165920,
-  "endMs": 166170
- },
- {
-  "text": "puluh",
-  "startMs": 166170,
-  "endMs": 166420
- },
- {
-  "text": "bibit",
-  "startMs": 166420,
-  "endMs": 166700
- },
- {
-  "text": "lagi",
-  "startMs": 166700,
-  "endMs": 166960
- },
- {
-  "text": "di",
-  "startMs": 166960,
-  "endMs": 167100
- },
- {
-  "text": "lahan",
-  "startMs": 167100,
-  "endMs": 167260
- },
- {
-  "text": "yang",
-  "startMs": 167260,
-  "endMs": 167420
- },
- {
-  "text": "sama.",
-  "startMs": 167420,
-  "endMs": 167660
- },
- {
-  "text": "Tahun",
-  "startMs": 168600,
-  "endMs": 169060
- },
- {
-  "text": "itu",
-  "startMs": 169060,
-  "endMs": 169240
- },
- {
-  "text": "juga,",
-  "startMs": 169240,
-  "endMs": 169580
- },
- {
-  "text": "anakmu",
-  "startMs": 170000,
-  "endMs": 170380
- },
- {
-  "text": "merantau",
-  "startMs": 170380,
-  "endMs": 170740
- },
- {
-  "text": "ke",
-  "startMs": 170740,
-  "endMs": 170860
- },
- {
-  "text": "kota,",
-  "startMs": 170860,
-  "endMs": 171140
- },
- {
-  "text": "bekerja",
-  "startMs": 171560,
-  "endMs": 172020
- },
- {
-  "text": "di",
-  "startMs": 172020,
-  "endMs": 172160
- },
- {
-  "text": "kantor",
-  "startMs": 172160,
-  "endMs": 172520
- },
- {
-  "text": "bergaji",
-  "startMs": 172520,
-  "endMs": 172920
- },
- {
-  "text": "enam",
-  "startMs": 172920,
-  "endMs": 173140
- },
- {
-  "text": "juta",
-  "startMs": 173140,
-  "endMs": 173420
- },
- {
-  "text": "sebulan.",
-  "startMs": 173420,
-  "endMs": 173880
- },
- {
-  "text": "Ia",
-  "startMs": 174520,
-  "endMs": 174880
- },
- {
-  "text": "jarang",
-  "startMs": 174880,
-  "endMs": 175120
- },
- {
-  "text": "pulang.",
-  "startMs": 175120,
-  "endMs": 175440
- },
- {
-  "text": "Kalau",
-  "startMs": 175940,
-  "endMs": 176240
- },
- {
-  "text": "menelepon,",
-  "startMs": 176240,
-  "endMs": 177140
- },
- {
-  "text": "bicaranya",
-  "startMs": 177140,
-  "endMs": 177540
- },
- {
-  "text": "singkat:",
-  "startMs": 177540,
-  "endMs": 177980
- },
- {
-  "text": "tentang",
-  "startMs": 178680,
-  "endMs": 178960
- },
- {
-  "text": "kantor,",
-  "startMs": 178960,
-  "endMs": 179440
- },
- {
-  "text": "tentang",
-  "startMs": 179780,
-  "endMs": 180000
- },
- {
-  "text": "kota,",
-  "startMs": 180000,
-  "endMs": 180400
- },
- {
-  "text": "tidak",
-  "startMs": 181000,
-  "endMs": 181260
- },
- {
-  "text": "pernah",
-  "startMs": 181260,
-  "endMs": 181580
- },
- {
-  "text": "tentang",
-  "startMs": 181580,
-  "endMs": 181840
- },
- {
-  "text": "kebun.",
-  "startMs": 181840,
-  "endMs": 182160
- },
- {
-  "text": "Teman-temannya",
-  "startMs": 182160,
-  "endMs": 183500
- },
- {
-  "text": "tidak",
-  "startMs": 183500,
-  "endMs": 183900
- },
- {
-  "text": "tahu",
-  "startMs": 183900,
-  "endMs": 184180
- },
- {
-  "text": "ayahnya",
-  "startMs": 184180,
-  "endMs": 184500
- },
- {
-  "text": "petani.",
-  "startMs": 184500,
-  "endMs": 184840
- },
- {
-  "text": "Ia",
-  "startMs": 185360,
-  "endMs": 185660
- },
- {
-  "text": "tidak",
-  "startMs": 185660,
-  "endMs": 185840
- },
- {
-  "text": "pernah",
-  "startMs": 185840,
-  "endMs": 186040
- },
- {
-  "text": "bercerita,",
-  "startMs": 186040,
-  "endMs": 186520
- },
- {
-  "text": "bukan",
-  "startMs": 187060,
-  "endMs": 187360
- },
- {
-  "text": "karena",
-  "startMs": 187360,
-  "endMs": 187560
- },
- {
-  "text": "tidak",
-  "startMs": 187560,
-  "endMs": 187760
- },
- {
-  "text": "sayang",
-  "startMs": 187760,
-  "endMs": 188040
- },
- {
-  "text": "padamu,",
-  "startMs": 188040,
-  "endMs": 188560
- },
- {
-  "text": "melainkan",
-  "startMs": 188840,
-  "endMs": 189260
- },
- {
-  "text": "karena",
-  "startMs": 189260,
-  "endMs": 189500
- },
- {
-  "text": "malu.",
-  "startMs": 189500,
-  "endMs": 189980
- },
- {
-  "text": "Di",
-  "startMs": 189980,
-  "endMs": 190780
- },
- {
-  "text": "kota,",
-  "startMs": 190780,
-  "endMs": 191120
- },
- {
-  "text": "petani",
-  "startMs": 191500,
-  "endMs": 191820
- },
- {
-  "text": "sering",
-  "startMs": 191820,
-  "endMs": 192080
- },
- {
-  "text": "dipandang",
-  "startMs": 192080,
-  "endMs": 192490
- },
- {
-  "text": "pekerjaan",
-  "startMs": 192490,
-  "endMs": 192900
- },
- {
-  "text": "rendah.",
-  "startMs": 192900,
-  "endMs": 193280
- },
- {
-  "text": "Setiap",
-  "startMs": 194020,
-  "endMs": 194520
- },
- {
-  "text": "bulan",
-  "startMs": 194520,
-  "endMs": 194820
- },
- {
-  "text": "ia",
-  "startMs": 195060,
-  "endMs": 195240
- },
- {
-  "text": "mengirim",
-  "startMs": 195240,
-  "endMs": 195560
- },
- {
-  "text": "lima",
-  "startMs": 195560,
-  "endMs": 195760
- },
- {
-  "text": "ratus",
-  "startMs": 195760,
-  "endMs": 195960
- },
- {
-  "text": "ribu",
-  "startMs": 195960,
-  "endMs": 196420
- },
- {
-  "text": "untuk",
-  "startMs": 196420,
-  "endMs": 196560
- },
- {
-  "text": "membantu.",
-  "startMs": 196560,
-  "endMs": 197000
- },
- {
-  "text": "Kamu",
-  "startMs": 197600,
-  "endMs": 197880
- },
- {
-  "text": "tidak",
-  "startMs": 197880,
-  "endMs": 198020
- },
- {
-  "text": "pernah",
-  "startMs": 198020,
-  "endMs": 198200
- },
- {
-  "text": "memakainya;",
-  "startMs": 198200,
-  "endMs": 198800
- },
- {
-  "text": "uang",
-  "startMs": 199240,
-  "endMs": 199500
- },
- {
-  "text": "itu",
-  "startMs": 199500,
-  "endMs": 199720
- },
- {
-  "text": "kamu",
-  "startMs": 199720,
-  "endMs": 200000
- },
- {
-  "text": "simpan",
-  "startMs": 200000,
-  "endMs": 200360
- },
- {
-  "text": "di",
-  "startMs": 200360,
-  "endMs": 200940
- },
- {
-  "text": "laci.",
-  "startMs": 200940,
-  "endMs": 201520
- },
- {
-  "text": "Bukan",
-  "startMs": 201520,
-  "endMs": 201860
- },
- {
-  "text": "karena",
-  "startMs": 201860,
-  "endMs": 202080
- },
- {
-  "text": "tidak",
-  "startMs": 202080,
-  "endMs": 202300
- },
- {
-  "text": "butuh,",
-  "startMs": 202300,
-  "endMs": 202720
- },
- {
-  "text": "melainkan",
-  "startMs": 203200,
-  "endMs": 203740
- },
- {
-  "text": "kamu",
-  "startMs": 203740,
-  "endMs": 204020
- },
- {
-  "text": "tahu",
-  "startMs": 204020,
-  "endMs": 204360
- },
- {
-  "text": "suatu",
-  "startMs": 204360,
-  "endMs": 204680
- },
- {
-  "text": "hari",
-  "startMs": 204680,
-  "endMs": 204960
- },
- {
-  "text": "ia",
-  "startMs": 204960,
-  "endMs": 205240
- },
- {
-  "text": "akan",
-  "startMs": 205240,
-  "endMs": 205420
- },
- {
-  "text": "pulang",
-  "startMs": 205420,
-  "endMs": 205880
- },
- {
-  "text": "dan",
-  "startMs": 205880,
-  "endMs": 206040
- },
- {
-  "text": "melihat",
-  "startMs": 206040,
-  "endMs": 206380
- },
- {
-  "text": "sendiri",
-  "startMs": 206380,
-  "endMs": 206600
- },
- {
-  "text": "ayahnya",
-  "startMs": 206600,
-  "endMs": 207280
- },
- {
-  "text": "tidak",
-  "startMs": 207280,
-  "endMs": 207580
- },
- {
-  "text": "pernah",
-  "startMs": 207580,
-  "endMs": 207960
- },
- {
-  "text": "kekurangan,",
-  "startMs": 207960,
-  "endMs": 208500
- },
- {
-  "text": "hanya",
-  "startMs": 208960,
-  "endMs": 209400
- },
- {
-  "text": "menunggu.",
-  "startMs": 209400,
-  "endMs": 209900
- },
- {
-  "text": "Skor",
-  "startMs": 210720,
-  "endMs": 211120
- },
- {
-  "text": "tahun",
-  "startMs": 211120,
-  "endMs": 211340
- },
- {
-  "text": "dua",
-  "startMs": 211340,
-  "endMs": 211755
- },
- {
-  "text": "ribu",
-  "startMs": 211755,
-  "endMs": 212170
- },
- {
-  "text": "lima",
-  "startMs": 212170,
-  "endMs": 212585
- },
- {
-  "text": "belas:",
-  "startMs": 212585,
-  "endMs": 213000
- },
- {
-  "text": "kamu",
-  "startMs": 213000,
-  "endMs": 213340
- },
- {
-  "text": "punya",
-  "startMs": 213340,
-  "endMs": 213520
- },
- {
-  "text": "seratus",
-  "startMs": 213520,
-  "endMs": 213980
- },
- {
-  "text": "pohon",
-  "startMs": 213980,
-  "endMs": 214300
- },
- {
-  "text": "durian",
-  "startMs": 214300,
-  "endMs": 214620
- },
- {
-  "text": "dan",
-  "startMs": 214620,
-  "endMs": 214840
- },
- {
-  "text": "lima",
-  "startMs": 214840,
-  "endMs": 215050
- },
- {
-  "text": "puluh",
-  "startMs": 215050,
-  "endMs": 215260
- },
- {
-  "text": "bibit",
-  "startMs": 215260,
-  "endMs": 215540
- },
- {
-  "text": "baru.",
-  "startMs": 215540,
-  "endMs": 215800
- },
- {
-  "text": "Tengkulak",
-  "startMs": 216500,
-  "endMs": 216960
- },
- {
-  "text": "itu",
-  "startMs": 216960,
-  "endMs": 217160
- },
- {
-  "text": "punya",
-  "startMs": 217160,
-  "endMs": 217360
- },
- {
-  "text": "rumah",
-  "startMs": 217360,
-  "endMs": 217540
- },
- {
-  "text": "besar",
-  "startMs": 217540,
-  "endMs": 217860
- },
- {
-  "text": "dan",
-  "startMs": 217860,
-  "endMs": 218080
- },
- {
-  "text": "cicilan",
-  "startMs": 218080,
-  "endMs": 218380
- },
- {
-  "text": "lebih",
-  "startMs": 218380,
-  "endMs": 218580
- },
- {
-  "text": "besar.",
-  "startMs": 218580,
-  "endMs": 218840
- },
- {
-  "text": "Dan",
-  "startMs": 218840,
-  "endMs": 219820
- },
- {
-  "text": "anakmu",
-  "startMs": 219820,
-  "endMs": 220260
- },
- {
-  "text": "bergaji",
-  "startMs": 220260,
-  "endMs": 220640
- },
- {
-  "text": "enam",
-  "startMs": 220640,
-  "endMs": 220840
- },
- {
-  "text": "juta,",
-  "startMs": 220840,
-  "endMs": 221200
- },
- {
-  "text": "tanpa",
-  "startMs": 221200,
-  "endMs": 222140
- },
- {
-  "text": "tahu",
-  "startMs": 222140,
-  "endMs": 222360
- },
- {
-  "text": "kebun",
-  "startMs": 222360,
-  "endMs": 222680
- },
- {
-  "text": "ayahnya",
-  "startMs": 222680,
-  "endMs": 223040
- },
- {
-  "text": "sudah",
-  "startMs": 223040,
-  "endMs": 223180
- },
- {
-  "text": "lebih",
-  "startMs": 223180,
-  "endMs": 223440
- },
- {
-  "text": "besar",
-  "startMs": 223440,
-  "endMs": 223680
- },
- {
-  "text": "dari",
-  "startMs": 223680,
-  "endMs": 223900
- },
- {
-  "text": "gajinya.",
-  "startMs": 223900,
-  "endMs": 224320
- },
- {
-  "text": "Tahun",
-  "startMs": 224800,
-  "endMs": 225440
- },
- {
-  "text": "dua",
-  "startMs": 225440,
-  "endMs": 225793
- },
- {
-  "text": "ribu",
-  "startMs": 225793,
-  "endMs": 226147
- },
- {
-  "text": "dua",
-  "startMs": 226147,
-  "endMs": 226500
- },
- {
-  "text": "puluh,",
-  "startMs": 226500,
-  "endMs": 226853
- },
- {
-  "text": "seratus",
-  "startMs": 226853,
-  "endMs": 227207
- },
- {
-  "text": "lima",
-  "startMs": 227207,
-  "endMs": 227560
- },
- {
-  "text": "puluh",
-  "startMs": 227560,
-  "endMs": 227913
- },
- {
-  "text": "pohonmu",
-  "startMs": 227913,
-  "endMs": 228267
- },
- {
-  "text": "berbuah",
-  "startMs": 228267,
-  "endMs": 228620
- },
- {
-  "text": "serentak.",
-  "startMs": 228620,
-  "endMs": 229060
- },
- {
-  "text": "Panen",
-  "startMs": 229500,
-  "endMs": 229820
- },
- {
-  "text": "besar.",
-  "startMs": 229820,
-  "endMs": 230080
- },
- {
-  "text": "Namun",
-  "startMs": 231100,
-  "endMs": 231460
- },
- {
-  "text": "tengkulak",
-  "startMs": 231640,
-  "endMs": 232020
- },
- {
-  "text": "itu",
-  "startMs": 232020,
-  "endMs": 232180
- },
- {
-  "text": "datang",
-  "startMs": 232180,
-  "endMs": 232540
- },
- {
-  "text": "menawar",
-  "startMs": 232540,
-  "endMs": 232880
- },
- {
-  "text": "durianmu",
-  "startMs": 232880,
-  "endMs": 233340
- },
- {
-  "text": "murah",
-  "startMs": 233340,
-  "endMs": 233620
- },
- {
-  "text": "sekali.",
-  "startMs": 233620,
-  "endMs": 233920
- },
- {
-  "text": "Katanya",
-  "startMs": 234700,
-  "endMs": 235080
- },
- {
-  "text": "pasar",
-  "startMs": 235080,
-  "endMs": 235360
- },
- {
-  "text": "sepi,",
-  "startMs": 235360,
-  "endMs": 235680
- },
- {
-  "text": "dan",
-  "startMs": 236040,
-  "endMs": 236240
- },
- {
-  "text": "kalau",
-  "startMs": 236240,
-  "endMs": 236460
- },
- {
-  "text": "tidak",
-  "startMs": 236460,
-  "endMs": 236640
- },
- {
-  "text": "dijual,",
-  "startMs": 236640,
-  "endMs": 237060
- },
- {
-  "text": "buahmu",
-  "startMs": 237540,
-  "endMs": 237820
- },
- {
-  "text": "akan",
-  "startMs": 237820,
-  "endMs": 238000
- },
- {
-  "text": "busuk.",
-  "startMs": 238000,
-  "endMs": 238340
- },
- {
-  "text": "Kamu",
-  "startMs": 239100,
-  "endMs": 239540
- },
- {
-  "text": "hampir",
-  "startMs": 239540,
-  "endMs": 239740
- },
- {
-  "text": "menyerah.",
-  "startMs": 239740,
-  "endMs": 240160
- },
- {
-  "text": "Tiga",
-  "startMs": 240780,
-  "endMs": 240960
- },
- {
-  "text": "bulan",
-  "startMs": 240960,
-  "endMs": 241240
- },
- {
-  "text": "merawat",
-  "startMs": 241240,
-  "endMs": 241480
- },
- {
-  "text": "buah",
-  "startMs": 241480,
-  "endMs": 241840
- },
- {
-  "text": "rasanya",
-  "startMs": 241840,
-  "endMs": 242200
- },
- {
-  "text": "nyaris",
-  "startMs": 242200,
-  "endMs": 242980
- },
- {
-  "text": "sia-sia.",
-  "startMs": 242980,
-  "endMs": 243760
- },
- {
-  "text": "Tetapi",
-  "startMs": 243760,
-  "endMs": 244440
- },
- {
-  "text": "kamu",
-  "startMs": 244440,
-  "endMs": 244580
- },
- {
-  "text": "menolak.",
-  "startMs": 244580,
-  "endMs": 245040
- },
- {
-  "text": "Kamu",
-  "startMs": 245480,
-  "endMs": 245840
- },
- {
-  "text": "mengubah",
-  "startMs": 245840,
-  "endMs": 246240
- },
- {
-  "text": "aturannya.",
-  "startMs": 246240,
-  "endMs": 246660
- },
- {
-  "text": "Mulai",
-  "startMs": 246660,
-  "endMs": 247740
- },
- {
-  "text": "hari",
-  "startMs": 247740,
-  "endMs": 247920
- },
- {
-  "text": "itu,",
-  "startMs": 247920,
-  "endMs": 248260
- },
- {
-  "text": "durianmu",
-  "startMs": 248660,
-  "endMs": 249080
- },
- {
-  "text": "tidak",
-  "startMs": 249080,
-  "endMs": 249300
- },
- {
-  "text": "lagi",
-  "startMs": 249300,
-  "endMs": 249600
- },
- {
-  "text": "lewat",
-  "startMs": 249600,
-  "endMs": 249780
- },
- {
-  "text": "tengkulak.",
-  "startMs": 249780,
-  "endMs": 250240
- },
- {
-  "text": "Kamu",
-  "startMs": 250620,
-  "endMs": 251020
- },
- {
-  "text": "membuka",
-  "startMs": 251020,
-  "endMs": 251340
- },
- {
-  "text": "kebun",
-  "startMs": 251340,
-  "endMs": 251620
- },
- {
-  "text": "untuk",
-  "startMs": 251620,
-  "endMs": 251840
- },
- {
-  "text": "petik",
-  "startMs": 251840,
-  "endMs": 252060
- },
- {
-  "text": "sendiri:",
-  "startMs": 252060,
-  "endMs": 252320
- },
- {
-  "text": "datang",
-  "startMs": 252920,
-  "endMs": 253280
- },
- {
-  "text": "langsung,",
-  "startMs": 253280,
-  "endMs": 253700
- },
- {
-  "text": "bayar",
-  "startMs": 254080,
-  "endMs": 254420
- },
- {
-  "text": "di",
-  "startMs": 254420,
-  "endMs": 254560
- },
- {
-  "text": "tempat.",
-  "startMs": 254560,
-  "endMs": 254820
- },
- {
-  "text": "Sisanya",
-  "startMs": 255580,
-  "endMs": 256000
- },
- {
-  "text": "kamu",
-  "startMs": 256260,
-  "endMs": 256420
- },
- {
-  "text": "kirim",
-  "startMs": 256420,
-  "endMs": 256720
- },
- {
-  "text": "ke",
-  "startMs": 256720,
-  "endMs": 256840
- },
- {
-  "text": "kota",
-  "startMs": 256840,
-  "endMs": 257040
- },
- {
-  "text": "lewat",
-  "startMs": 257040,
-  "endMs": 257280
- },
- {
-  "text": "perantara",
-  "startMs": 257280,
-  "endMs": 257700
- },
- {
-  "text": "tanpa",
-  "startMs": 257700,
-  "endMs": 258040
- },
- {
-  "text": "menyebut",
-  "startMs": 258040,
-  "endMs": 258320
- },
- {
-  "text": "namamu.",
-  "startMs": 258320,
-  "endMs": 258800
- },
- {
-  "text": "Panen",
-  "startMs": 259280,
-  "endMs": 259640
- },
- {
-  "text": "itu",
-  "startMs": 259640,
-  "endMs": 259880
- },
- {
-  "text": "habis",
-  "startMs": 259880,
-  "endMs": 260280
- },
- {
-  "text": "dalam",
-  "startMs": 260280,
-  "endMs": 260480
- },
- {
-  "text": "dua",
-  "startMs": 260480,
-  "endMs": 260640
- },
- {
-  "text": "minggu",
-  "startMs": 260640,
-  "endMs": 260960
- },
- {
-  "text": "dengan",
-  "startMs": 260960,
-  "endMs": 261140
- },
- {
-  "text": "harga",
-  "startMs": 261140,
-  "endMs": 261400
- },
- {
-  "text": "pantas.",
-  "startMs": 261400,
-  "endMs": 261880
- },
- {
-  "text": "Sejak",
-  "startMs": 262600,
-  "endMs": 263000
- },
- {
-  "text": "itu,",
-  "startMs": 263000,
-  "endMs": 263300
- },
- {
-  "text": "tengkulak",
-  "startMs": 263700,
-  "endMs": 264080
- },
- {
-  "text": "tersebut",
-  "startMs": 264080,
-  "endMs": 264440
- },
- {
-  "text": "membeli",
-  "startMs": 264440,
-  "endMs": 264760
- },
- {
-  "text": "durianmu",
-  "startMs": 264760,
-  "endMs": 265200
- },
- {
-  "text": "lewat",
-  "startMs": 265200,
-  "endMs": 265400
- },
- {
-  "text": "perantara",
-  "startMs": 265400,
-  "endMs": 265840
- },
- {
-  "text": "lebih",
-  "startMs": 265840,
-  "endMs": 266040
- },
- {
-  "text": "mahal,",
-  "startMs": 266040,
-  "endMs": 266460
- },
- {
-  "text": "tanpa",
-  "startMs": 266460,
-  "endMs": 267120
- },
- {
-  "text": "tahu",
-  "startMs": 267120,
-  "endMs": 267320
- },
- {
-  "text": "asalnya.",
-  "startMs": 267320,
-  "endMs": 267700
- },
- {
-  "text": "Orang",
-  "startMs": 268240,
-  "endMs": 268660
- },
- {
-  "text": "kota",
-  "startMs": 268660,
-  "endMs": 269020
- },
- {
-  "text": "mulai",
-  "startMs": 269020,
-  "endMs": 269300
- },
- {
-  "text": "berdatangan.",
-  "startMs": 269300,
-  "endMs": 269940
- },
- {
-  "text": "Mereka",
-  "startMs": 270560,
-  "endMs": 270920
- },
- {
-  "text": "memetik",
-  "startMs": 270920,
-  "endMs": 271240
- },
- {
-  "text": "sendiri,",
-  "startMs": 271240,
-  "endMs": 271720
- },
- {
-  "text": "membayar",
-  "startMs": 272240,
-  "endMs": 272600
- },
- {
-  "text": "di",
-  "startMs": 272600,
-  "endMs": 272740
- },
- {
-  "text": "tempat,",
-  "startMs": 272740,
-  "endMs": 273200
- },
- {
-  "text": "lalu",
-  "startMs": 273740,
-  "endMs": 273940
- },
- {
-  "text": "pulang",
-  "startMs": 273940,
-  "endMs": 274300
- },
- {
-  "text": "membawa",
-  "startMs": 274300,
-  "endMs": 274600
- },
- {
-  "text": "durian.",
-  "startMs": 274600,
-  "endMs": 274980
- },
- {
-  "text": "Anak-anak",
-  "startMs": 274980,
-  "endMs": 276380
- },
- {
-  "text": "mereka",
-  "startMs": 276380,
-  "endMs": 276580
- },
- {
-  "text": "berlarian",
-  "startMs": 276580,
-  "endMs": 277220
- },
- {
-  "text": "di",
-  "startMs": 277220,
-  "endMs": 277380
- },
- {
-  "text": "antara",
-  "startMs": 277380,
-  "endMs": 277620
- },
- {
-  "text": "pohon.",
-  "startMs": 277620,
-  "endMs": 278020
- },
- {
-  "text": "Lahan",
-  "startMs": 278680,
-  "endMs": 279080
- },
- {
-  "text": "yang",
-  "startMs": 279080,
-  "endMs": 279260
- },
- {
-  "text": "dulu",
-  "startMs": 279260,
-  "endMs": 279480
- },
- {
-  "text": "ditolak",
-  "startMs": 279480,
-  "endMs": 280020
- },
- {
-  "text": "kini",
-  "startMs": 280160,
-  "endMs": 280460
- },
- {
-  "text": "dicari",
-  "startMs": 280460,
-  "endMs": 280760
- },
- {
-  "text": "orang.",
-  "startMs": 280760,
-  "endMs": 281020
- },
- {
-  "text": "Sementara",
-  "startMs": 281820,
-  "endMs": 282220
- },
- {
-  "text": "kamu",
-  "startMs": 282220,
-  "endMs": 282560
- },
- {
-  "text": "tetap",
-  "startMs": 283120,
-  "endMs": 283540
- },
- {
-  "text": "petani",
-  "startMs": 283540,
-  "endMs": 283820
- },
- {
-  "text": "sayur",
-  "startMs": 283820,
-  "endMs": 284160
- },
- {
-  "text": "yang",
-  "startMs": 284160,
-  "endMs": 284280
- },
- {
-  "text": "ke",
-  "startMs": 284280,
-  "endMs": 284380
- },
- {
-  "text": "pasar",
-  "startMs": 284380,
-  "endMs": 284720
- },
- {
-  "text": "naik",
-  "startMs": 284720,
-  "endMs": 285000
- },
- {
-  "text": "sepeda",
-  "startMs": 285000,
-  "endMs": 285300
- },
- {
-  "text": "tua.",
-  "startMs": 285300,
-  "endMs": 285480
- },
- {
-  "text": "Kita",
-  "startMs": 286360,
-  "endMs": 286700
- },
- {
-  "text": "hitung.",
-  "startMs": 286700,
-  "endMs": 287020
- },
- {
-  "text": "Seratus",
-  "startMs": 287020,
-  "endMs": 287427
- },
- {
-  "text": "lima",
-  "startMs": 287427,
-  "endMs": 287833
- },
- {
-  "text": "puluh",
-  "startMs": 287833,
-  "endMs": 288240
- },
- {
-  "text": "pohon,",
-  "startMs": 288240,
-  "endMs": 289160
- },
- {
-  "text": "masing-masing",
-  "startMs": 289160,
-  "endMs": 290200
- },
- {
-  "text": "menghasilkan",
-  "startMs": 290200,
-  "endMs": 290800
- },
- {
-  "text": "sekitar",
-  "startMs": 290800,
-  "endMs": 291120
- },
- {
-  "text": "empat",
-  "startMs": 291120,
-  "endMs": 291430
- },
- {
-  "text": "puluh",
-  "startMs": 291430,
-  "endMs": 291740
- },
- {
-  "text": "buah",
-  "startMs": 291740,
-  "endMs": 292100
- },
- {
-  "text": "sekali",
-  "startMs": 292100,
-  "endMs": 292680
- },
- {
-  "text": "panen.",
-  "startMs": 292680,
-  "endMs": 293260
- },
- {
-  "text": "Totalnya",
-  "startMs": 293260,
-  "endMs": 293940
- },
- {
-  "text": "enam",
-  "startMs": 293940,
-  "endMs": 294080
- },
- {
-  "text": "ribu",
-  "startMs": 294080,
-  "endMs": 294220
- },
- {
-  "text": "buah.",
-  "startMs": 294220,
-  "endMs": 294820
- },
- {
-  "text": "Dengan",
-  "startMs": 295440,
-  "endMs": 295760
- },
- {
-  "text": "harga",
-  "startMs": 295760,
-  "endMs": 296100
- },
- {
-  "text": "dua",
-  "startMs": 296100,
-  "endMs": 296200
- },
- {
-  "text": "puluh",
-  "startMs": 296200,
-  "endMs": 296300
- },
- {
-  "text": "ribu",
-  "startMs": 296300,
-  "endMs": 296780
- },
- {
-  "text": "per",
-  "startMs": 296780,
-  "endMs": 296900
- },
- {
-  "text": "buah,",
-  "startMs": 296900,
-  "endMs": 297280
- },
- {
-  "text": "hasilnya",
-  "startMs": 297740,
-  "endMs": 298220
- },
- {
-  "text": "seratus",
-  "startMs": 298220,
-  "endMs": 298340
- },
- {
-  "text": "dua",
-  "startMs": 298340,
-  "endMs": 298460
- },
- {
-  "text": "puluh",
-  "startMs": 298460,
-  "endMs": 298580
- },
- {
-  "text": "juta",
-  "startMs": 298580,
-  "endMs": 299200
- },
- {
-  "text": "setahun,",
-  "startMs": 299200,
-  "endMs": 299680
- },
- {
-  "text": "atau",
-  "startMs": 300160,
-  "endMs": 300780
- },
- {
-  "text": "sepuluh",
-  "startMs": 300780,
-  "endMs": 301080
- },
- {
-  "text": "juta",
-  "startMs": 301080,
-  "endMs": 301380
- },
- {
-  "text": "sebulan.",
-  "startMs": 301380,
-  "endMs": 301840
- },
- {
-  "text": "Ditambah",
-  "startMs": 301840,
-  "endMs": 303040
- },
- {
-  "text": "sayur",
-  "startMs": 303040,
-  "endMs": 303300
- },
- {
-  "text": "tiga",
-  "startMs": 303300,
-  "endMs": 303520
- },
- {
-  "text": "juta,",
-  "startMs": 303520,
-  "endMs": 303840
- },
- {
-  "text": "totalmu",
-  "startMs": 304340,
-  "endMs": 304980
- },
- {
-  "text": "tiga",
-  "startMs": 304980,
-  "endMs": 305160
- },
- {
-  "text": "belas",
-  "startMs": 305160,
-  "endMs": 305340
- },
- {
-  "text": "juta",
-  "startMs": 305340,
-  "endMs": 305780
- },
- {
-  "text": "sebulan.",
-  "startMs": 305780,
-  "endMs": 306240
- },
- {
-  "text": "Dari",
-  "startMs": 306860,
-  "endMs": 307240
- },
- {
-  "text": "tanah",
-  "startMs": 307240,
-  "endMs": 307620
- },
- {
-  "text": "yang",
-  "startMs": 307620,
-  "endMs": 307780
- },
- {
-  "text": "dulu",
-  "startMs": 307780,
-  "endMs": 308020
- },
- {
-  "text": "dianggap",
-  "startMs": 308020,
-  "endMs": 308480
- },
- {
-  "text": "tidak",
-  "startMs": 308480,
-  "endMs": 308820
- },
- {
-  "text": "menghasilkan",
-  "startMs": 308820,
-  "endMs": 309440
- },
- {
-  "text": "apa-apa.",
-  "startMs": 309440,
-  "endMs": 310680
- },
- {
-  "text": "Skor",
-  "startMs": 310680,
-  "endMs": 311160
- },
- {
-  "text": "tahun",
-  "startMs": 311160,
-  "endMs": 311460
- },
- {
-  "text": "dua",
-  "startMs": 311460,
-  "endMs": 311835
- },
- {
-  "text": "ribu",
-  "startMs": 311835,
-  "endMs": 312210
- },
- {
-  "text": "dua",
-  "startMs": 312210,
-  "endMs": 312585
- },
- {
-  "text": "puluh:",
-  "startMs": 312585,
-  "endMs": 312960
- },
- {
-  "text": "kamu",
-  "startMs": 312960,
-  "endMs": 313440
- },
- {
-  "text": "punya",
-  "startMs": 313440,
-  "endMs": 313700
- },
- {
-  "text": "seratus",
-  "startMs": 313700,
-  "endMs": 313853
- },
- {
-  "text": "lima",
-  "startMs": 313853,
-  "endMs": 314007
- },
- {
-  "text": "puluh",
-  "startMs": 314007,
-  "endMs": 314160
- },
- {
-  "text": "pohon,",
-  "startMs": 314160,
-  "endMs": 314840
- },
- {
-  "text": "tiga",
-  "startMs": 314840,
-  "endMs": 315240
- },
- {
-  "text": "belas",
-  "startMs": 315240,
-  "endMs": 315640
- },
- {
-  "text": "juta",
-  "startMs": 315640,
-  "endMs": 315940
- },
- {
-  "text": "sebulan.",
-  "startMs": 315940,
-  "endMs": 316400
- },
- {
-  "text": "Dia",
-  "startMs": 317080,
-  "endMs": 317400
- },
- {
-  "text": "masih",
-  "startMs": 317400,
-  "endMs": 317660
- },
- {
-  "text": "menekan",
-  "startMs": 317660,
-  "endMs": 318060
- },
- {
-  "text": "harga",
-  "startMs": 318060,
-  "endMs": 318300
- },
- {
-  "text": "sayur,",
-  "startMs": 318300,
-  "endMs": 318720
- },
- {
-  "text": "dan",
-  "startMs": 318720,
-  "endMs": 319420
- },
- {
-  "text": "masih",
-  "startMs": 319420,
-  "endMs": 319680
- },
- {
-  "text": "terikat",
-  "startMs": 319680,
-  "endMs": 320020
- },
- {
-  "text": "cicilan",
-  "startMs": 320020,
-  "endMs": 320460
- },
- {
-  "text": "mobil",
-  "startMs": 320460,
-  "endMs": 320720
- },
- {
-  "text": "barunya",
-  "startMs": 320720,
-  "endMs": 321100
- },
- {
-  "text": "yang",
-  "startMs": 321100,
-  "endMs": 321240
- },
- {
-  "text": "kesekian,",
-  "startMs": 321240,
-  "endMs": 321760
- },
- {
-  "text": "karena",
-  "startMs": 322280,
-  "endMs": 322640
- },
- {
-  "text": "setiap",
-  "startMs": 322640,
-  "endMs": 322940
- },
- {
-  "text": "satu",
-  "startMs": 322940,
-  "endMs": 323160
- },
- {
-  "text": "cicilan",
-  "startMs": 323160,
-  "endMs": 323480
- },
- {
-  "text": "lunas,",
-  "startMs": 323480,
-  "endMs": 324000
- },
- {
-  "text": "ia",
-  "startMs": 324340,
-  "endMs": 324540
- },
- {
-  "text": "selalu",
-  "startMs": 324540,
-  "endMs": 324860
- },
- {
-  "text": "menukarnya",
-  "startMs": 324860,
-  "endMs": 325300
- },
- {
-  "text": "dengan",
-  "startMs": 325300,
-  "endMs": 325580
- },
- {
-  "text": "yang",
-  "startMs": 325580,
-  "endMs": 325820
- },
- {
-  "text": "lebih",
-  "startMs": 325820,
-  "endMs": 326000
- },
- {
-  "text": "mahal.",
-  "startMs": 326000,
-  "endMs": 326380
- },
- {
-  "text": "Setelah",
-  "startMs": 327100,
-  "endMs": 327540
- },
- {
-  "text": "tahun",
-  "startMs": 327540,
-  "endMs": 327760
- },
- {
-  "text": "dua",
-  "startMs": 327760,
-  "endMs": 328080
- },
- {
-  "text": "ribu",
-  "startMs": 328080,
-  "endMs": 328400
- },
- {
-  "text": "dua",
-  "startMs": 328400,
-  "endMs": 328720
- },
- {
-  "text": "puluh,",
-  "startMs": 328720,
-  "endMs": 329040
- },
- {
-  "text": "musim",
-  "startMs": 329040,
-  "endMs": 329440
- },
- {
-  "text": "berganti.",
-  "startMs": 329440,
-  "endMs": 329880
- },
- {
-  "text": "Tiga",
-  "startMs": 329880,
-  "endMs": 330960
- },
- {
-  "text": "kali",
-  "startMs": 330960,
-  "endMs": 331120
- },
- {
-  "text": "panen",
-  "startMs": 331120,
-  "endMs": 331420
- },
- {
-  "text": "berturut-turut,",
-  "startMs": 331420,
-  "endMs": 332560
- },
- {
-  "text": "tiga",
-  "startMs": 332560,
-  "endMs": 333040
- },
- {
-  "text": "kali",
-  "startMs": 333040,
-  "endMs": 333320
- },
- {
-  "text": "seratus",
-  "startMs": 333320,
-  "endMs": 333467
- },
- {
-  "text": "dua",
-  "startMs": 333467,
-  "endMs": 333613
- },
- {
-  "text": "puluh",
-  "startMs": 333613,
-  "endMs": 333760
- },
- {
-  "text": "juta,",
-  "startMs": 333760,
-  "endMs": 334340
- },
- {
-  "text": "terkumpul",
-  "startMs": 335040,
-  "endMs": 335700
- },
- {
-  "text": "tiga",
-  "startMs": 335700,
-  "endMs": 335860
- },
- {
-  "text": "ratus",
-  "startMs": 335860,
-  "endMs": 336020
- },
- {
-  "text": "enam",
-  "startMs": 336020,
-  "endMs": 336180
- },
- {
-  "text": "puluh",
-  "startMs": 336180,
-  "endMs": 336340
- },
- {
-  "text": "juta.",
-  "startMs": 336340,
-  "endMs": 336900
- },
- {
-  "text": "Dari",
-  "startMs": 337740,
-  "endMs": 338000
- },
- {
-  "text": "sana,",
-  "startMs": 338000,
-  "endMs": 338280
- },
- {
-  "text": "kamu",
-  "startMs": 338920,
-  "endMs": 339160
- },
- {
-  "text": "membangun",
-  "startMs": 339160,
-  "endMs": 339580
- },
- {
-  "text": "rumah",
-  "startMs": 339580,
-  "endMs": 339740
- },
- {
-  "text": "baru",
-  "startMs": 339740,
-  "endMs": 340080
- },
- {
-  "text": "seharga",
-  "startMs": 340080,
-  "endMs": 340460
- },
- {
-  "text": "dua",
-  "startMs": 340460,
-  "endMs": 340585
- },
- {
-  "text": "ratus",
-  "startMs": 340585,
-  "endMs": 340710
- },
- {
-  "text": "lima",
-  "startMs": 340710,
-  "endMs": 340835
- },
- {
-  "text": "puluh",
-  "startMs": 340835,
-  "endMs": 340960
- },
- {
-  "text": "juta.",
-  "startMs": 340960,
-  "endMs": 341700
- },
- {
-  "text": "Tanpa",
-  "startMs": 342120,
-  "endMs": 342720
- },
- {
-  "text": "utang.",
-  "startMs": 342720,
-  "endMs": 343100
- },
- {
-  "text": "Tanpa",
-  "startMs": 343720,
-  "endMs": 344140
- },
- {
-  "text": "cicilan.",
-  "startMs": 344140,
-  "endMs": 344640
- },
- {
-  "text": "Sisanya",
-  "startMs": 345440,
-  "endMs": 345840
- },
- {
-  "text": "untuk",
-  "startMs": 345840,
-  "endMs": 346000
- },
- {
-  "text": "merawat",
-  "startMs": 346000,
-  "endMs": 346260
- },
- {
-  "text": "kebun.",
-  "startMs": 346260,
-  "endMs": 346600
- },
- {
-  "text": "Kamu",
-  "startMs": 347240,
-  "endMs": 347700
- },
- {
-  "text": "membangunnya",
-  "startMs": 347700,
-  "endMs": 348160
- },
- {
-  "text": "pelan-pelan",
-  "startMs": 348160,
-  "endMs": 348620
- },
- {
-  "text": "di",
-  "startMs": 348620,
-  "endMs": 348760
- },
- {
-  "text": "samping",
-  "startMs": 348760,
-  "endMs": 348920
- },
- {
-  "text": "rumah",
-  "startMs": 348920,
-  "endMs": 349100
- },
- {
-  "text": "lama",
-  "startMs": 349100,
-  "endMs": 349440
- },
- {
-  "text": "beberapa",
-  "startMs": 349440,
-  "endMs": 349780
- },
- {
-  "text": "tahun",
-  "startMs": 349780,
-  "endMs": 350040
- },
- {
-  "text": "berikutnya,",
-  "startMs": 350040,
-  "endMs": 350600
- },
- {
-  "text": "tanpa",
-  "startMs": 351080,
-  "endMs": 351560
- },
- {
-  "text": "memberi",
-  "startMs": 351560,
-  "endMs": 351790
- },
- {
-  "text": "tahu",
-  "startMs": 351790,
-  "endMs": 352020
- },
- {
-  "text": "siapa",
-  "startMs": 352020,
-  "endMs": 352250
- },
- {
-  "text": "pun",
-  "startMs": 352250,
-  "endMs": 352480
- },
- {
-  "text": "asal",
-  "startMs": 352480,
-  "endMs": 352720
- },
- {
-  "text": "uangnya.",
-  "startMs": 352720,
-  "endMs": 353180
- },
- {
-  "text": "Hingga",
-  "startMs": 353180,
-  "endMs": 354400
- },
- {
-  "text": "genap",
-  "startMs": 354400,
-  "endMs": 354820
- },
- {
-  "text": "dua",
-  "startMs": 354820,
-  "endMs": 354967
- },
- {
-  "text": "puluh",
-  "startMs": 354967,
-  "endMs": 355113
- },
- {
-  "text": "lima",
-  "startMs": 355113,
-  "endMs": 355260
- },
- {
-  "text": "tahun",
-  "startMs": 355260,
-  "endMs": 355820
- },
- {
-  "text": "sejak",
-  "startMs": 355820,
-  "endMs": 356200
- },
- {
-  "text": "bibit",
-  "startMs": 356200,
-  "endMs": 356440
- },
- {
-  "text": "pertama",
-  "startMs": 356440,
-  "endMs": 356680
- },
- {
-  "text": "ditanam",
-  "startMs": 356680,
-  "endMs": 357240
- },
- {
-  "text": "di",
-  "startMs": 357240,
-  "endMs": 357400
- },
- {
-  "text": "tahun",
-  "startMs": 357400,
-  "endMs": 357560
- },
- {
-  "text": "dua",
-  "startMs": 357560,
-  "endMs": 358020
- },
- {
-  "text": "ribu",
-  "startMs": 358020,
-  "endMs": 358480
- },
- {
-  "text": "satu,",
-  "startMs": 358480,
-  "endMs": 358940
- },
- {
-  "text": "rumah",
-  "startMs": 358940,
-  "endMs": 359200
- },
- {
-  "text": "barumu",
-  "startMs": 359200,
-  "endMs": 359520
- },
- {
-  "text": "selesai",
-  "startMs": 359520,
-  "endMs": 359860
- },
- {
-  "text": "berdiri.",
-  "startMs": 359860,
-  "endMs": 360260
- },
- {
-  "text": "Lalu",
-  "startMs": 360960,
-  "endMs": 361260
- },
- {
-  "text": "datanglah",
-  "startMs": 361260,
-  "endMs": 361820
- },
- {
-  "text": "hari",
-  "startMs": 361820,
-  "endMs": 362000
- },
- {
-  "text": "itu.",
-  "startMs": 362000,
-  "endMs": 362280
- },
- {
-  "text": "Di",
-  "startMs": 363080,
-  "endMs": 363300
- },
- {
-  "text": "pasar,",
-  "startMs": 363300,
-  "endMs": 363640
- },
- {
-  "text": "tengkulak",
-  "startMs": 364220,
-  "endMs": 364640
- },
- {
-  "text": "itu",
-  "startMs": 364640,
-  "endMs": 364840
- },
- {
-  "text": "memamerkan",
-  "startMs": 364840,
-  "endMs": 365340
- },
- {
-  "text": "dagangannya.",
-  "startMs": 365340,
-  "endMs": 365900
- },
- {
-  "text": "\"Durian",
-  "startMs": 365900,
-  "endMs": 367160
- },
- {
-  "text": "saya",
-  "startMs": 367160,
-  "endMs": 367340
- },
- {
-  "text": "dari",
-  "startMs": 367340,
-  "endMs": 367520
- },
- {
-  "text": "balik",
-  "startMs": 367520,
-  "endMs": 367740
- },
- {
-  "text": "bukit,\"",
-  "startMs": 367740,
-  "endMs": 368020
- },
- {
-  "text": "katanya",
-  "startMs": 368740,
-  "endMs": 369100
- },
- {
-  "text": "bangga.",
-  "startMs": 369100,
-  "endMs": 369500
- },
- {
-  "text": "\"Kualitasnya",
-  "startMs": 370140,
-  "endMs": 370580
- },
- {
-  "text": "paling",
-  "startMs": 370580,
-  "endMs": 370740
- },
- {
-  "text": "bagus.",
-  "startMs": 370740,
-  "endMs": 371040
- },
- {
-  "text": "Untungnya",
-  "startMs": 371740,
-  "endMs": 372140
- },
- {
-  "text": "besar.\"",
-  "startMs": 372140,
-  "endMs": 372420
- },
- {
-  "text": "Kamu",
-  "startMs": 373380,
-  "endMs": 373760
- },
- {
-  "text": "mendengarkan,",
-  "startMs": 373760,
-  "endMs": 374180
- },
- {
-  "text": "lalu",
-  "startMs": 374820,
-  "endMs": 375140
- },
- {
-  "text": "bertanya,",
-  "startMs": 375140,
-  "endMs": 375500
- },
- {
-  "text": "\"Boleh",
-  "startMs": 376220,
-  "endMs": 376440
- },
- {
-  "text": "saya",
-  "startMs": 376440,
-  "endMs": 376600
- },
- {
-  "text": "tunjukkan",
-  "startMs": 376600,
-  "endMs": 377000
- },
- {
-  "text": "kebunnya?\"",
-  "startMs": 377000,
-  "endMs": 377420
- },
- {
-  "text": "Ia",
-  "startMs": 378000,
-  "endMs": 378360
- },
- {
-  "text": "tertawa,",
-  "startMs": 378360,
-  "endMs": 378760
- },
- {
-  "text": "lalu",
-  "startMs": 379320,
-  "endMs": 379660
- },
- {
-  "text": "mengikutimu.",
-  "startMs": 379660,
-  "endMs": 380320
- },
- {
-  "text": "Kamu",
-  "startMs": 381060,
-  "endMs": 381480
- },
- {
-  "text": "membawanya",
-  "startMs": 381480,
-  "endMs": 381920
- },
- {
-  "text": "ke",
-  "startMs": 381920,
-  "endMs": 382080
- },
- {
-  "text": "balik",
-  "startMs": 382080,
-  "endMs": 382260
- },
- {
-  "text": "bukit.",
-  "startMs": 382260,
-  "endMs": 382540
- },
- {
-  "text": "Dua",
-  "startMs": 382540,
-  "endMs": 383700
- },
- {
-  "text": "hektar.",
-  "startMs": 383700,
-  "endMs": 384240
- },
- {
-  "text": "Seratus",
-  "startMs": 384240,
-  "endMs": 384627
- },
- {
-  "text": "lima",
-  "startMs": 384627,
-  "endMs": 385013
- },
- {
-  "text": "puluh",
-  "startMs": 385013,
-  "endMs": 385400
- },
- {
-  "text": "pohon.",
-  "startMs": 385400,
-  "endMs": 386180
- },
- {
-  "text": "Di",
-  "startMs": 386740,
-  "endMs": 386940
- },
- {
-  "text": "tengahnya",
-  "startMs": 386940,
-  "endMs": 387400
- },
- {
-  "text": "berdiri",
-  "startMs": 387400,
-  "endMs": 387740
- },
- {
-  "text": "pohon",
-  "startMs": 387740,
-  "endMs": 388060
- },
- {
-  "text": "pertama",
-  "startMs": 388060,
-  "endMs": 388400
- },
- {
-  "text": "paling",
-  "startMs": 388400,
-  "endMs": 388700
- },
- {
-  "text": "besar,",
-  "startMs": 388700,
-  "endMs": 389040
- },
- {
-  "text": "yang",
-  "startMs": 389600,
-  "endMs": 389760
- },
- {
-  "text": "kamu",
-  "startMs": 389760,
-  "endMs": 389960
- },
- {
-  "text": "tanam",
-  "startMs": 389960,
-  "endMs": 390240
- },
- {
-  "text": "dua",
-  "startMs": 390240,
-  "endMs": 390380
- },
- {
-  "text": "puluh",
-  "startMs": 390380,
-  "endMs": 390520
- },
- {
-  "text": "lima",
-  "startMs": 390520,
-  "endMs": 390660
- },
- {
-  "text": "tahun",
-  "startMs": 390660,
-  "endMs": 391120
- },
- {
-  "text": "lalu.",
-  "startMs": 391120,
-  "endMs": 391480
- },
- {
-  "text": "Ia",
-  "startMs": 392180,
-  "endMs": 392480
- },
- {
-  "text": "terhenti.",
-  "startMs": 392480,
-  "endMs": 393740
- },
- {
-  "text": "Ia",
-  "startMs": 393740,
-  "endMs": 394060
- },
- {
-  "text": "melihat",
-  "startMs": 394060,
-  "endMs": 394360
- },
- {
-  "text": "perantara",
-  "startMs": 394360,
-  "endMs": 394800
- },
- {
-  "text": "langganannya",
-  "startMs": 394800,
-  "endMs": 395300
- },
- {
-  "text": "memuat",
-  "startMs": 395300,
-  "endMs": 395680
- },
- {
-  "text": "durian",
-  "startMs": 395680,
-  "endMs": 396020
- },
- {
-  "text": "ke",
-  "startMs": 396020,
-  "endMs": 396520
- },
- {
-  "text": "truk.",
-  "startMs": 396520,
-  "endMs": 397020
- },
- {
-  "text": "Ia",
-  "startMs": 397020,
-  "endMs": 397300
- },
- {
-  "text": "menoleh",
-  "startMs": 397300,
-  "endMs": 397600
- },
- {
-  "text": "padamu",
-  "startMs": 397600,
-  "endMs": 398100
- },
- {
-  "text": "dan",
-  "startMs": 398620,
-  "endMs": 398840
- },
- {
-  "text": "mengerti.",
-  "startMs": 398840,
-  "endMs": 399280
- },
- {
-  "text": "Durian",
-  "startMs": 399700,
-  "endMs": 400160
- },
- {
-  "text": "yang",
-  "startMs": 400160,
-  "endMs": 400340
- },
- {
-  "text": "ia",
-  "startMs": 400340,
-  "endMs": 400560
- },
- {
-  "text": "jual",
-  "startMs": 400560,
-  "endMs": 400880
- },
- {
-  "text": "dengan",
-  "startMs": 400880,
-  "endMs": 401080
- },
- {
-  "text": "untung",
-  "startMs": 401080,
-  "endMs": 401520
- },
- {
-  "text": "besar",
-  "startMs": 401520,
-  "endMs": 401840
- },
- {
-  "text": "tumbuh",
-  "startMs": 401840,
-  "endMs": 402400
- },
- {
-  "text": "di",
-  "startMs": 402400,
-  "endMs": 402540
- },
- {
-  "text": "kebun",
-  "startMs": 402540,
-  "endMs": 402860
- },
- {
-  "text": "petani",
-  "startMs": 402860,
-  "endMs": 403220
- },
- {
-  "text": "sayur",
-  "startMs": 403220,
-  "endMs": 403640
- },
- {
-  "text": "yang",
-  "startMs": 403640,
-  "endMs": 403840
- },
- {
-  "text": "harganya",
-  "startMs": 403840,
-  "endMs": 404480
- },
- {
-  "text": "ia",
-  "startMs": 404480,
-  "endMs": 404680
- },
- {
-  "text": "tekan",
-  "startMs": 404680,
-  "endMs": 405200
- },
- {
-  "text": "setiap",
-  "startMs": 405200,
-  "endMs": 405620
- },
- {
-  "text": "hari.",
-  "startMs": 405620,
-  "endMs": 405860
- },
- {
-  "text": "Ia",
-  "startMs": 406660,
-  "endMs": 407220
- },
- {
-  "text": "tidak",
-  "startMs": 407220,
-  "endMs": 407380
- },
- {
-  "text": "berkata",
-  "startMs": 407380,
-  "endMs": 407720
- },
- {
-  "text": "apa-apa.",
-  "startMs": 407720,
-  "endMs": 408600
- },
- {
-  "text": "Ia",
-  "startMs": 408600,
-  "endMs": 409000
- },
- {
-  "text": "hanya",
-  "startMs": 409000,
-  "endMs": 409160
- },
- {
-  "text": "menatap",
-  "startMs": 409160,
-  "endMs": 409560
- },
- {
-  "text": "pohon",
-  "startMs": 409560,
-  "endMs": 409880
- },
- {
-  "text": "itu",
-  "startMs": 409880,
-  "endMs": 410100
- },
- {
-  "text": "lama",
-  "startMs": 410100,
-  "endMs": 410540
- },
- {
-  "text": "sekali,",
-  "startMs": 410540,
-  "endMs": 410900
- },
- {
-  "text": "karena",
-  "startMs": 410900,
-  "endMs": 411980
- },
- {
-  "text": "baru",
-  "startMs": 411980,
-  "endMs": 412300
- },
- {
-  "text": "kali",
-  "startMs": 412300,
-  "endMs": 412520
- },
- {
-  "text": "ini",
-  "startMs": 412520,
-  "endMs": 412940
- },
- {
-  "text": "ia",
-  "startMs": 413280,
-  "endMs": 413540
- },
- {
-  "text": "melihat",
-  "startMs": 413540,
-  "endMs": 413840
- },
- {
-  "text": "jelas",
-  "startMs": 413840,
-  "endMs": 414160
- },
- {
-  "text": "dari",
-  "startMs": 414160,
-  "endMs": 414400
- },
- {
-  "text": "mana",
-  "startMs": 414400,
-  "endMs": 414660
- },
- {
-  "text": "uangnya",
-  "startMs": 414660,
-  "endMs": 415260
- },
- {
-  "text": "berasal.",
-  "startMs": 415260,
-  "endMs": 415820
- },
- {
-  "text": "Sejak",
-  "startMs": 415820,
-  "endMs": 417240
- },
- {
-  "text": "hari",
-  "startMs": 417240,
-  "endMs": 417440
- },
- {
-  "text": "itu,",
-  "startMs": 417440,
-  "endMs": 417680
- },
- {
-  "text": "ia",
-  "startMs": 418020,
-  "endMs": 418180
- },
- {
-  "text": "tidak",
-  "startMs": 418180,
-  "endMs": 418320
- },
- {
-  "text": "lagi",
-  "startMs": 418320,
-  "endMs": 418620
- },
- {
-  "text": "menawar",
-  "startMs": 418620,
-  "endMs": 418960
- },
- {
-  "text": "sayurmu",
-  "startMs": 418960,
-  "endMs": 419640
- },
- {
-  "text": "murah.",
-  "startMs": 419640,
-  "endMs": 420320
- },
- {
-  "text": "Ia",
-  "startMs": 420320,
-  "endMs": 420640
- },
- {
-  "text": "membeli",
-  "startMs": 420640,
-  "endMs": 421000
- },
- {
-  "text": "dengan",
-  "startMs": 421000,
-  "endMs": 421200
- },
- {
-  "text": "harga",
-  "startMs": 421200,
-  "endMs": 421580
- },
- {
-  "text": "pantas,",
-  "startMs": 421580,
-  "endMs": 422180
- },
- {
-  "text": "lalu",
-  "startMs": 422720,
-  "endMs": 423040
- },
- {
-  "text": "meminta",
-  "startMs": 423040,
-  "endMs": 423400
- },
- {
-  "text": "izin",
-  "startMs": 423400,
-  "endMs": 423800
- },
- {
-  "text": "membeli",
-  "startMs": 423800,
-  "endMs": 424140
- },
- {
-  "text": "durian",
-  "startMs": 424140,
-  "endMs": 424440
+  "text": "panik,",
+  "startMs": 3480,
+  "endMs": 4300
  },
  {
   "text": "langsung",
-  "startMs": 424440,
-  "endMs": 424960
+  "startMs": 4820,
+  "endMs": 5280
  },
  {
-  "text": "darimu",
-  "startMs": 424960,
-  "endMs": 425560
+  "text": "menelepon",
+  "startMs": 5280,
+  "endMs": 5660
  },
  {
-  "text": "sesuai",
-  "startMs": 425560,
-  "endMs": 426180
+  "text": "bengkel",
+  "startMs": 5660,
+  "endMs": 6040
  },
  {
-  "text": "hargamu.",
-  "startMs": 426180,
-  "endMs": 426800
+  "text": "minta",
+  "startMs": 6040,
+  "endMs": 6320
  },
  {
-  "text": "Kamu",
-  "startMs": 427500,
-  "endMs": 427900
+  "text": "motor",
+  "startMs": 6320,
+  "endMs": 6540
  },
  {
-  "text": "mengangguk.",
-  "startMs": 427900,
-  "endMs": 428360
+  "text": "pengganti",
+  "startMs": 6540,
+  "endMs": 6960
  },
  {
-  "text": "Bukan",
-  "startMs": 429080,
-  "endMs": 429320
- },
- {
-  "text": "karena",
-  "startMs": 429320,
-  "endMs": 429580
- },
- {
-  "text": "ia",
-  "startMs": 429580,
-  "endMs": 429760
- },
- {
-  "text": "tiba-tiba",
-  "startMs": 429760,
-  "endMs": 430140
- },
- {
-  "text": "baik,",
-  "startMs": 430140,
-  "endMs": 430420
- },
- {
-  "text": "melainkan",
-  "startMs": 430420,
-  "endMs": 431520
- },
- {
-  "text": "karena",
-  "startMs": 431520,
-  "endMs": 431740
- },
- {
-  "text": "ia",
-  "startMs": 431740,
-  "endMs": 432080
- },
- {
-  "text": "akhirnya",
-  "startMs": 432080,
-  "endMs": 432580
- },
- {
-  "text": "tahu",
-  "startMs": 432580,
-  "endMs": 432920
- },
- {
-  "text": "dengan",
-  "startMs": 432920,
-  "endMs": 433160
- },
- {
-  "text": "siapa",
-  "startMs": 433160,
-  "endMs": 433600
- },
- {
-  "text": "ia",
-  "startMs": 433600,
-  "endMs": 433840
- },
- {
-  "text": "berurusan",
-  "startMs": 433840,
-  "endMs": 434420
- },
- {
-  "text": "selama",
-  "startMs": 434420,
-  "endMs": 434780
- },
- {
-  "text": "ini.",
-  "startMs": 434780,
-  "endMs": 435060
- },
- {
-  "text": "Minggu",
-  "startMs": 435940,
-  "endMs": 436340
- },
- {
-  "text": "itu",
-  "startMs": 436340,
-  "endMs": 436480
- },
- {
-  "text": "juga,",
-  "startMs": 436480,
-  "endMs": 436800
- },
- {
-  "text": "anakmu",
-  "startMs": 437440,
-  "endMs": 437720
- },
- {
-  "text": "pulang.",
-  "startMs": 437720,
-  "endMs": 438060
- },
- {
-  "text": "Sudah",
-  "startMs": 438060,
-  "endMs": 439180
- },
- {
-  "text": "dua",
-  "startMs": 439180,
-  "endMs": 439340
- },
- {
-  "text": "tahun",
-  "startMs": 439340,
-  "endMs": 439640
- },
- {
-  "text": "ia",
-  "startMs": 439640,
-  "endMs": 439800
- },
- {
-  "text": "tidak",
-  "startMs": 439800,
-  "endMs": 439960
- },
- {
-  "text": "berkunjung.",
-  "startMs": 439960,
-  "endMs": 440460
+  "text": "secepatnya.",
+  "startMs": 6960,
+  "endMs": 7800
  },
  {
   "text": "Ia",
-  "startMs": 441140,
-  "endMs": 441700
- },
- {
-  "text": "tertegun",
-  "startMs": 441700,
-  "endMs": 442240
- },
- {
-  "text": "melihat",
-  "startMs": 442240,
-  "endMs": 442580
- },
- {
-  "text": "rumah",
-  "startMs": 442580,
-  "endMs": 442720
- },
- {
-  "text": "baru",
-  "startMs": 442720,
-  "endMs": 443040
- },
- {
-  "text": "itu,",
-  "startMs": 443040,
-  "endMs": 443360
- },
- {
-  "text": "lalu",
-  "startMs": 443740,
-  "endMs": 444020
- },
- {
-  "text": "bertanya,",
-  "startMs": 444020,
-  "endMs": 444400
- },
- {
-  "text": "\"Rumah",
-  "startMs": 445280,
-  "endMs": 445760
- },
- {
-  "text": "ini...",
-  "startMs": 445760,
-  "endMs": 445980
- },
- {
-  "text": "dari",
-  "startMs": 445980,
-  "endMs": 446900
- },
- {
-  "text": "mana,",
-  "startMs": 446900,
-  "endMs": 447180
- },
- {
-  "text": "Yah?\"",
-  "startMs": 447180,
-  "endMs": 448620
- },
- {
-  "text": "Kamu",
-  "startMs": 448620,
-  "endMs": 449000
+  "startMs": 8420,
+  "endMs": 8860
  },
  {
   "text": "tidak",
-  "startMs": 449000,
-  "endMs": 449140
+  "startMs": 8860,
+  "endMs": 8980
  },
  {
-  "text": "menjawab,",
-  "startMs": 449140,
-  "endMs": 449680
- },
- {
-  "text": "hanya",
-  "startMs": 450000,
-  "endMs": 450240
- },
- {
-  "text": "mengajaknya",
-  "startMs": 450240,
-  "endMs": 450840
- },
- {
-  "text": "ke",
-  "startMs": 450840,
-  "endMs": 450960
- },
- {
-  "text": "balik",
-  "startMs": 450960,
-  "endMs": 451180
- },
- {
-  "text": "bukit.",
-  "startMs": 451180,
-  "endMs": 451460
- },
- {
-  "text": "Ia",
-  "startMs": 452740,
-  "endMs": 453400
- },
- {
-  "text": "berdiri",
-  "startMs": 453400,
-  "endMs": 453820
- },
- {
-  "text": "di",
-  "startMs": 453820,
-  "endMs": 453980
- },
- {
-  "text": "antara",
-  "startMs": 453980,
-  "endMs": 454280
- },
- {
-  "text": "pohon-pohon",
-  "startMs": 454280,
-  "endMs": 454820
- },
- {
-  "text": "itu,",
-  "startMs": 454820,
-  "endMs": 455080
- },
- {
-  "text": "dan",
-  "startMs": 455800,
-  "endMs": 456140
- },
- {
-  "text": "untuk",
-  "startMs": 456140,
-  "endMs": 456420
- },
- {
-  "text": "pertama",
-  "startMs": 456420,
-  "endMs": 456740
- },
- {
-  "text": "kalinya",
-  "startMs": 456740,
-  "endMs": 457120
- },
- {
-  "text": "dalam",
-  "startMs": 457120,
-  "endMs": 457340
- },
- {
-  "text": "waktu",
-  "startMs": 457340,
-  "endMs": 457620
- },
- {
-  "text": "lama,",
-  "startMs": 457620,
-  "endMs": 457960
- },
- {
-  "text": "ia",
-  "startMs": 458440,
-  "endMs": 458720
- },
- {
-  "text": "melihatmu",
-  "startMs": 458720,
-  "endMs": 459340
- },
- {
-  "text": "dengan",
-  "startMs": 459340,
-  "endMs": 459560
- },
- {
-  "text": "benar.",
-  "startMs": 459560,
-  "endMs": 459980
- },
- {
-  "text": "Bukan",
-  "startMs": 460640,
-  "endMs": 460960
- },
- {
-  "text": "sekadar",
-  "startMs": 460960,
-  "endMs": 461320
- },
- {
-  "text": "petani",
-  "startMs": 461320,
-  "endMs": 461680
- },
- {
-  "text": "sayur,",
-  "startMs": 461680,
-  "endMs": 462160
- },
- {
-  "text": "melainkan",
-  "startMs": 462160,
-  "endMs": 463100
+  "text": "tahu,",
+  "startMs": 8980,
+  "endMs": 9340
  },
  {
   "text": "orang",
-  "startMs": 463100,
-  "endMs": 463420
+  "startMs": 9840,
+  "endMs": 10160
+ },
+ {
+  "text": "di",
+  "startMs": 10160,
+  "endMs": 10433
+ },
+ {
+  "text": "ujung",
+  "startMs": 10433,
+  "endMs": 10707
+ },
+ {
+  "text": "telepon",
+  "startMs": 10707,
+  "endMs": 10980
+ },
+ {
+  "text": "adalah",
+  "startMs": 10980,
+  "endMs": 11220
+ },
+ {
+  "text": "montir",
+  "startMs": 11220,
+  "endMs": 11740
  },
  {
   "text": "yang",
-  "startMs": 463420,
-  "endMs": 463680
+  "startMs": 11740,
+  "endMs": 11920
  },
  {
-  "text": "menanam",
-  "startMs": 463680,
-  "endMs": 464060
+  "text": "tiap",
+  "startMs": 11920,
+  "endMs": 12220
+ },
+ {
+  "text": "minggu",
+  "startMs": 12220,
+  "endMs": 12580
+ },
+ {
+  "text": "ia",
+  "startMs": 12580,
+  "endMs": 12760
+ },
+ {
+  "text": "remehkan.",
+  "startMs": 12760,
+  "endMs": 13220
+ },
+ {
+  "text": "Dan",
+  "startMs": 13900,
+  "endMs": 14160
+ },
+ {
+  "text": "motor",
+  "startMs": 14160,
+  "endMs": 14440
+ },
+ {
+  "text": "yang",
+  "startMs": 14440,
+  "endMs": 14660
+ },
+ {
+  "text": "ia",
+  "startMs": 14660,
+  "endMs": 14820
+ },
+ {
+  "text": "kendarai",
+  "startMs": 14820,
+  "endMs": 15340
+ },
+ {
+  "text": "sebenarnya",
+  "startMs": 15340,
+  "endMs": 16160
+ },
+ {
+  "text": "milik",
+  "startMs": 16160,
+  "endMs": 16580
+ },
+ {
+  "text": "si",
+  "startMs": 16580,
+  "endMs": 16700
+ },
+ {
+  "text": "montir.",
+  "startMs": 16700,
+  "endMs": 17080
+ },
+ {
+  "text": "Tapi",
+  "startMs": 18120,
+  "endMs": 18800
+ },
+ {
+  "text": "sebelum",
+  "startMs": 18800,
+  "endMs": 19080
+ },
+ {
+  "text": "sampai",
+  "startMs": 19080,
+  "endMs": 19300
+ },
+ {
+  "text": "ke",
+  "startMs": 19300,
+  "endMs": 19440
+ },
+ {
+  "text": "sana,",
+  "startMs": 19440,
+  "endMs": 19700
+ },
+ {
+  "text": "kita",
+  "startMs": 20160,
+  "endMs": 20360
+ },
+ {
+  "text": "mundur",
+  "startMs": 20360,
+  "endMs": 20760
+ },
+ {
+  "text": "dulu",
+  "startMs": 20760,
+  "endMs": 20980
+ },
+ {
+  "text": "delapan",
+  "startMs": 20980,
+  "endMs": 21340
+ },
+ {
+  "text": "tahun",
+  "startMs": 21340,
+  "endMs": 21640
+ },
+ {
+  "text": "ke",
+  "startMs": 21640,
+  "endMs": 21800
+ },
+ {
+  "text": "belakang.",
+  "startMs": 21800,
+  "endMs": 22220
+ },
+ {
+  "text": "Ke",
+  "startMs": 22800,
+  "endMs": 23000
+ },
+ {
+  "text": "sebuah",
+  "startMs": 23000,
+  "endMs": 23300
+ },
+ {
+  "text": "bengkel",
+  "startMs": 23300,
+  "endMs": 23560
+ },
+ {
+  "text": "kecil",
+  "startMs": 23560,
+  "endMs": 23900
+ },
+ {
+  "text": "di",
+  "startMs": 23900,
+  "endMs": 24040
+ },
+ {
+  "text": "pinggir",
+  "startMs": 24040,
+  "endMs": 24280
+ },
+ {
+  "text": "jalan.",
+  "startMs": 24280,
+  "endMs": 24560
+ },
+ {
+  "text": "Tahun",
+  "startMs": 25620,
+  "endMs": 26260
+ },
+ {
+  "text": "2018,",
+  "startMs": 26260,
+  "endMs": 26840
+ },
+ {
+  "text": "bengkelmu",
+  "startMs": 26840,
+  "endMs": 28300
+ },
+ {
+  "text": "hanya",
+  "startMs": 28300,
+  "endMs": 28520
+ },
+ {
+  "text": "beratap",
+  "startMs": 28520,
+  "endMs": 29080
+ },
+ {
+  "text": "seng,",
+  "startMs": 29080,
+  "endMs": 29640
  },
  {
   "text": "dua",
-  "startMs": 464060,
-  "endMs": 464280
+  "startMs": 29640,
+  "endMs": 30200
  },
  {
-  "text": "hektar",
-  "startMs": 464280,
-  "endMs": 464740
+  "text": "dongkrak,",
+  "startMs": 30200,
+  "endMs": 30760
  },
  {
   "text": "dan",
-  "startMs": 464740,
-  "endMs": 464920
+  "startMs": 30760,
+  "endMs": 30980
  },
  {
-  "text": "menunggu",
-  "startMs": 464920,
-  "endMs": 465400
+  "text": "satu",
+  "startMs": 30980,
+  "endMs": 31260
  },
  {
-  "text": "dua",
-  "startMs": 465400,
-  "endMs": 465600
+  "text": "meja",
+  "startMs": 31260,
+  "endMs": 31540
  },
  {
-  "text": "puluh",
-  "startMs": 465600,
-  "endMs": 465800
+  "text": "penuh",
+  "startMs": 31540,
+  "endMs": 31740
  },
  {
-  "text": "lima",
-  "startMs": 465800,
-  "endMs": 466000
+  "text": "kunci",
+  "startMs": 31740,
+  "endMs": 31940
  },
  {
-  "text": "tahun.",
-  "startMs": 466000,
-  "endMs": 466520
+  "text": "pas.",
+  "startMs": 31940,
+  "endMs": 32200
  },
  {
-  "text": "\"Ini...",
-  "startMs": 467240,
-  "endMs": 467920
+  "text": "Tanganmu",
+  "startMs": 32200,
+  "endMs": 32960
  },
  {
-  "text": "semua",
-  "startMs": 468440,
-  "endMs": 468960
+  "text": "tak",
+  "startMs": 32960,
+  "endMs": 33720
  },
  {
-  "text": "ini",
-  "startMs": 468960,
-  "endMs": 469200
+  "text": "pernah",
+  "startMs": 33720,
+  "endMs": 33920
+ },
+ {
+  "text": "lepas",
+  "startMs": 33920,
+  "endMs": 34200
+ },
+ {
+  "text": "dari",
+  "startMs": 34200,
+  "endMs": 34400
+ },
+ {
+  "text": "hitamnya",
+  "startMs": 34400,
+  "endMs": 34760
+ },
+ {
+  "text": "oli,",
+  "startMs": 34760,
+  "endMs": 35020
+ },
+ {
+  "text": "dan",
+  "startMs": 35360,
+  "endMs": 35740
+ },
+ {
+  "text": "baju",
+  "startMs": 35740,
+  "endMs": 36040
+ },
+ {
+  "text": "kerjamu",
+  "startMs": 36040,
+  "endMs": 36330
+ },
+ {
+  "text": "tak",
+  "startMs": 36330,
+  "endMs": 36620
+ },
+ {
+  "text": "pernah",
+  "startMs": 36620,
+  "endMs": 36840
+ },
+ {
+  "text": "benar-benar",
+  "startMs": 36840,
+  "endMs": 37340
+ },
+ {
+  "text": "bersih.",
+  "startMs": 37340,
+  "endMs": 37700
+ },
+ {
+  "text": "Orang",
+  "startMs": 38620,
+  "endMs": 39040
+ },
+ {
+  "text": "yang",
+  "startMs": 39040,
+  "endMs": 39180
+ },
+ {
+  "text": "melintas",
+  "startMs": 39180,
+  "endMs": 39540
+ },
+ {
+  "text": "hanya",
+  "startMs": 39540,
+  "endMs": 39720
+ },
+ {
+  "text": "melihat",
+  "startMs": 39720,
+  "endMs": 40020
+ },
+ {
+  "text": "sekilas,",
+  "startMs": 40020,
+  "endMs": 40540
+ },
+ {
+  "text": "lalu",
+  "startMs": 41160,
+  "endMs": 41540
+ },
+ {
+  "text": "langsung",
+  "startMs": 41540,
+  "endMs": 41880
+ },
+ {
+  "text": "menilaimu:",
+  "startMs": 41880,
+  "endMs": 42600
+ },
+ {
+  "text": "cuma",
+  "startMs": 42600,
+  "endMs": 43320
+ },
+ {
+  "text": "montir.",
+  "startMs": 43320,
+  "endMs": 43720
+ },
+ {
+  "text": "Padahal,",
+  "startMs": 44920,
+  "endMs": 45560
+ },
+ {
+  "text": "sebelum",
+  "startMs": 46040,
+  "endMs": 46360
  },
  {
   "text": "punya",
-  "startMs": 469200,
-  "endMs": 469460
+  "startMs": 46360,
+  "endMs": 46580
  },
  {
-  "text": "Ayah?\"",
-  "startMs": 469460,
-  "endMs": 469900
+  "text": "bengkel,",
+  "startMs": 46580,
+  "endMs": 47460
  },
  {
-  "text": "\"Dari",
-  "startMs": 470820,
-  "endMs": 471460
+  "text": "kamu",
+  "startMs": 47460,
+  "endMs": 47700
  },
  {
-  "text": "dulu,",
+  "text": "empat",
+  "startMs": 47700,
+  "endMs": 47980
+ },
+ {
+  "text": "tahun",
+  "startMs": 47980,
+  "endMs": 48220
+ },
+ {
+  "text": "menjadi",
+  "startMs": 48220,
+  "endMs": 48440
+ },
+ {
+  "text": "montir",
+  "startMs": 48440,
+  "endMs": 48820
+ },
+ {
+  "text": "panggilan.",
+  "startMs": 48820,
+  "endMs": 49260
+ },
+ {
+  "text": "Keliling",
+  "startMs": 49260,
+  "endMs": 50480
+ },
+ {
+  "text": "ke",
+  "startMs": 50480,
+  "endMs": 50660
+ },
+ {
+  "text": "rumah",
+  "startMs": 50660,
+  "endMs": 50840
+ },
+ {
+  "text": "orang",
+  "startMs": 50840,
+  "endMs": 51060
+ },
+ {
+  "text": "membawa",
+  "startMs": 51060,
+  "endMs": 51347
+ },
+ {
+  "text": "tas",
+  "startMs": 51347,
+  "endMs": 51633
+ },
+ {
+  "text": "kain",
+  "startMs": 51633,
+  "endMs": 51920
+ },
+ {
+  "text": "penuh",
+  "startMs": 51920,
+  "endMs": 52100
+ },
+ {
+  "text": "kunci,",
+  "startMs": 52100,
+  "endMs": 52500
+ },
+ {
+  "text": "atau",
+  "startMs": 52720,
+  "endMs": 53240
+ },
+ {
+  "text": "menyusul",
+  "startMs": 53240,
+  "endMs": 53680
+ },
+ {
+  "text": "motor",
+  "startMs": 53680,
+  "endMs": 53900
+ },
+ {
+  "text": "mogok",
+  "startMs": 53900,
+  "endMs": 54280
+ },
+ {
+  "text": "di",
+  "startMs": 54280,
+  "endMs": 54420
+ },
+ {
+  "text": "jalan.",
+  "startMs": 54420,
+  "endMs": 54680
+ },
+ {
+  "text": "Upahnya",
+  "startMs": 55380,
+  "endMs": 56000
+ },
+ {
+  "text": "tak",
+  "startMs": 56000,
+  "endMs": 56140
+ },
+ {
+  "text": "besar.",
+  "startMs": 56140,
+  "endMs": 56420
+ },
+ {
+  "text": "Tapi",
+  "startMs": 56960,
+  "endMs": 57540
+ },
+ {
+  "text": "dari",
+  "startMs": 57540,
+  "endMs": 57740
+ },
+ {
+  "text": "jalanan",
+  "startMs": 57740,
+  "endMs": 58100
+ },
+ {
+  "text": "itulah",
+  "startMs": 58100,
+  "endMs": 58420
+ },
+ {
+  "text": "kamu",
+  "startMs": 58420,
+  "endMs": 58600
+ },
+ {
+  "text": "belajar",
+  "startMs": 58600,
+  "endMs": 58980
+ },
+ {
+  "text": "dua",
+  "startMs": 58980,
+  "endMs": 59200
+ },
+ {
+  "text": "hal",
+  "startMs": 59200,
+  "endMs": 59420
+ },
+ {
+  "text": "paling",
+  "startMs": 59420,
+  "endMs": 59640
+ },
+ {
+  "text": "berharga:",
+  "startMs": 59640,
+  "endMs": 60060
+ },
+ {
+  "text": "membaca",
+  "startMs": 60620,
+  "endMs": 61080
+ },
+ {
+  "text": "mesin,",
+  "startMs": 61080,
+  "endMs": 61440
+ },
+ {
+  "text": "dan",
+  "startMs": 61860,
+  "endMs": 62080
+ },
+ {
+  "text": "membaca",
+  "startMs": 62080,
+  "endMs": 62480
+ },
+ {
+  "text": "orang.",
+  "startMs": 62480,
+  "endMs": 62740
+ },
+ {
+  "text": "Di",
+  "startMs": 64220,
+  "endMs": 64460
+ },
+ {
+  "text": "tahun",
+  "startMs": 64460,
+  "endMs": 64640
+ },
+ {
+  "text": "2018",
+  "startMs": 64640,
+  "endMs": 65180
+ },
+ {
+  "text": "itu",
+  "startMs": 65180,
+  "endMs": 65560
+ },
+ {
+  "text": "juga,",
+  "startMs": 65560,
+  "endMs": 65860
+ },
+ {
+  "text": "kamu",
+  "startMs": 66340,
+  "endMs": 66660
+ },
+ {
+  "text": "membeli",
+  "startMs": 66660,
+  "endMs": 67040
+ },
+ {
+  "text": "2",
+  "startMs": 67040,
+  "endMs": 67200
+ },
+ {
+  "text": "motor",
+  "startMs": 67200,
+  "endMs": 67500
+ },
+ {
+  "text": "bekas",
+  "startMs": 67500,
+  "endMs": 67800
+ },
+ {
+  "text": "dari",
+  "startMs": 67800,
+  "endMs": 68000
+ },
+ {
+  "text": "tabungan",
+  "startMs": 68000,
+  "endMs": 68360
+ },
+ {
+  "text": "empat",
+  "startMs": 68360,
+  "endMs": 68560
+ },
+ {
+  "text": "tahunmu.",
+  "startMs": 68560,
+  "endMs": 69000
+ },
+ {
+  "text": "Harganya",
+  "startMs": 69700,
+  "endMs": 70140
+ },
+ {
+  "text": "Rp9",
+  "startMs": 70140,
+  "endMs": 70380
+ },
+ {
+  "text": "juta",
+  "startMs": 70380,
+  "endMs": 70660
+ },
+ {
+  "text": "per",
+  "startMs": 70660,
+  "endMs": 70800
+ },
+ {
+  "text": "unit,",
+  "startMs": 70800,
+  "endMs": 71020
+ },
+ {
+  "text": "total",
+  "startMs": 71540,
+  "endMs": 72000
+ },
+ {
+  "text": "Rp18",
+  "startMs": 72000,
+  "endMs": 72380
+ },
+ {
+  "text": "juta.",
+  "startMs": 72380,
+  "endMs": 72840
+ },
+ {
+  "text": "Bukan",
+  "startMs": 73620,
+  "endMs": 74200
+ },
+ {
+  "text": "untuk",
+  "startMs": 74200,
+  "endMs": 74420
+ },
+ {
+  "text": "dipakai",
+  "startMs": 74420,
+  "endMs": 74720
+ },
+ {
+  "text": "sendiri,",
+  "startMs": 74720,
+  "endMs": 75040
+ },
+ {
+  "text": "melainkan",
+  "startMs": 75040,
+  "endMs": 76200
+ },
+ {
+  "text": "untuk",
+  "startMs": 76200,
+  "endMs": 76400
+ },
+ {
+  "text": "disewakan.",
+  "startMs": 76400,
+  "endMs": 76920
+ },
+ {
+  "text": "Nomor",
+  "startMs": 78060,
+  "endMs": 78660
+ },
+ {
+  "text": "plat",
+  "startMs": 78660,
+  "endMs": 78860
+ },
+ {
+  "text": "keduanya",
+  "startMs": 78860,
+  "endMs": 79420
+ },
+ {
+  "text": "kamu",
+  "startMs": 79420,
+  "endMs": 79560
+ },
+ {
+  "text": "catat",
+  "startMs": 79560,
+  "endMs": 79860
+ },
+ {
+  "text": "di",
+  "startMs": 79860,
+  "endMs": 80020
+ },
+ {
+  "text": "sebuah",
+  "startMs": 80020,
+  "endMs": 80260
+ },
+ {
+  "text": "buku",
+  "startMs": 80260,
+  "endMs": 80440
+ },
+ {
+  "text": "kecil",
+  "startMs": 80440,
+  "endMs": 80700
+ },
+ {
+  "text": "bersampul",
+  "startMs": 80700,
+  "endMs": 81120
+ },
+ {
+  "text": "lusuh.",
+  "startMs": 81120,
+  "endMs": 81500
+ },
+ {
+  "text": "Di",
+  "startMs": 81740,
+  "endMs": 82320
+ },
+ {
+  "text": "halaman",
+  "startMs": 82320,
+  "endMs": 82560
+ },
+ {
+  "text": "pertama,",
+  "startMs": 82560,
+  "endMs": 82920
+ },
+ {
+  "text": "baru",
+  "startMs": 83400,
+  "endMs": 83680
+ },
+ {
+  "text": "ada",
+  "startMs": 83680,
+  "endMs": 83880
+ },
+ {
+  "text": "dua",
+  "startMs": 83880,
+  "endMs": 84060
+ },
+ {
+  "text": "baris:",
+  "startMs": 84060,
+  "endMs": 84480
+ },
+ {
+  "text": "dua",
+  "startMs": 84480,
+  "endMs": 85280
+ },
+ {
+  "text": "motor,",
+  "startMs": 85280,
+  "endMs": 85700
+ },
+ {
+  "text": "dua",
+  "startMs": 85700,
+  "endMs": 86540
+ },
+ {
+  "text": "nama",
+  "startMs": 86540,
+  "endMs": 86760
+ },
+ {
+  "text": "penyewa.",
+  "startMs": 86760,
+  "endMs": 87180
+ },
+ {
+  "text": "Buku",
+  "startMs": 87940,
+  "endMs": 88380
+ },
+ {
+  "text": "itu",
+  "startMs": 88380,
+  "endMs": 88580
+ },
+ {
+  "text": "kamu",
+  "startMs": 88580,
+  "endMs": 88780
+ },
+ {
+  "text": "simpan",
+  "startMs": 88780,
+  "endMs": 89120
+ },
+ {
+  "text": "di",
+  "startMs": 89120,
+  "endMs": 89240
+ },
+ {
+  "text": "laci",
+  "startMs": 89240,
+  "endMs": 89950
+ },
+ {
+  "text": "bengkelmu.",
+  "startMs": 89950,
+  "endMs": 90660
+ },
+ {
+  "text": "Sejak",
+  "startMs": 90660,
+  "endMs": 91080
+ },
+ {
+  "text": "hari",
+  "startMs": 91080,
+  "endMs": 91260
+ },
+ {
+  "text": "itu,",
+  "startMs": 91260,
+  "endMs": 91540
+ },
+ {
+  "text": "setiap",
+  "startMs": 91900,
+  "endMs": 92400
+ },
+ {
+  "text": "motor",
+  "startMs": 92400,
+  "endMs": 92580
+ },
+ {
+  "text": "baru",
+  "startMs": 92580,
+  "endMs": 92800
+ },
+ {
+  "text": "yang",
+  "startMs": 92800,
+  "endMs": 92960
+ },
+ {
+  "text": "datang",
+  "startMs": 92960,
+  "endMs": 93260
+ },
+ {
+  "text": "selalu",
+  "startMs": 93260,
+  "endMs": 93580
+ },
+ {
+  "text": "kamu",
+  "startMs": 93580,
+  "endMs": 93780
+ },
+ {
+  "text": "tulis",
+  "startMs": 93780,
+  "endMs": 94100
+ },
+ {
+  "text": "di",
+  "startMs": 94100,
+  "endMs": 94220
+ },
+ {
+  "text": "sana.",
+  "startMs": 94220,
+  "endMs": 94420
+ },
+ {
+  "text": "Di",
+  "startMs": 95680,
+  "endMs": 96020
+ },
+ {
+  "text": "antara",
+  "startMs": 96020,
+  "endMs": 96280
+ },
+ {
+  "text": "pelanggan",
+  "startMs": 96280,
+  "endMs": 96600
+ },
+ {
+  "text": "bengkelmu,",
+  "startMs": 96600,
+  "endMs": 97580
+ },
+ {
+  "text": "ada",
+  "startMs": 97580,
+  "endMs": 97860
+ },
+ {
+  "text": "seorang",
+  "startMs": 97860,
+  "endMs": 98160
+ },
+ {
+  "text": "driver",
+  "startMs": 98160,
+  "endMs": 98420
+ },
+ {
+  "text": "ojol",
+  "startMs": 98420,
+  "endMs": 98800
+ },
+ {
+  "text": "yang",
+  "startMs": 98800,
+  "endMs": 98940
+ },
+ {
+  "text": "datang",
+  "startMs": 98940,
+  "endMs": 99240
+ },
+ {
+  "text": "tiap",
+  "startMs": 99240,
+  "endMs": 99460
+ },
+ {
+  "text": "minggu.",
+  "startMs": 99460,
+  "endMs": 99760
+ },
+ {
+  "text": "Ganti",
+  "startMs": 100320,
+  "endMs": 100640
+ },
+ {
+  "text": "oli,",
+  "startMs": 100640,
+  "endMs": 100940
+ },
+ {
+  "text": "tambal",
+  "startMs": 101380,
+  "endMs": 101760
+ },
+ {
+  "text": "ban,",
+  "startMs": 101760,
+  "endMs": 101980
+ },
+ {
+  "text": "atau",
+  "startMs": 102360,
+  "endMs": 102520
+ },
+ {
+  "text": "cek",
+  "startMs": 102520,
+  "endMs": 103050
+ },
+ {
+  "text": "rem.",
+  "startMs": 103050,
+  "endMs": 103580
+ },
+ {
+  "text": "Setiap",
+  "startMs": 103580,
+  "endMs": 104140
+ },
+ {
+  "text": "mampir,",
+  "startMs": 104140,
+  "endMs": 104600
+ },
+ {
+  "text": "ia",
+  "startMs": 104980,
+  "endMs": 105220
+ },
+ {
+  "text": "tak",
+  "startMs": 105220,
+  "endMs": 105380
+ },
+ {
+  "text": "pernah",
+  "startMs": 105380,
+  "endMs": 105560
+ },
+ {
+  "text": "kehabisan",
+  "startMs": 105560,
+  "endMs": 105920
+ },
+ {
+  "text": "cerita:",
+  "startMs": 105920,
+  "endMs": 106300
+ },
+ {
+  "text": "mulai",
+  "startMs": 106920,
+  "endMs": 107280
+ },
+ {
+  "text": "dari",
+  "startMs": 107280,
+  "endMs": 107440
+ },
+ {
+  "text": "orderan",
+  "startMs": 107440,
+  "endMs": 107880
+ },
+ {
+  "text": "sepi,",
+  "startMs": 107880,
+  "endMs": 108260
+ },
+ {
+  "text": "HP",
+  "startMs": 108760,
+  "endMs": 108940
+ },
+ {
+  "text": "barunya,",
+  "startMs": 108940,
+  "endMs": 109340
+ },
+ {
+  "text": "sampai",
+  "startMs": 109720,
+  "endMs": 110040
+ },
+ {
+  "text": "menyindir",
+  "startMs": 110040,
+  "endMs": 110460
+ },
+ {
+  "text": "tanganmu",
+  "startMs": 110460,
+  "endMs": 110840
+ },
+ {
+  "text": "yang",
+  "startMs": 110840,
+  "endMs": 110960
+ },
+ {
+  "text": "kotor.",
+  "startMs": 110960,
+  "endMs": 111340
+ },
+ {
+  "text": "\"Montir",
+  "startMs": 112100,
+  "endMs": 112800
+ },
+ {
+  "text": "kok",
+  "startMs": 112800,
+  "endMs": 113020
+ },
+ {
+  "text": "tangannya",
+  "startMs": 113020,
+  "endMs": 113240
+ },
+ {
+  "text": "hitam",
+  "startMs": 113240,
+  "endMs": 113520
+ },
+ {
+  "text": "terus,",
+  "startMs": 113520,
+  "endMs": 113780
+ },
+ {
+  "text": "sih?\"",
+  "startMs": 113780,
+  "endMs": 114420
+ },
+ {
+  "text": "celetuknya",
+  "startMs": 114420,
+  "endMs": 115060
+ },
+ {
+  "text": "sambil",
+  "startMs": 115060,
+  "endMs": 115280
+ },
+ {
+  "text": "tertawa.",
+  "startMs": 115280,
+  "endMs": 115620
+ },
+ {
+  "text": "Kamu",
+  "startMs": 116500,
+  "endMs": 116900
+ },
+ {
+  "text": "hanya",
+  "startMs": 116900,
+  "endMs": 117060
+ },
+ {
+  "text": "tersenyum",
+  "startMs": 117060,
+  "endMs": 117420
+ },
+ {
+  "text": "tipis.",
+  "startMs": 117420,
+  "endMs": 117820
+ },
+ {
+  "text": "\"Iya,",
+  "startMs": 117820,
+  "endMs": 118560
+ },
+ {
+  "text": "Mas.",
+  "startMs": 118560,
+  "endMs": 118840
+ },
+ {
+  "text": "Hitam",
+  "startMs": 119360,
+  "endMs": 119640
+ },
+ {
+  "text": "oli.\"",
+  "startMs": 119640,
+  "endMs": 119900
+ },
+ {
+  "text": "Sekarang",
+  "startMs": 121140,
+  "endMs": 121620
+ },
+ {
+  "text": "kita",
+  "startMs": 121620,
+  "endMs": 121780
+ },
+ {
+  "text": "hitung",
+  "startMs": 121780,
+  "endMs": 122100
+ },
+ {
+  "text": "arus",
+  "startMs": 122100,
+  "endMs": 122260
+ },
+ {
+  "text": "uangnya",
+  "startMs": 122260,
+  "endMs": 122640
+ },
+ {
+  "text": "bareng-bareng.",
+  "startMs": 122640,
+  "endMs": 123800
+ },
+ {
+  "text": "Penghasilannya",
+  "startMs": 123800,
+  "endMs": 124500
+ },
+ {
+  "text": "Rp4",
+  "startMs": 124500,
+  "endMs": 124780
+ },
+ {
+  "text": "juta",
+  "startMs": 124780,
+  "endMs": 125020
+ },
+ {
+  "text": "sebulan.",
+  "startMs": 125020,
+  "endMs": 125420
+ },
+ {
+  "text": "Rp750",
+  "startMs": 125420,
+  "endMs": 126580
+ },
+ {
+  "text": "ribu",
+  "startMs": 126580,
+  "endMs": 127300
+ },
+ {
+  "text": "langsung",
+  "startMs": 127300,
+  "endMs": 127640
+ },
+ {
+  "text": "habis",
+  "startMs": 127640,
+  "endMs": 127960
+ },
+ {
+  "text": "untuk",
+  "startMs": 127960,
+  "endMs": 128140
+ },
+ {
+  "text": "sewa",
+  "startMs": 128140,
+  "endMs": 128380
+ },
+ {
+  "text": "motor,",
+  "startMs": 128380,
+  "endMs": 128660
+ },
+ {
+  "text": "Rp500",
+  "startMs": 128660,
+  "endMs": 129760
+ },
+ {
+  "text": "ribu",
+  "startMs": 129760,
+  "endMs": 130220
+ },
+ {
+  "text": "untuk",
+  "startMs": 130220,
+  "endMs": 130380
+ },
+ {
+  "text": "cicilan",
+  "startMs": 130380,
+  "endMs": 130720
+ },
+ {
+  "text": "HP,",
+  "startMs": 130720,
+  "endMs": 131020
+ },
+ {
+  "text": "lalu",
+  "startMs": 131820,
+  "endMs": 132100
+ },
+ {
+  "text": "bensin",
+  "startMs": 132100,
+  "endMs": 132520
+ },
+ {
+  "text": "dan",
+  "startMs": 132520,
+  "endMs": 132640
+ },
+ {
+  "text": "makan",
+  "startMs": 132640,
+  "endMs": 132900
+ },
+ {
+  "text": "menelan",
+  "startMs": 132900,
+  "endMs": 133280
+ },
+ {
+  "text": "hampir",
+  "startMs": 133280,
+  "endMs": 133640
+ },
+ {
+  "text": "Rp2",
+  "startMs": 133640,
+  "endMs": 133820
+ },
+ {
+  "text": "juta.",
+  "startMs": 133820,
+  "endMs": 134120
+ },
+ {
+  "text": "Sisanya",
+  "startMs": 134120,
+  "endMs": 135300
+ },
+ {
+  "text": "menguap",
+  "startMs": 135300,
+  "endMs": 135660
+ },
+ {
+  "text": "di",
+  "startMs": 135660,
+  "endMs": 135820
+ },
+ {
+  "text": "tongkrongan.",
+  "startMs": 135820,
+  "endMs": 136320
+ },
+ {
+  "text": "Tak",
+  "startMs": 137060,
+  "endMs": 137260
+ },
+ {
+  "text": "ada",
+  "startMs": 137260,
+  "endMs": 137380
+ },
+ {
+  "text": "yang",
+  "startMs": 137380,
+  "endMs": 137480
+ },
+ {
+  "text": "ditabung,",
+  "startMs": 137480,
+  "endMs": 137960
+ },
+ {
+  "text": "tak",
+  "startMs": 138400,
+  "endMs": 138620
+ },
+ {
+  "text": "ada",
+  "startMs": 138620,
+  "endMs": 138760
+ },
+ {
+  "text": "yang",
+  "startMs": 138760,
+  "endMs": 138880
+ },
+ {
+  "text": "diputar.",
+  "startMs": 138880,
+  "endMs": 139220
+ },
+ {
+  "text": "Ia",
+  "startMs": 139800,
+  "endMs": 140140
+ },
+ {
+  "text": "bekerja",
+  "startMs": 140140,
+  "endMs": 140460
+ },
+ {
+  "text": "keras",
+  "startMs": 140460,
+  "endMs": 140700
+ },
+ {
+  "text": "tiap",
+  "startMs": 140700,
+  "endMs": 141040
+ },
+ {
+  "text": "hari,",
+  "startMs": 141040,
+  "endMs": 141340
+ },
+ {
+  "text": "hanya",
+  "startMs": 141640,
+  "endMs": 141900
+ },
+ {
+  "text": "untuk",
+  "startMs": 141900,
+  "endMs": 142180
+ },
+ {
+  "text": "tetap",
+  "startMs": 142180,
+  "endMs": 142700
+ },
+ {
+  "text": "di",
+  "startMs": 142700,
+  "endMs": 142840
+ },
+ {
+  "text": "tempat",
+  "startMs": 142840,
+  "endMs": 143140
+ },
+ {
+  "text": "yang",
+  "startMs": 143140,
+  "endMs": 143280
+ },
+ {
+  "text": "sama.",
+  "startMs": 143280,
+  "endMs": 143560
+ },
+ {
+  "text": "Skor",
+  "startMs": 144560,
+  "endMs": 145020
+ },
+ {
+  "text": "tahun",
+  "startMs": 145020,
+  "endMs": 145240
+ },
+ {
+  "text": "2018:",
+  "startMs": 145240,
+  "endMs": 145840
+ },
+ {
+  "text": "kamu",
+  "startMs": 146860,
+  "endMs": 147240
+ },
+ {
+  "text": "punya",
+  "startMs": 147240,
+  "endMs": 147480
+ },
+ {
+  "text": "2",
+  "startMs": 147480,
+  "endMs": 147660
+ },
+ {
+  "text": "motor",
+  "startMs": 147660,
+  "endMs": 147960
+ },
+ {
+  "text": "bekas",
+  "startMs": 147960,
+  "endMs": 148440
+ },
+ {
+  "text": "dan",
+  "startMs": 148440,
+  "endMs": 148680
+ },
+ {
+  "text": "satu",
+  "startMs": 148680,
+  "endMs": 149060
+ },
+ {
+  "text": "buku",
+  "startMs": 149060,
+  "endMs": 149280
+ },
+ {
+  "text": "kecil.",
+  "startMs": 149280,
+  "endMs": 149660
+ },
+ {
+  "text": "Dia",
+  "startMs": 150380,
+  "endMs": 150640
+ },
+ {
+  "text": "punya",
+  "startMs": 150640,
+  "endMs": 150840
+ },
+ {
+  "text": "motor",
+  "startMs": 150840,
+  "endMs": 151100
+ },
+ {
+  "text": "sewaan,",
+  "startMs": 151100,
+  "endMs": 151800
+ },
+ {
+  "text": "HP",
+  "startMs": 152080,
+  "endMs": 152280
+ },
+ {
+  "text": "baru,",
+  "startMs": 152280,
+  "endMs": 152660
+ },
+ {
+  "text": "dan",
+  "startMs": 153160,
+  "endMs": 153200
+ },
+ {
+  "text": "tabungan",
+  "startMs": 153200,
+  "endMs": 153640
+ },
+ {
+  "text": "nol.",
+  "startMs": 153640,
+  "endMs": 154430
+ },
+ {
+  "text": "Dua",
+  "startMs": 154430,
+  "endMs": 155220
+ },
+ {
+  "text": "tahun",
+  "startMs": 155220,
+  "endMs": 155380
+ },
+ {
+  "text": "berselang,",
+  "startMs": 155380,
+  "endMs": 155900
+ },
+ {
+  "text": "motormu",
+  "startMs": 156260,
+  "endMs": 156660
+ },
+ {
+  "text": "tumbuh",
+  "startMs": 156660,
+  "endMs": 156960
+ },
+ {
+  "text": "dari",
+  "startMs": 156960,
+  "endMs": 157140
+ },
+ {
+  "text": "2",
+  "startMs": 157140,
+  "endMs": 157440
+ },
+ {
+  "text": "menjadi",
+  "startMs": 157440,
+  "endMs": 157760
+ },
+ {
+  "text": "6.",
+  "startMs": 157760,
+  "endMs": 158080
+ },
+ {
+  "text": "Seluruh",
+  "startMs": 158820,
+  "endMs": 159320
+ },
+ {
+  "text": "uang",
+  "startMs": 159320,
+  "endMs": 159520
+ },
+ {
+  "text": "sewa",
+  "startMs": 159520,
+  "endMs": 159800
+ },
+ {
+  "text": "kamu",
+  "startMs": 159800,
+  "endMs": 160020
+ },
+ {
+  "text": "putar",
+  "startMs": 160020,
+  "endMs": 160360
+ },
+ {
+  "text": "kembali",
+  "startMs": 160360,
+  "endMs": 160740
+ },
+ {
+  "text": "tanpa",
+  "startMs": 160740,
+  "endMs": 161060
+ },
+ {
+  "text": "disentuh,",
+  "startMs": 161060,
+  "endMs": 161600
+ },
+ {
+  "text": "sementara",
+  "startMs": 161600,
+  "endMs": 162620
+ },
+ {
+  "text": "kebutuhan",
+  "startMs": 162620,
+  "endMs": 163080
+ },
+ {
+  "text": "hidupmu",
+  "startMs": 163080,
+  "endMs": 163480
+ },
+ {
+  "text": "ditopang",
+  "startMs": 163480,
+  "endMs": 164260
+ },
+ {
+  "text": "bengkel.",
+  "startMs": 164260,
+  "endMs": 165040
+ },
+ {
+  "text": "Setiap",
+  "startMs": 165040,
+  "endMs": 165540
+ },
+ {
+  "text": "kali",
+  "startMs": 165540,
+  "endMs": 165680
+ },
+ {
+  "text": "menemukan",
+  "startMs": 165680,
+  "endMs": 166020
+ },
+ {
+  "text": "motor",
+  "startMs": 166020,
+  "endMs": 166300
+ },
+ {
+  "text": "bekas",
+  "startMs": 166300,
+  "endMs": 166660
+ },
+ {
+  "text": "yang",
+  "startMs": 166660,
+  "endMs": 166780
+ },
+ {
+  "text": "masih",
+  "startMs": 166780,
+  "endMs": 166980
+ },
+ {
+  "text": "layak,",
+  "startMs": 166980,
+  "endMs": 167380
+ },
+ {
+  "text": "kamu",
+  "startMs": 167760,
+  "endMs": 168100
+ },
+ {
+  "text": "beli,",
+  "startMs": 168100,
+  "endMs": 168440
+ },
+ {
+  "text": "kamu",
+  "startMs": 168860,
+  "endMs": 169020
+ },
+ {
+  "text": "perbaiki",
+  "startMs": 169020,
+  "endMs": 169380
+ },
+ {
+  "text": "sendiri,",
+  "startMs": 169380,
+  "endMs": 169760
+ },
+ {
+  "text": "lalu",
+  "startMs": 170260,
+  "endMs": 170380
+ },
+ {
+  "text": "kamu",
+  "startMs": 170380,
+  "endMs": 170600
+ },
+ {
+  "text": "sewakan",
+  "startMs": 170600,
+  "endMs": 170940
+ },
+ {
+  "text": "lagi.",
+  "startMs": 170940,
+  "endMs": 171280
+ },
+ {
+  "text": "Kamu",
+  "startMs": 172160,
+  "endMs": 172560
+ },
+ {
+  "text": "juga",
+  "startMs": 172560,
+  "endMs": 172680
+ },
+ {
+  "text": "tak",
+  "startMs": 172680,
+  "endMs": 172800
+ },
+ {
+  "text": "asal",
+  "startMs": 172800,
+  "endMs": 173120
+ },
+ {
+  "text": "menyewakan",
+  "startMs": 173120,
+  "endMs": 173640
+ },
+ {
+  "text": "ke",
+  "startMs": 173640,
+  "endMs": 173900
+ },
+ {
+  "text": "sembarang",
+  "startMs": 173900,
+  "endMs": 174160
+ },
+ {
+  "text": "orang.",
+  "startMs": 174160,
+  "endMs": 174380
+ },
+ {
+  "text": "Hanya",
+  "startMs": 175060,
+  "endMs": 175440
+ },
+ {
+  "text": "ke",
+  "startMs": 175440,
+  "endMs": 175670
+ },
+ {
+  "text": "driver",
+  "startMs": 175670,
+  "endMs": 175900
+ },
+ {
+  "text": "yang",
+  "startMs": 175900,
+  "endMs": 176100
+ },
+ {
+  "text": "kamu",
+  "startMs": 176100,
+  "endMs": 176320
+ },
+ {
+  "text": "kenal,",
+  "startMs": 176320,
+  "endMs": 176800
+ },
+ {
+  "text": "yang",
+  "startMs": 177060,
+  "endMs": 177240
+ },
+ {
+  "text": "motornya",
+  "startMs": 177240,
+  "endMs": 177700
+ },
+ {
+  "text": "kamu",
+  "startMs": 177700,
+  "endMs": 177920
+ },
+ {
+  "text": "rawat",
+  "startMs": 177920,
+  "endMs": 178200
+ },
+ {
+  "text": "sendiri,",
+  "startMs": 178200,
+  "endMs": 178540
+ },
+ {
+  "text": "dan",
+  "startMs": 178540,
+  "endMs": 178820
+ },
+ {
+  "text": "kamu",
+  "startMs": 178820,
+  "endMs": 179140
+ },
+ {
+  "text": "tahu",
+  "startMs": 179140,
+  "endMs": 179460
+ },
+ {
+  "text": "tidak",
+  "startMs": 179460,
+  "endMs": 179700
+ },
+ {
+  "text": "ugal-ugalan",
+  "startMs": 179700,
+  "endMs": 180320
+ },
+ {
+  "text": "di",
+  "startMs": 180320,
+  "endMs": 180520
+ },
+ {
+  "text": "jalan.",
+  "startMs": 180520,
+  "endMs": 180720
+ },
+ {
+  "text": "Sebab",
+  "startMs": 181500,
+  "endMs": 181960
+ },
+ {
+  "text": "motor",
+  "startMs": 181960,
+  "endMs": 182240
+ },
+ {
+  "text": "yang",
+  "startMs": 182240,
+  "endMs": 182340
+ },
+ {
+  "text": "disewakan",
+  "startMs": 182340,
+  "endMs": 182780
+ },
+ {
+  "text": "tetaplah",
+  "startMs": 182780,
+  "endMs": 183180
+ },
+ {
+  "text": "milikmu.",
+  "startMs": 183180,
+  "endMs": 183640
+ },
+ {
+  "text": "Kalau",
+  "startMs": 184080,
+  "endMs": 184360
+ },
+ {
+  "text": "rusak,",
+  "startMs": 184360,
+  "endMs": 184760
+ },
+ {
+  "text": "kamu",
+  "startMs": 185040,
+  "endMs": 185320
+ },
+ {
+  "text": "yang",
+  "startMs": 185320,
+  "endMs": 185460
+ },
+ {
+  "text": "memperbaiki.",
+  "startMs": 185460,
+  "endMs": 185960
+ },
+ {
+  "text": "Kalau",
+  "startMs": 186540,
+  "endMs": 186880
+ },
+ {
+  "text": "hilang,",
+  "startMs": 186880,
+  "endMs": 187260
+ },
+ {
+  "text": "kamu",
+  "startMs": 187540,
+  "endMs": 187780
+ },
+ {
+  "text": "yang",
+  "startMs": 187780,
+  "endMs": 187960
+ },
+ {
+  "text": "menanggung",
+  "startMs": 187960,
+  "endMs": 188280
+ },
+ {
+  "text": "rugi.",
+  "startMs": 188280,
+  "endMs": 188560
+ },
+ {
+  "text": "Sementara",
+  "startMs": 188560,
+  "endMs": 189820
+ },
+ {
+  "text": "itu,",
+  "startMs": 189820,
+  "endMs": 190060
+ },
+ {
+  "text": "dia",
+  "startMs": 190120,
+  "endMs": 190260
+ },
+ {
+  "text": "justru",
+  "startMs": 190260,
+  "endMs": 190640
+ },
+ {
+  "text": "membeli",
+  "startMs": 190640,
+  "endMs": 190980
+ },
+ {
+  "text": "HP",
+  "startMs": 190980,
+  "endMs": 191260
+ },
+ {
+  "text": "yang",
+  "startMs": 191260,
+  "endMs": 191440
+ },
+ {
+  "text": "lebih",
+  "startMs": 191440,
+  "endMs": 191640
+ },
+ {
+  "text": "baru.",
+  "startMs": 191640,
+  "endMs": 191940
+ },
+ {
+  "text": "Cicilannya",
+  "startMs": 192600,
+  "endMs": 193160
+ },
+ {
+  "text": "naik,",
+  "startMs": 193160,
+  "endMs": 193560
+ },
+ {
+  "text": "jaketnya",
+  "startMs": 193900,
+  "endMs": 194420
+ },
+ {
+  "text": "baru,",
+  "startMs": 194420,
+  "endMs": 194720
+ },
+ {
+  "text": "nongkrongnya",
+  "startMs": 195180,
+  "endMs": 195660
+ },
+ {
+  "text": "makin",
+  "startMs": 195660,
+  "endMs": 196100
+ },
+ {
+  "text": "sering.",
+  "startMs": 196100,
+  "endMs": 196420
+ },
+ {
+  "text": "Skor",
+  "startMs": 197120,
+  "endMs": 197520
+ },
+ {
+  "text": "tahun",
+  "startMs": 197520,
+  "endMs": 197740
+ },
+ {
+  "text": "2020:",
+  "startMs": 197740,
+  "endMs": 198220
+ },
+ {
+  "text": "kamu",
+  "startMs": 198880,
+  "endMs": 199280
+ },
+ {
+  "text": "6",
+  "startMs": 199280,
+  "endMs": 199500
+ },
+ {
+  "text": "motor.",
+  "startMs": 199500,
+  "endMs": 199820
+ },
+ {
+  "text": "Dia",
+  "startMs": 200480,
+  "endMs": 200820
+ },
+ {
+  "text": "HP",
+  "startMs": 200820,
+  "endMs": 201100
+ },
+ {
+  "text": "kedua,",
+  "startMs": 201100,
+  "endMs": 201460
+ },
+ {
+  "text": "cicilan",
+  "startMs": 201460,
+  "endMs": 202360
+ },
+ {
+  "text": "naik,",
+  "startMs": 202360,
+  "endMs": 202780
+ },
+ {
+  "text": "tabungan",
+  "startMs": 203260,
+  "endMs": 203700
+ },
+ {
+  "text": "tetap",
+  "startMs": 203700,
+  "endMs": 203960
+ },
+ {
+  "text": "nol.",
+  "startMs": 203960,
+  "endMs": 205040
+ },
+ {
+  "text": "Tahun",
+  "startMs": 205040,
+  "endMs": 205560
+ },
+ {
+  "text": "2022,",
+  "startMs": 205560,
+  "endMs": 206160
+ },
+ {
+  "text": "armadamu",
+  "startMs": 206860,
+  "endMs": 207360
+ },
+ {
+  "text": "sudah",
+  "startMs": 207360,
+  "endMs": 207540
+ },
+ {
+  "text": "15",
+  "startMs": 207540,
+  "endMs": 207820
+ },
+ {
+  "text": "motor.",
+  "startMs": 207820,
+  "endMs": 208300
+ },
+ {
+  "text": "Buku",
+  "startMs": 209000,
+  "endMs": 209320
+ },
+ {
+  "text": "kecil",
+  "startMs": 209320,
+  "endMs": 209600
+ },
+ {
+  "text": "di",
+  "startMs": 209600,
+  "endMs": 209820
+ },
+ {
+  "text": "lacimu",
+  "startMs": 209820,
+  "endMs": 210040
+ },
+ {
+  "text": "kini",
+  "startMs": 210040,
+  "endMs": 210260
+ },
+ {
+  "text": "mulai",
+  "startMs": 210260,
+  "endMs": 210500
+ },
+ {
+  "text": "tebal:",
+  "startMs": 210500,
+  "endMs": 210800
+ },
+ {
+  "text": "15",
+  "startMs": 211420,
+  "endMs": 211760
+ },
+ {
+  "text": "motor,",
+  "startMs": 211760,
+  "endMs": 212220
+ },
+ {
+  "text": "15",
+  "startMs": 212700,
+  "endMs": 212980
+ },
+ {
+  "text": "nama.",
+  "startMs": 212980,
+  "endMs": 213400
+ },
+ {
+  "text": "Di",
+  "startMs": 214200,
+  "endMs": 214400
+ },
+ {
+  "text": "bengkel,",
+  "startMs": 214400,
+  "endMs": 215180
+ },
+ {
+  "text": "driver",
+  "startMs": 215180,
+  "endMs": 215460
+ },
+ {
+  "text": "itu",
+  "startMs": 215460,
+  "endMs": 215720
+ },
+ {
+  "text": "datang",
+  "startMs": 215720,
+  "endMs": 215960
+ },
+ {
+  "text": "memamerkan",
+  "startMs": 215960,
+  "endMs": 216460
+ },
+ {
+  "text": "motor",
+  "startMs": 216460,
+  "endMs": 216700
+ },
+ {
+  "text": "sewaan",
+  "startMs": 216700,
+  "endMs": 217100
+ },
+ {
+  "text": "yang",
+  "startMs": 217100,
+  "endMs": 217200
+ },
+ {
+  "text": "lebih",
+  "startMs": 217200,
+  "endMs": 217400
+ },
+ {
+  "text": "baru.",
+  "startMs": 217400,
+  "endMs": 217660
+ },
+ {
+  "text": "\"Motor",
+  "startMs": 218560,
+  "endMs": 218720
+ },
+ {
+  "text": "saya",
+  "startMs": 218720,
+  "endMs": 218940
+ },
+ {
+  "text": "baru,",
+  "startMs": 218940,
+  "endMs": 219160
+ },
+ {
+  "text": "Mas.",
+  "startMs": 219160,
+  "endMs": 219440
+ },
+ {
+  "text": "Sewaan,",
+  "startMs": 219800,
+  "endMs": 220380
+ },
+ {
+  "text": "tapi",
+  "startMs": 220600,
+  "endMs": 220840
+ },
+ {
+  "text": "baru.\"",
+  "startMs": 220840,
+  "endMs": 221140
+ },
+ {
+  "text": "Kamu",
+  "startMs": 221860,
+  "endMs": 222200
+ },
+ {
+  "text": "hanya",
+  "startMs": 222200,
+  "endMs": 222320
+ },
+ {
+  "text": "mengangguk",
+  "startMs": 222320,
+  "endMs": 222680
+ },
+ {
+  "text": "kalem.",
+  "startMs": 222680,
+  "endMs": 223190
+ },
+ {
+  "text": "\"Iya,",
+  "startMs": 223190,
+  "endMs": 223700
+ },
+ {
+  "text": "Mas.\"",
+  "startMs": 223700,
+  "endMs": 224040
+ },
+ {
+  "text": "Skor",
+  "startMs": 224740,
+  "endMs": 225120
+ },
+ {
+  "text": "tahun",
+  "startMs": 225120,
+  "endMs": 225280
+ },
+ {
+  "text": "2022:",
+  "startMs": 225280,
+  "endMs": 225780
+ },
+ {
+  "text": "kamu",
+  "startMs": 226600,
+  "endMs": 226900
+ },
+ {
+  "text": "15",
+  "startMs": 226900,
+  "endMs": 227180
+ },
+ {
+  "text": "motor.",
+  "startMs": 227180,
+  "endMs": 227640
+ },
+ {
+  "text": "Dia",
+  "startMs": 228180,
+  "endMs": 228420
+ },
+ {
+  "text": "motor",
+  "startMs": 228420,
+  "endMs": 228640
+ },
+ {
+  "text": "sewaan",
+  "startMs": 228640,
+  "endMs": 229040
+ },
+ {
+  "text": "lebih",
+  "startMs": 229040,
+  "endMs": 229220
+ },
+ {
+  "text": "baru,",
+  "startMs": 229220,
+  "endMs": 229500
+ },
+ {
+  "text": "cicilan",
+  "startMs": 229900,
+  "endMs": 230240
+ },
+ {
+  "text": "HP",
+  "startMs": 230240,
+  "endMs": 230500
+ },
+ {
+  "text": "kedua,",
+  "startMs": 230500,
+  "endMs": 230880
+ },
+ {
+  "text": "dan",
+  "startMs": 230880,
+  "endMs": 231400
+ },
+ {
+  "text": "tabungan",
+  "startMs": 231400,
+  "endMs": 231840
+ },
+ {
+  "text": "yang",
+  "startMs": 231840,
+  "endMs": 231940
+ },
+ {
+  "text": "masih",
+  "startMs": 231940,
+  "endMs": 232220
+ },
+ {
+  "text": "saja",
+  "startMs": 232220,
+  "endMs": 232420
+ },
+ {
+  "text": "nol.",
+  "startMs": 232420,
+  "endMs": 233440
+ },
+ {
+  "text": "Lalu",
+  "startMs": 233440,
+  "endMs": 233820
+ },
+ {
+  "text": "krisis",
+  "startMs": 233820,
+  "endMs": 234200
+ },
+ {
+  "text": "itu",
+  "startMs": 234200,
+  "endMs": 234360
+ },
+ {
+  "text": "datang.",
+  "startMs": 234360,
+  "endMs": 234820
+ },
+ {
+  "text": "Tahun",
+  "startMs": 235400,
+  "endMs": 235760
+ },
+ {
+  "text": "2023,",
+  "startMs": 235760,
+  "endMs": 236260
+ },
+ {
+  "text": "3",
+  "startMs": 236260,
+  "endMs": 237420
+ },
+ {
+  "text": "penyewa",
+  "startMs": 237420,
+  "endMs": 237820
+ },
+ {
+  "text": "menghilang",
+  "startMs": 237820,
+  "endMs": 238240
+ },
+ {
+  "text": "bersamaan.",
+  "startMs": 238240,
+  "endMs": 238680
+ },
+ {
+  "text": "Tidak",
+  "startMs": 239320,
+  "endMs": 239560
+ },
+ {
+  "text": "membayar,",
+  "startMs": 239560,
+  "endMs": 240140
+ },
+ {
+  "text": "tidak",
+  "startMs": 240400,
+  "endMs": 240540
+ },
+ {
+  "text": "bisa",
+  "startMs": 240540,
+  "endMs": 240760
+ },
+ {
+  "text": "dihubungi,",
+  "startMs": 240760,
+  "endMs": 241420
+ },
+ {
+  "text": "dan",
+  "startMs": 241420,
+  "endMs": 242000
+ },
+ {
+  "text": "3",
+  "startMs": 242000,
+  "endMs": 242220
+ },
+ {
+  "text": "motor",
+  "startMs": 242220,
+  "endMs": 242500
+ },
+ {
+  "text": "ikut",
+  "startMs": 242500,
+  "endMs": 242740
+ },
+ {
+  "text": "raib",
+  "startMs": 242740,
+  "endMs": 243060
+ },
+ {
+  "text": "bersama",
+  "startMs": 243060,
+  "endMs": 243360
+ },
+ {
+  "text": "mereka.",
+  "startMs": 243360,
+  "endMs": 243660
+ },
+ {
+  "text": "Rp30",
+  "startMs": 243660,
+  "endMs": 244920
+ },
+ {
+  "text": "juta",
+  "startMs": 244920,
+  "endMs": 245340
+ },
+ {
+  "text": "lenyap",
+  "startMs": 245340,
+  "endMs": 245720
+ },
+ {
+  "text": "begitu",
+  "startMs": 245720,
+  "endMs": 245960
+ },
+ {
+  "text": "saja.",
+  "startMs": 245960,
+  "endMs": 246240
+ },
+ {
+  "text": "Malam",
+  "startMs": 246240,
+  "endMs": 247420
+ },
+ {
+  "text": "itu,",
+  "startMs": 247420,
+  "endMs": 247560
+ },
+ {
+  "text": "kamu",
+  "startMs": 247560,
+  "endMs": 247760
+ },
+ {
+  "text": "membuka",
+  "startMs": 247760,
+  "endMs": 248120
+ },
+ {
+  "text": "bukumu",
+  "startMs": 248120,
+  "endMs": 248580
+ },
+ {
+  "text": "dan",
+  "startMs": 248580,
+  "endMs": 248700
+ },
+ {
+  "text": "mencoret",
+  "startMs": 248700,
+  "endMs": 249120
+ },
+ {
+  "text": "tiga",
+  "startMs": 249120,
+  "endMs": 249340
+ },
+ {
+  "text": "nama.",
+  "startMs": 249340,
+  "endMs": 249660
+ },
+ {
+  "text": "Tiga",
+  "startMs": 250240,
+  "endMs": 250600
+ },
+ {
+  "text": "baris",
+  "startMs": 250600,
+  "endMs": 250860
+ },
+ {
+  "text": "yang",
+  "startMs": 250860,
+  "endMs": 250980
+ },
+ {
+  "text": "dulu",
+  "startMs": 250980,
+  "endMs": 251140
+ },
+ {
+  "text": "kamu",
+  "startMs": 251140,
+  "endMs": 251360
+ },
+ {
+  "text": "tulis",
+  "startMs": 251360,
+  "endMs": 251640
+ },
+ {
+  "text": "penuh",
+  "startMs": 251640,
+  "endMs": 251880
+ },
+ {
+  "text": "harapan,",
+  "startMs": 251880,
+  "endMs": 252320
+ },
+ {
+  "text": "kini",
+  "startMs": 252620,
+  "endMs": 252780
+ },
+ {
+  "text": "tinggal",
+  "startMs": 252780,
+  "endMs": 253080
+ },
+ {
+  "text": "coretan",
+  "startMs": 253080,
+  "endMs": 253480
+ },
+ {
+  "text": "tinta.",
+  "startMs": 253480,
+  "endMs": 253820
+ },
+ {
+  "text": "Namun",
+  "startMs": 254540,
+  "endMs": 255100
+ },
+ {
+  "text": "kamu",
+  "startMs": 255100,
+  "endMs": 255280
+ },
+ {
+  "text": "tidak",
+  "startMs": 255280,
+  "endMs": 255480
+ },
+ {
+  "text": "berhenti.",
+  "startMs": 255480,
+  "endMs": 255820
+ },
+ {
+  "text": "Kamu",
+  "startMs": 256420,
+  "endMs": 256780
+ },
+ {
+  "text": "ubah",
+  "startMs": 256780,
+  "endMs": 257060
+ },
+ {
+  "text": "aturannya.",
+  "startMs": 257060,
+  "endMs": 257560
+ },
+ {
+  "text": "Mulai",
+  "startMs": 258160,
+  "endMs": 258540
+ },
+ {
+  "text": "hari",
+  "startMs": 258540,
+  "endMs": 258720
+ },
+ {
+  "text": "itu,",
+  "startMs": 258720,
+  "endMs": 259080
+ },
+ {
+  "text": "setiap",
+  "startMs": 259420,
+  "endMs": 259760
+ },
+ {
+  "text": "penyewa",
+  "startMs": 259760,
+  "endMs": 260040
+ },
+ {
+  "text": "baru",
+  "startMs": 260040,
+  "endMs": 260340
+ },
+ {
+  "text": "wajib",
+  "startMs": 260340,
+  "endMs": 260700
+ },
+ {
+  "text": "membayar",
+  "startMs": 260700,
+  "endMs": 261120
+ },
+ {
+  "text": "deposit",
+  "startMs": 261120,
+  "endMs": 261400
+ },
+ {
+  "text": "Rp1",
+  "startMs": 261400,
+  "endMs": 261780
+ },
+ {
+  "text": "juta,",
+  "startMs": 261780,
+  "endMs": 262080
+ },
+ {
+  "text": "menyerahkan",
+  "startMs": 262700,
+  "endMs": 263220
+ },
+ {
+  "text": "fotokopi",
+  "startMs": 263220,
+  "endMs": 263640
+ },
+ {
+  "text": "KTP,",
+  "startMs": 263640,
+  "endMs": 264000
+ },
+ {
+  "text": "dan",
+  "startMs": 264000,
+  "endMs": 264660
+ },
+ {
+  "text": "setiap",
+  "startMs": 264660,
+  "endMs": 265040
+ },
+ {
+  "text": "motor",
+  "startMs": 265040,
+  "endMs": 265240
+ },
+ {
+  "text": "dipasangi",
+  "startMs": 265240,
+  "endMs": 265740
+ },
+ {
+  "text": "GPS.",
+  "startMs": 265740,
+  "endMs": 266100
+ },
+ {
+  "text": "Pembayarannya",
+  "startMs": 267020,
+  "endMs": 267540
+ },
+ {
+  "text": "pun",
+  "startMs": 267540,
+  "endMs": 267740
+ },
+ {
+  "text": "diubah",
+  "startMs": 267740,
+  "endMs": 268060
+ },
+ {
+  "text": "jadi",
+  "startMs": 268060,
+  "endMs": 268240
+ },
+ {
+  "text": "mingguan,",
+  "startMs": 268240,
+  "endMs": 268780
+ },
+ {
+  "text": "bukan",
+  "startMs": 269000,
+  "endMs": 269240
+ },
+ {
+  "text": "bulanan.",
+  "startMs": 269240,
+  "endMs": 269620
+ },
+ {
+  "text": "Yang",
+  "startMs": 270420,
+  "endMs": 270680
+ },
+ {
+  "text": "tidak",
+  "startMs": 270680,
+  "endMs": 270840
+ },
+ {
+  "text": "serius",
+  "startMs": 270840,
+  "endMs": 271200
+ },
+ {
+  "text": "mundur",
+  "startMs": 271200,
+  "endMs": 271580
+ },
+ {
+  "text": "sendiri.",
+  "startMs": 271580,
+  "endMs": 271880
+ },
+ {
+  "text": "Yang",
+  "startMs": 272540,
+  "endMs": 272720
+ },
+ {
+  "text": "serius",
+  "startMs": 272720,
+  "endMs": 273020
+ },
+ {
+  "text": "bertahan.",
+  "startMs": 273020,
+  "endMs": 273500
+ },
+ {
+  "text": "Sejak",
+  "startMs": 273500,
+  "endMs": 274520
+ },
+ {
+  "text": "itu,",
+  "startMs": 274520,
+  "endMs": 274780
+ },
+ {
+  "text": "tak",
+  "startMs": 274780,
+  "endMs": 275120
+ },
+ {
+  "text": "ada",
+  "startMs": 275120,
+  "endMs": 275280
+ },
+ {
+  "text": "lagi",
+  "startMs": 275280,
+  "endMs": 275500
+ },
+ {
+  "text": "motor",
+  "startMs": 275500,
+  "endMs": 275720
+ },
+ {
+  "text": "yang",
+  "startMs": 275720,
+  "endMs": 275900
+ },
+ {
+  "text": "hilang.",
+  "startMs": 275900,
+  "endMs": 276200
+ },
+ {
+  "text": "Tahun",
+  "startMs": 276700,
+  "endMs": 277260
+ },
+ {
+  "text": "2024,",
+  "startMs": 277260,
+  "endMs": 277740
+ },
+ {
+  "text": "motormu",
+  "startMs": 278520,
+  "endMs": 278980
+ },
+ {
+  "text": "mencapai",
+  "startMs": 278980,
+  "endMs": 279380
+ },
+ {
+  "text": "28",
+  "startMs": 279380,
+  "endMs": 279860
+ },
+ {
+  "text": "unit.",
+  "startMs": 279860,
+  "endMs": 280360
+ },
+ {
+  "text": "Buku",
+  "startMs": 280960,
+  "endMs": 281220
+ },
+ {
+  "text": "kecil",
+  "startMs": 281220,
+  "endMs": 281480
+ },
+ {
+  "text": "itu",
+  "startMs": 281480,
+  "endMs": 281620
+ },
+ {
+  "text": "makin",
+  "startMs": 281620,
+  "endMs": 281900
+ },
+ {
+  "text": "tebal.",
+  "startMs": 281900,
+  "endMs": 282200
+ },
+ {
+  "text": "Sementara",
+  "startMs": 283120,
+  "endMs": 283780
+ },
+ {
+  "text": "driver",
+  "startMs": 284200,
+  "endMs": 284580
+ },
+ {
+  "text": "itu",
+  "startMs": 284580,
+  "endMs": 284860
+ },
+ {
+  "text": "masih",
+  "startMs": 284860,
+  "endMs": 285040
+ },
+ {
+  "text": "di",
+  "startMs": 285040,
+  "endMs": 285200
+ },
+ {
+  "text": "tempat",
+  "startMs": 285200,
+  "endMs": 285440
+ },
+ {
+  "text": "yang",
+  "startMs": 285440,
+  "endMs": 285580
+ },
+ {
+  "text": "sama.",
+  "startMs": 285580,
+  "endMs": 285900
+ },
+ {
+  "text": "Penghasilannya",
+  "startMs": 286680,
+  "endMs": 287480
+ },
+ {
+  "text": "naik",
+  "startMs": 287480,
+  "endMs": 288040
+ },
+ {
+  "text": "sedikit,",
+  "startMs": 288040,
+  "endMs": 288560
+ },
+ {
+  "text": "tapi",
+  "startMs": 288960,
+  "endMs": 289220
+ },
+ {
+  "text": "cicilannya",
+  "startMs": 289220,
+  "endMs": 289740
+ },
+ {
+  "text": "melesat",
+  "startMs": 289740,
+  "endMs": 290220
+ },
+ {
+  "text": "lebih",
+  "startMs": 290220,
+  "endMs": 290400
+ },
+ {
+  "text": "cepat,",
+  "startMs": 290400,
+  "endMs": 290900
+ },
+ {
+  "text": "sampai",
+  "startMs": 291260,
+  "endMs": 291880
+ },
+ {
+  "text": "ia",
+  "startMs": 291880,
+  "endMs": 292100
+ },
+ {
+  "text": "pernah",
+  "startMs": 292100,
+  "endMs": 292320
+ },
+ {
+  "text": "meminjam",
+  "startMs": 292320,
+  "endMs": 292780
+ },
+ {
+  "text": "uang",
+  "startMs": 292780,
+  "endMs": 293040
+ },
+ {
+  "text": "ke",
+  "startMs": 293040,
+  "endMs": 293180
+ },
+ {
+  "text": "temannya",
+  "startMs": 293180,
+  "endMs": 293580
+ },
+ {
+  "text": "demi",
+  "startMs": 293580,
+  "endMs": 294140
+ },
+ {
+  "text": "menutup",
+  "startMs": 294140,
+  "endMs": 294580
+ },
+ {
+  "text": "cicilan",
+  "startMs": 294580,
+  "endMs": 294960
+ },
+ {
+  "text": "HP.",
+  "startMs": 294960,
+  "endMs": 296020
+ },
+ {
+  "text": "Skor",
+  "startMs": 296020,
+  "endMs": 296560
+ },
+ {
+  "text": "tahun",
+  "startMs": 296560,
+  "endMs": 296900
+ },
+ {
+  "text": "2024:",
+  "startMs": 296900,
+  "endMs": 297420
+ },
+ {
+  "text": "kamu",
+  "startMs": 298200,
+  "endMs": 298560
+ },
+ {
+  "text": "28",
+  "startMs": 298560,
+  "endMs": 299120
+ },
+ {
+  "text": "motor.",
+  "startMs": 299120,
+  "endMs": 299600
+ },
+ {
+  "text": "Dia",
+  "startMs": 299600,
+  "endMs": 300620
+ },
+ {
+  "text": "penghasilan",
+  "startMs": 300620,
+  "endMs": 301660
+ },
+ {
+  "text": "naik",
+  "startMs": 301660,
+  "endMs": 301940
+ },
+ {
+  "text": "sedikit,",
+  "startMs": 301940,
+  "endMs": 302380
+ },
+ {
+  "text": "utang",
+  "startMs": 302920,
+  "endMs": 303500
+ },
+ {
+  "text": "naik",
+  "startMs": 303500,
+  "endMs": 303740
+ },
+ {
+  "text": "lebih",
+  "startMs": 303740,
+  "endMs": 303940
+ },
+ {
+  "text": "cepat,",
+  "startMs": 303940,
+  "endMs": 304440
+ },
+ {
+  "text": "dan",
+  "startMs": 304540,
+  "endMs": 304860
+ },
+ {
+  "text": "tabungan",
+  "startMs": 304860,
+  "endMs": 305460
+ },
+ {
+  "text": "yang",
+  "startMs": 305460,
+  "endMs": 305580
+ },
+ {
+  "text": "tak",
+  "startMs": 305580,
+  "endMs": 305740
+ },
+ {
+  "text": "pernah",
+  "startMs": 305740,
+  "endMs": 305960
+ },
+ {
+  "text": "ada.",
+  "startMs": 305960,
+  "endMs": 306340
+ },
+ {
+  "text": "Tahun",
+  "startMs": 306620,
+  "endMs": 306980
+ },
+ {
+  "text": "2026.",
+  "startMs": 306980,
+  "endMs": 307780
+ },
+ {
+  "text": "Delapan",
+  "startMs": 307780,
+  "endMs": 308780
+ },
+ {
+  "text": "tahun",
+  "startMs": 308780,
+  "endMs": 309120
+ },
+ {
+  "text": "sejak",
+  "startMs": 309120,
+  "endMs": 309400
+ },
+ {
+  "text": "2",
+  "startMs": 309400,
+  "endMs": 309580
+ },
+ {
+  "text": "motor",
+  "startMs": 309580,
+  "endMs": 309900
+ },
+ {
+  "text": "pertamamu.",
+  "startMs": 309900,
+  "endMs": 310500
+ },
+ {
+  "text": "Sekarang",
+  "startMs": 311120,
+  "endMs": 311840
+ },
+ {
+  "text": "kita",
+  "startMs": 311840,
+  "endMs": 312140
+ },
+ {
+  "text": "hitung",
+  "startMs": 312140,
+  "endMs": 312360
+ },
+ {
+  "text": "bareng-bareng.",
+  "startMs": 312360,
+  "endMs": 313580
+ },
+ {
+  "text": "Sewa",
+  "startMs": 313580,
+  "endMs": 314060
+ },
+ {
+  "text": "satu",
+  "startMs": 314060,
+  "endMs": 314340
+ },
+ {
+  "text": "motor",
+  "startMs": 314340,
+  "endMs": 314880
+ },
+ {
+  "text": "Rp750",
+  "startMs": 314880,
+  "endMs": 315620
+ },
+ {
+  "text": "ribu",
+  "startMs": 315620,
+  "endMs": 316560
+ },
+ {
+  "text": "sebulan.",
+  "startMs": 316560,
+  "endMs": 317060
+ },
+ {
+  "text": "Armadamu",
+  "startMs": 317500,
+  "endMs": 318300
+ },
+ {
+  "text": "kini",
+  "startMs": 318300,
+  "endMs": 318560
+ },
+ {
+  "text": "40",
+  "startMs": 318560,
+  "endMs": 319100
+ },
+ {
+  "text": "motor.",
+  "startMs": 319100,
+  "endMs": 319700
+ },
+ {
+  "text": "Rp750",
+  "startMs": 319700,
+  "endMs": 320780
+ },
+ {
+  "text": "ribu",
+  "startMs": 320780,
+  "endMs": 321680
+ },
+ {
+  "text": "dikali",
+  "startMs": 321680,
+  "endMs": 322060
+ },
+ {
+  "text": "40",
+  "startMs": 322060,
+  "endMs": 322520
+ },
+ {
+  "text": "motor,",
+  "startMs": 322520,
+  "endMs": 323020
+ },
+ {
+  "text": "hasilnya",
+  "startMs": 323500,
+  "endMs": 324100
+ },
+ {
+  "text": "Rp30",
+  "startMs": 324100,
+  "endMs": 324580
+ },
+ {
+  "text": "juta.",
+  "startMs": 324580,
+  "endMs": 324840
+ },
+ {
+  "text": "Kotor.",
+  "startMs": 325660,
+  "endMs": 326140
+ },
+ {
+  "text": "Dari",
+  "startMs": 326140,
+  "endMs": 327340
+ },
+ {
+  "text": "Rp30",
+  "startMs": 327340,
+  "endMs": 327660
+ },
+ {
+  "text": "juta",
+  "startMs": 327660,
+  "endMs": 327940
+ },
+ {
+  "text": "yang",
+  "startMs": 328220,
+  "endMs": 328380
+ },
+ {
+  "text": "masuk,",
+  "startMs": 328380,
+  "endMs": 328640
+ },
+ {
+  "text": "Rp7",
+  "startMs": 328640,
+  "endMs": 329320
+ },
+ {
+  "text": "juta",
+  "startMs": 329320,
+  "endMs": 329640
+ },
+ {
+  "text": "keluar",
+  "startMs": 329920,
+  "endMs": 330160
+ },
+ {
+  "text": "untuk",
+  "startMs": 330160,
+  "endMs": 330460
+ },
+ {
+  "text": "servis",
+  "startMs": 330460,
+  "endMs": 330900
+ },
+ {
+  "text": "dan",
+  "startMs": 330900,
+  "endMs": 331040
+ },
+ {
+  "text": "perawatan.",
+  "startMs": 331040,
+  "endMs": 331500
+ },
+ {
+  "text": "Lalu",
+  "startMs": 331840,
+  "endMs": 332280
+ },
+ {
+  "text": "Rp5",
+  "startMs": 332280,
+  "endMs": 332480
+ },
+ {
+  "text": "juta",
+  "startMs": 332480,
+  "endMs": 332700
+ },
+ {
+  "text": "untuk",
+  "startMs": 333080,
+  "endMs": 333440
+ },
+ {
+  "text": "cicilan",
+  "startMs": 333440,
+  "endMs": 333860
+ },
+ {
+  "text": "5",
+  "startMs": 333860,
+  "endMs": 334080
+ },
+ {
+  "text": "motor",
+  "startMs": 334080,
+  "endMs": 334400
+ },
+ {
+  "text": "terakhir",
+  "startMs": 334400,
+  "endMs": 334820
+ },
+ {
+  "text": "yang",
+  "startMs": 334820,
+  "endMs": 334940
+ },
+ {
+  "text": "masih",
+  "startMs": 334940,
+  "endMs": 335160
+ },
+ {
+  "text": "berjalan.",
+  "startMs": 335160,
+  "endMs": 335520
+ },
+ {
+  "text": "Rp30",
+  "startMs": 335520,
+  "endMs": 336560
+ },
+ {
+  "text": "juta",
+  "startMs": 336560,
+  "endMs": 337040
+ },
+ {
+  "text": "dikurangi",
+  "startMs": 337040,
+  "endMs": 337320
+ },
+ {
+  "text": "Rp7",
+  "startMs": 337320,
+  "endMs": 337600
+ },
+ {
+  "text": "juta,",
+  "startMs": 337600,
+  "endMs": 338040
+ },
+ {
+  "text": "dikurangi",
+  "startMs": 338040,
+  "endMs": 338370
+ },
+ {
+  "text": "Rp5",
+  "startMs": 338370,
+  "endMs": 338700
+ },
+ {
+  "text": "juta.",
+  "startMs": 338700,
+  "endMs": 339020
+ },
+ {
+  "text": "Hasilnya",
+  "startMs": 339620,
+  "endMs": 340120
+ },
+ {
+  "text": "Rp18",
+  "startMs": 340120,
+  "endMs": 340480
+ },
+ {
+  "text": "juta.",
+  "startMs": 340480,
+  "endMs": 340900
+ },
+ {
+  "text": "Bersih.",
+  "startMs": 341820,
+  "endMs": 342240
+ },
+ {
+  "text": "Masuk",
+  "startMs": 342740,
+  "endMs": 343180
+ },
+ {
+  "text": "ke",
+  "startMs": 343180,
+  "endMs": 343360
+ },
+ {
+  "text": "kantongmu",
+  "startMs": 343360,
+  "endMs": 343820
+ },
+ {
+  "text": "setiap",
+  "startMs": 343820,
+  "endMs": 344280
+ },
+ {
+  "text": "bulan.",
+  "startMs": 344280,
+  "endMs": 344600
+ },
+ {
+  "text": "Skor",
+  "startMs": 345180,
+  "endMs": 345620
+ },
+ {
+  "text": "akhir:",
+  "startMs": 345620,
+  "endMs": 345880
+ },
+ {
+  "text": "kamu",
+  "startMs": 346580,
+  "endMs": 347020
+ },
+ {
+  "text": "40",
+  "startMs": 347020,
+  "endMs": 347380
+ },
+ {
+  "text": "motor",
+  "startMs": 347380,
+  "endMs": 347820
+ },
+ {
+  "text": "dan",
+  "startMs": 347820,
+  "endMs": 348060
+ },
+ {
+  "text": "Rp18",
+  "startMs": 348060,
+  "endMs": 348340
+ },
+ {
+  "text": "juta",
+  "startMs": 348340,
+  "endMs": 348680
+ },
+ {
+  "text": "bersih",
+  "startMs": 349000,
+  "endMs": 349320
+ },
+ {
+  "text": "sebulan.",
+  "startMs": 349320,
+  "endMs": 349820
+ },
+ {
+  "text": "Dia",
+  "startMs": 350280,
+  "endMs": 350720
+ },
+ {
+  "text": "tetap",
+  "startMs": 350720,
+  "endMs": 351120
+ },
+ {
+  "text": "motor",
+  "startMs": 351120,
+  "endMs": 351280
+ },
+ {
+  "text": "sewaan,",
+  "startMs": 351280,
+  "endMs": 351900
+ },
+ {
+  "text": "HP",
+  "startMs": 351900,
+  "endMs": 352500
+ },
+ {
+  "text": "cicilan",
+  "startMs": 352500,
+  "endMs": 352840
+ },
+ {
+  "text": "ketiga,",
+  "startMs": 352840,
+  "endMs": 353360
+ },
+ {
+  "text": "dan",
+  "startMs": 353800,
+  "endMs": 353860
+ },
+ {
+  "text": "tabungan",
+  "startMs": 353860,
+  "endMs": 354360
+ },
+ {
+  "text": "yang",
+  "startMs": 354360,
+  "endMs": 354480
+ },
+ {
+  "text": "tetap",
+  "startMs": 354480,
+  "endMs": 354780
+ },
+ {
+  "text": "nol.",
+  "startMs": 354780,
+  "endMs": 355000
+ },
+ {
+  "text": "Meski",
+  "startMs": 356140,
+  "endMs": 356380
+ },
+ {
+  "text": "begitu,",
+  "startMs": 356380,
+  "endMs": 356800
+ },
+ {
+  "text": "kamu",
+  "startMs": 357140,
+  "endMs": 357360
+ },
+ {
+  "text": "tetap",
+  "startMs": 357360,
+  "endMs": 357660
+ },
+ {
+  "text": "menjadi",
+  "startMs": 357660,
+  "endMs": 357860
+ },
+ {
+  "text": "montir.",
+  "startMs": 357860,
+  "endMs": 358300
+ },
+ {
+  "text": "Tiap",
+  "startMs": 358900,
+  "endMs": 359220
+ },
+ {
+  "text": "pagi",
+  "startMs": 359220,
+  "endMs": 359500
+ },
+ {
+  "text": "kamu",
+  "startMs": 359500,
+  "endMs": 359700
+ },
+ {
+  "text": "membuka",
+  "startMs": 359700,
+  "endMs": 360040
+ },
+ {
+  "text": "bengkel,",
+  "startMs": 360040,
+  "endMs": 360500
+ },
+ {
+  "text": "dan",
+  "startMs": 360500,
+  "endMs": 361000
+ },
+ {
+  "text": "tanganmu",
+  "startMs": 361000,
+  "endMs": 361520
+ },
+ {
+  "text": "tetap",
+  "startMs": 361520,
+  "endMs": 361780
+ },
+ {
+  "text": "hitam",
+  "startMs": 361780,
+  "endMs": 361960
+ },
+ {
+  "text": "oli.",
+  "startMs": 361960,
+  "endMs": 362180
+ },
+ {
+  "text": "Bukan",
+  "startMs": 362880,
+  "endMs": 363200
+ },
+ {
+  "text": "karena",
+  "startMs": 363200,
+  "endMs": 363460
+ },
+ {
+  "text": "kamu",
+  "startMs": 363460,
+  "endMs": 363720
+ },
+ {
+  "text": "butuh",
+  "startMs": 363720,
+  "endMs": 363960
+ },
+ {
+  "text": "uang",
+  "startMs": 363960,
+  "endMs": 364160
+ },
+ {
+  "text": "dari",
+  "startMs": 364160,
+  "endMs": 364320
+ },
+ {
+  "text": "bengkel.",
+  "startMs": 364320,
+  "endMs": 365140
+ },
+ {
+  "text": "Uangmu",
+  "startMs": 365140,
+  "endMs": 365560
+ },
+ {
+  "text": "sudah",
+  "startMs": 365560,
+  "endMs": 365700
+ },
+ {
+  "text": "cukup.",
+  "startMs": 365700,
+  "endMs": 366100
+ },
+ {
+  "text": "Kamu",
+  "startMs": 366620,
+  "endMs": 366920
+ },
+ {
+  "text": "bertahan",
+  "startMs": 366920,
+  "endMs": 367340
+ },
+ {
+  "text": "karena",
+  "startMs": 367340,
+  "endMs": 367600
+ },
+ {
+  "text": "di",
+  "startMs": 367600,
+  "endMs": 367760
+ },
+ {
+  "text": "sinilah",
+  "startMs": 367760,
+  "endMs": 368040
+ },
+ {
+  "text": "kamu",
+  "startMs": 368040,
+  "endMs": 368220
+ },
+ {
+  "text": "belajar.",
+  "startMs": 368220,
+  "endMs": 368620
+ },
+ {
+  "text": "Mesin",
+  "startMs": 369260,
+  "endMs": 369720
+ },
+ {
+  "text": "tidak",
+  "startMs": 369720,
+  "endMs": 369960
+ },
+ {
+  "text": "pernah",
+  "startMs": 369960,
+  "endMs": 370200
+ },
+ {
+  "text": "berbohong.",
+  "startMs": 370200,
+  "endMs": 370700
+ },
+ {
+  "text": "Kalau",
+  "startMs": 371140,
+  "endMs": 371380
+ },
+ {
+  "text": "rusak,",
+  "startMs": 371380,
+  "endMs": 371720
+ },
+ {
+  "text": "ya",
+  "startMs": 371720,
+  "endMs": 371800
+ },
+ {
+  "text": "rusak.",
+  "startMs": 371800,
+  "endMs": 372140
+ },
+ {
+  "text": "Kalau",
+  "startMs": 372540,
+  "endMs": 372720
+ },
+ {
+  "text": "diperbaiki",
+  "startMs": 372720,
+  "endMs": 373160
+ },
+ {
+  "text": "dengan",
+  "startMs": 373160,
+  "endMs": 373360
+ },
+ {
+  "text": "benar,",
+  "startMs": 373360,
+  "endMs": 373800
+ },
+ {
+  "text": "ia",
+  "startMs": 373800,
+  "endMs": 374140
+ },
+ {
+  "text": "jalan",
+  "startMs": 374140,
+  "endMs": 374340
+ },
+ {
+  "text": "lagi.",
+  "startMs": 374340,
+  "endMs": 374660
+ },
+ {
+  "text": "Manusia",
+  "startMs": 375240,
+  "endMs": 375860
+ },
+ {
+  "text": "seharusnya",
+  "startMs": 375860,
+  "endMs": 376320
+ },
+ {
+  "text": "begitu",
+  "startMs": 376320,
+  "endMs": 376520
+ },
+ {
+  "text": "juga.",
+  "startMs": 376520,
+  "endMs": 376840
+ },
+ {
+  "text": "Di",
+  "startMs": 377860,
+  "endMs": 378140
+ },
+ {
+  "text": "belakang",
+  "startMs": 378140,
+  "endMs": 378380
+ },
+ {
+  "text": "bengkelmu,",
+  "startMs": 378380,
+  "endMs": 379200
+ },
+ {
+  "text": "40",
+  "startMs": 379200,
+  "endMs": 379640
+ },
+ {
+  "text": "motor",
+  "startMs": 379640,
+  "endMs": 379900
+ },
+ {
+  "text": "itu",
+  "startMs": 379900,
+  "endMs": 380140
+ },
+ {
+  "text": "berbaris",
+  "startMs": 380140,
+  "endMs": 380780
+ },
+ {
+  "text": "rapi.",
+  "startMs": 380780,
+  "endMs": 381420
+ },
+ {
+  "text": "Setiap",
+  "startMs": 381420,
+  "endMs": 381780
+ },
+ {
+  "text": "pagi",
+  "startMs": 381780,
+  "endMs": 382000
+ },
+ {
+  "text": "mereka",
+  "startMs": 382000,
+  "endMs": 382160
+ },
+ {
+  "text": "pergi",
+  "startMs": 382160,
+  "endMs": 382520
+ },
+ {
+  "text": "satu",
+  "startMs": 382520,
+  "endMs": 382760
+ },
+ {
+  "text": "per",
+  "startMs": 382760,
+  "endMs": 383180
+ },
+ {
+  "text": "satu,",
+  "startMs": 383180,
+  "endMs": 383600
+ },
+ {
+  "text": "setiap",
+  "startMs": 383600,
+  "endMs": 383900
+ },
+ {
+  "text": "malam",
+  "startMs": 383900,
+  "endMs": 384120
+ },
+ {
+  "text": "mereka",
+  "startMs": 384120,
+  "endMs": 384300
+ },
+ {
+  "text": "kembali.",
+  "startMs": 384300,
+  "endMs": 384720
+ },
+ {
+  "text": "Kamu",
+  "startMs": 384720,
+  "endMs": 385680
+ },
+ {
+  "text": "hafal",
+  "startMs": 385680,
+  "endMs": 386220
+ },
+ {
+  "text": "suara",
+  "startMs": 386220,
+  "endMs": 386480
+ },
+ {
+  "text": "mesin",
+  "startMs": 386480,
+  "endMs": 386740
+ },
+ {
+  "text": "masing-masing.",
+  "startMs": 386740,
+  "endMs": 387620
+ },
+ {
+  "text": "Kamu",
+  "startMs": 387620,
+  "endMs": 388080
+ },
+ {
+  "text": "tahu",
+  "startMs": 388080,
+  "endMs": 388340
+ },
+ {
+  "text": "mana",
+  "startMs": 388340,
+  "endMs": 388560
+ },
+ {
+  "text": "yang",
+  "startMs": 388560,
+  "endMs": 388720
+ },
+ {
+  "text": "waktunya",
+  "startMs": 388720,
+  "endMs": 389020
+ },
+ {
+  "text": "ganti",
+  "startMs": 389020,
+  "endMs": 389280
+ },
+ {
+  "text": "oli,",
+  "startMs": 389280,
+  "endMs": 389620
+ },
+ {
+  "text": "mana",
+  "startMs": 389920,
+  "endMs": 390180
+ },
+ {
+  "text": "yang",
+  "startMs": 390180,
+  "endMs": 390400
+ },
+ {
+  "text": "remnya",
+  "startMs": 390400,
+  "endMs": 390700
+ },
+ {
+  "text": "mulai",
+  "startMs": 390700,
+  "endMs": 390880
+ },
+ {
+  "text": "tipis.",
+  "startMs": 390880,
+  "endMs": 391280
+ },
+ {
+  "text": "Mereka",
+  "startMs": 391840,
+  "endMs": 392260
+ },
+ {
+  "text": "bukan",
+  "startMs": 392260,
+  "endMs": 392640
+ },
+ {
+  "text": "sekadar",
+  "startMs": 392640,
+  "endMs": 393020
+ },
+ {
+  "text": "aset,",
+  "startMs": 393020,
+  "endMs": 393420
+ },
+ {
+  "text": "melainkan",
+  "startMs": 393840,
+  "endMs": 394180
+ },
+ {
+  "text": "bukti",
+  "startMs": 394180,
+  "endMs": 394600
+ },
+ {
+  "text": "bahwa",
+  "startMs": 394600,
+  "endMs": 394840
+ },
+ {
+  "text": "tanganmu",
+  "startMs": 394840,
+  "endMs": 395260
+ },
+ {
+  "text": "tak",
+  "startMs": 395260,
+  "endMs": 395400
+ },
+ {
+  "text": "pernah",
+  "startMs": 395400,
+  "endMs": 395780
+ },
+ {
+  "text": "berhenti",
+  "startMs": 395780,
+  "endMs": 396080
+ },
+ {
+  "text": "bekerja.",
+  "startMs": 396080,
+  "endMs": 396560
+ },
+ {
+  "text": "Lalu",
+  "startMs": 397380,
+  "endMs": 397860
+ },
+ {
+  "text": "tibalah",
+  "startMs": 397860,
+  "endMs": 398320
+ },
+ {
+  "text": "hari",
+  "startMs": 398320,
+  "endMs": 398480
+ },
+ {
+  "text": "itu.",
+  "startMs": 398480,
+  "endMs": 398740
+ },
+ {
+  "text": "Siang",
+  "startMs": 399260,
+  "endMs": 399600
+ },
+ {
+  "text": "yang",
+  "startMs": 399600,
+  "endMs": 399720
+ },
+ {
+  "text": "panas.",
+  "startMs": 399720,
+  "endMs": 400180
+ },
+ {
+  "text": "Teleponmu",
+  "startMs": 400180,
+  "endMs": 401140
+ },
+ {
+  "text": "berdering.",
+  "startMs": 401140,
+  "endMs": 401560
+ },
+ {
+  "text": "Driver",
+  "startMs": 402180,
+  "endMs": 402620
+ },
+ {
+  "text": "itu",
+  "startMs": 402620,
+  "endMs": 402900
+ },
+ {
+  "text": "yang",
+  "startMs": 402900,
+  "endMs": 403080
+ },
+ {
+  "text": "menelepon.",
+  "startMs": 403080,
+  "endMs": 404060
+ },
+ {
+  "text": "Motornya",
+  "startMs": 404060,
+  "endMs": 404500
+ },
+ {
+  "text": "mogok",
+  "startMs": 404500,
+  "endMs": 404820
+ },
+ {
+  "text": "di",
+  "startMs": 404820,
+  "endMs": 404980
+ },
+ {
+  "text": "tengah",
+  "startMs": 404980,
+  "endMs": 405180
+ },
+ {
+  "text": "jalan,",
+  "startMs": 405180,
+  "endMs": 405440
+ },
+ {
+  "text": "orderan",
+  "startMs": 405960,
+  "endMs": 406440
+ },
+ {
+  "text": "menunggu,",
+  "startMs": 406440,
+  "endMs": 406900
+ },
+ {
+  "text": "ratingnya",
+  "startMs": 407240,
+  "endMs": 407720
+ },
+ {
+  "text": "terancam",
+  "startMs": 407720,
+  "endMs": 408080
+ },
+ {
+  "text": "jatuh.",
+  "startMs": 408080,
+  "endMs": 408440
+ },
+ {
+  "text": "\"Mas,",
+  "startMs": 409020,
+  "endMs": 409700
+ },
+ {
+  "text": "motor",
+  "startMs": 410120,
+  "endMs": 410340
+ },
+ {
+  "text": "saya",
+  "startMs": 410340,
+  "endMs": 410480
+ },
+ {
+  "text": "mogok.",
+  "startMs": 410480,
+  "endMs": 410820
+ },
+ {
+  "text": "Butuh",
+  "startMs": 411180,
+  "endMs": 411460
+ },
+ {
+  "text": "ganti",
+  "startMs": 411460,
+  "endMs": 411640
+ },
+ {
+  "text": "cepat,",
+  "startMs": 411640,
+  "endMs": 411960
+ },
+ {
+  "text": "ada",
+  "startMs": 411960,
+  "endMs": 412460
+ },
+ {
+  "text": "motor",
+  "startMs": 412460,
+  "endMs": 412660
+ },
+ {
+  "text": "pengganti?\"",
+  "startMs": 412660,
+  "endMs": 413060
+ },
+ {
+  "text": "Ia",
+  "startMs": 413820,
+  "endMs": 414200
+ },
+ {
+  "text": "datang",
+  "startMs": 414200,
+  "endMs": 414420
+ },
+ {
+  "text": "ke",
+  "startMs": 414420,
+  "endMs": 414520
+ },
+ {
+  "text": "bengkelmu",
+  "startMs": 414520,
+  "endMs": 414880
+ },
+ {
+  "text": "setengah",
+  "startMs": 414880,
+  "endMs": 415100
+ },
+ {
+  "text": "berlari.",
+  "startMs": 415100,
+  "endMs": 415580
+ },
+ {
+  "text": "Kamu",
+  "startMs": 416100,
+  "endMs": 416400
+ },
+ {
+  "text": "tidak",
+  "startMs": 416400,
+  "endMs": 416540
+ },
+ {
+  "text": "langsung",
+  "startMs": 416540,
+  "endMs": 416780
+ },
+ {
+  "text": "menjawab.",
+  "startMs": 416780,
+  "endMs": 417240
+ },
+ {
+  "text": "Kamu",
+  "startMs": 417880,
+  "endMs": 418160
+ },
+ {
+  "text": "membuka",
+  "startMs": 418160,
+  "endMs": 418460
+ },
+ {
+  "text": "laci,",
+  "startMs": 418460,
+  "endMs": 419220
+ },
+ {
+  "text": "mengambil",
+  "startMs": 419220,
+  "endMs": 419660
+ },
+ {
+  "text": "buku",
+  "startMs": 419660,
+  "endMs": 419900
+ },
+ {
+  "text": "kecil",
+  "startMs": 419900,
+  "endMs": 420160
+ },
+ {
+  "text": "bersampul",
+  "startMs": 420160,
+  "endMs": 420450
+ },
+ {
+  "text": "lusuh",
+  "startMs": 420450,
+  "endMs": 420740
+ },
+ {
+  "text": "itu,",
+  "startMs": 420740,
+  "endMs": 421040
+ },
+ {
+  "text": "lalu",
+  "startMs": 421460,
+  "endMs": 421800
+ },
+ {
+  "text": "membalik",
+  "startMs": 421800,
+  "endMs": 422160
+ },
+ {
+  "text": "halaman",
+  "startMs": 422160,
+  "endMs": 422540
+ },
+ {
+  "text": "demi",
+  "startMs": 422540,
+  "endMs": 422720
+ },
+ {
+  "text": "halaman",
+  "startMs": 422720,
+  "endMs": 423140
+ },
+ {
+  "text": "sampai",
+  "startMs": 423140,
+  "endMs": 423560
+ },
+ {
+  "text": "menemukan",
+  "startMs": 423560,
+  "endMs": 423960
+ },
+ {
+  "text": "namanya,",
+  "startMs": 423960,
+  "endMs": 424980
+ },
+ {
+  "text": "lengkap",
+  "startMs": 424980,
+  "endMs": 425340
+ },
+ {
+  "text": "dengan",
+  "startMs": 425340,
+  "endMs": 425560
+ },
+ {
+  "text": "nomor",
+  "startMs": 425560,
+  "endMs": 425820
+ },
+ {
+  "text": "plat",
+  "startMs": 425820,
+  "endMs": 426020
+ },
+ {
+  "text": "motor",
+  "startMs": 426020,
+  "endMs": 426280
+ },
+ {
+  "text": "yang",
+  "startMs": 426280,
+  "endMs": 426440
+ },
+ {
+  "text": "setiap",
+  "startMs": 426440,
+  "endMs": 426800
+ },
+ {
+  "text": "hari",
+  "startMs": 426800,
+  "endMs": 426960
+ },
+ {
+  "text": "ia",
+  "startMs": 426960,
+  "endMs": 427120
+ },
+ {
+  "text": "kendarai.",
+  "startMs": 427120,
+  "endMs": 427560
+ },
+ {
+  "text": "Motor",
+  "startMs": 428140,
+  "endMs": 428600
+ },
+ {
+  "text": "yang",
+  "startMs": 428600,
+  "endMs": 428800
+ },
+ {
+  "text": "selama",
+  "startMs": 428800,
+  "endMs": 429100
+ },
+ {
+  "text": "ini",
+  "startMs": 429100,
+  "endMs": 429340
+ },
+ {
+  "text": "ia",
+  "startMs": 429340,
+  "endMs": 429540
+ },
+ {
+  "text": "kira",
+  "startMs": 429540,
+  "endMs": 429780
+ },
+ {
+  "text": "milik",
+  "startMs": 429780,
+  "endMs": 430120
+ },
+ {
+  "text": "rental",
+  "startMs": 430120,
+  "endMs": 430400
+ },
+ {
+  "text": "lain.",
+  "startMs": 430400,
+  "endMs": 430700
+ },
+ {
+  "text": "Kamu",
+  "startMs": 431460,
+  "endMs": 431840
+ },
+ {
+  "text": "menatapnya",
+  "startMs": 431840,
+  "endMs": 432260
+ },
+ {
+  "text": "tenang,",
+  "startMs": 432260,
+  "endMs": 432700
+ },
+ {
+  "text": "lalu",
+  "startMs": 432920,
+  "endMs": 433040
+ },
+ {
+  "text": "berkata",
+  "startMs": 433040,
+  "endMs": 433320
+ },
+ {
+  "text": "pelan,",
+  "startMs": 433320,
+  "endMs": 433620
+ },
+ {
+  "text": "\"Motor",
+  "startMs": 434280,
+  "endMs": 434740
+ },
+ {
+  "text": "itu",
+  "startMs": 434740,
+  "endMs": 435060
+ },
+ {
+  "text": "dari",
+  "startMs": 435060,
+  "endMs": 435860
+ },
+ {
+  "text": "saya,",
+  "startMs": 435860,
+  "endMs": 436120
+ },
+ {
+  "text": "Mas.\"",
+  "startMs": 436260,
+  "endMs": 436340
+ },
+ {
+  "text": "Ia",
+  "startMs": 437200,
+  "endMs": 437540
+ },
+ {
+  "text": "terdiam.",
+  "startMs": 437540,
+  "endMs": 437900
+ },
+ {
+  "text": "Matanya",
+  "startMs": 438540,
+  "endMs": 438980
+ },
+ {
+  "text": "berpindah",
+  "startMs": 438980,
+  "endMs": 439480
+ },
+ {
+  "text": "dari",
+  "startMs": 439480,
+  "endMs": 439640
+ },
+ {
+  "text": "buku",
+  "startMs": 439640,
+  "endMs": 439880
+ },
+ {
+  "text": "itu",
+  "startMs": 439880,
+  "endMs": 440080
+ },
+ {
+  "text": "ke",
+  "startMs": 440080,
+  "endMs": 440456
+ },
+ {
+  "text": "wajahmu,",
+  "startMs": 440456,
+  "endMs": 440832
+ },
+ {
+  "text": "lalu",
+  "startMs": 440832,
+  "endMs": 441208
+ },
+ {
+  "text": "ke",
+  "startMs": 441208,
+  "endMs": 441584
+ },
+ {
+  "text": "deretan",
+  "startMs": 441584,
+  "endMs": 441960
+ },
+ {
+  "text": "motor",
+  "startMs": 441960,
+  "endMs": 442120
+ },
+ {
+  "text": "di",
+  "startMs": 442120,
+  "endMs": 442320
+ },
+ {
+  "text": "belakang",
+  "startMs": 442320,
+  "endMs": 442520
+ },
+ {
+  "text": "bengkelmu.",
+  "startMs": 442520,
+  "endMs": 443780
+ },
+ {
+  "text": "Empat",
+  "startMs": 443780,
+  "endMs": 444200
+ },
+ {
+  "text": "puluh",
+  "startMs": 444200,
+  "endMs": 444500
+ },
+ {
+  "text": "motor.",
+  "startMs": 444500,
+  "endMs": 444860
+ },
+ {
+  "text": "Ia",
+  "startMs": 445640,
+  "endMs": 445980
+ },
+ {
+  "text": "menghitung",
+  "startMs": 445980,
+  "endMs": 446340
+ },
+ {
+  "text": "dalam",
+  "startMs": 446340,
+  "endMs": 446580
+ },
+ {
+  "text": "hati.",
+  "startMs": 446580,
+  "endMs": 446940
+ },
+ {
+  "text": "Untuk",
+  "startMs": 447460,
+  "endMs": 447800
+ },
+ {
+  "text": "pertama",
+  "startMs": 447800,
+  "endMs": 448040
+ },
+ {
+  "text": "kalinya,",
+  "startMs": 448040,
+  "endMs": 448440
+ },
+ {
+  "text": "ia",
+  "startMs": 448900,
+  "endMs": 449120
+ },
+ {
+  "text": "melihat",
+  "startMs": 449120,
+  "endMs": 449420
+ },
+ {
+  "text": "jelas",
+  "startMs": 449420,
+  "endMs": 449860
+ },
+ {
+  "text": "siapa",
+  "startMs": 449860,
+  "endMs": 450580
+ },
+ {
+  "text": "yang",
+  "startMs": 450580,
+  "endMs": 450740
+ },
+ {
+  "text": "selama",
+  "startMs": 450740,
+  "endMs": 451060
+ },
+ {
+  "text": "ini",
+  "startMs": 451060,
+  "endMs": 451260
+ },
+ {
+  "text": "memperbaiki",
+  "startMs": 451260,
+  "endMs": 451760
+ },
+ {
+  "text": "motornya.",
+  "startMs": 451760,
+  "endMs": 452320
+ },
+ {
+  "text": "Kamu",
+  "startMs": 453020,
+  "endMs": 453420
+ },
+ {
+  "text": "tetap",
+  "startMs": 453420,
+  "endMs": 453660
+ },
+ {
+  "text": "memberinya",
+  "startMs": 453660,
+  "endMs": 453980
+ },
+ {
+  "text": "motor",
+  "startMs": 453980,
+  "endMs": 454200
+ },
+ {
+  "text": "pengganti,",
+  "startMs": 454200,
+  "endMs": 454660
+ },
+ {
+  "text": "bukan",
+  "startMs": 455220,
+  "endMs": 455580
+ },
+ {
+  "text": "karena",
+  "startMs": 455580,
+  "endMs": 455840
+ },
+ {
+  "text": "ia",
+  "startMs": 455840,
+  "endMs": 456060
+ },
+ {
+  "text": "memohon,",
+  "startMs": 456060,
+  "endMs": 456580
+ },
+ {
+  "text": "melainkan",
+  "startMs": 456580,
+  "endMs": 457340
+ },
+ {
+  "text": "karena",
+  "startMs": 457340,
+  "endMs": 457580
+ },
+ {
+  "text": "itu",
+  "startMs": 457580,
+  "endMs": 457800
+ },
+ {
+  "text": "pekerjaanmu.",
+  "startMs": 457800,
+  "endMs": 458420
+ },
+ {
+  "text": "Tapi",
+  "startMs": 458900,
+  "endMs": 459240
+ },
+ {
+  "text": "ada",
+  "startMs": 459240,
+  "endMs": 459460
+ },
+ {
+  "text": "aturannya:",
+  "startMs": 459460,
+  "endMs": 459940
+ },
+ {
+  "text": "deposit",
+  "startMs": 460600,
+  "endMs": 461040
+ },
+ {
+  "text": "Rp1",
+  "startMs": 461040,
+  "endMs": 461380
+ },
+ {
+  "text": "juta,",
+  "startMs": 461380,
+  "endMs": 461680
+ },
+ {
+  "text": "bayar",
+  "startMs": 462100,
+  "endMs": 462540
+ },
+ {
+  "text": "mingguan,",
+  "startMs": 462540,
+  "endMs": 463100
+ },
+ {
+  "text": "dan",
+  "startMs": 463460,
+  "endMs": 463500
+ },
+ {
+  "text": "motor",
+  "startMs": 463500,
+  "endMs": 463820
+ },
+ {
+  "text": "wajib",
+  "startMs": 463820,
+  "endMs": 464220
+ },
+ {
+  "text": "dijaga.",
+  "startMs": 464220,
+  "endMs": 464560
+ },
+ {
+  "text": "Ia",
+  "startMs": 465220,
+  "endMs": 465460
+ },
+ {
+  "text": "mengangguk.",
+  "startMs": 465460,
+  "endMs": 465860
+ },
+ {
+  "text": "Tak",
+  "startMs": 466360,
+  "endMs": 466560
+ },
+ {
+  "text": "ada",
+  "startMs": 466560,
+  "endMs": 466720
+ },
+ {
+  "text": "tawa",
+  "startMs": 466720,
+  "endMs": 466980
+ },
+ {
+  "text": "kali",
+  "startMs": 466980,
+  "endMs": 467220
+ },
+ {
+  "text": "ini.",
+  "startMs": 467220,
+  "endMs": 467440
+ },
+ {
+  "text": "Tak",
+  "startMs": 467920,
+  "endMs": 468100
+ },
+ {
+  "text": "ada",
+  "startMs": 468100,
+  "endMs": 468260
+ },
+ {
+  "text": "lagi",
+  "startMs": 468260,
+  "endMs": 468420
+ },
+ {
+  "text": "cerita",
+  "startMs": 468420,
+  "endMs": 468700
+ },
+ {
+  "text": "soal",
+  "startMs": 468700,
+  "endMs": 468980
+ },
+ {
+  "text": "HP",
+  "startMs": 468980,
+  "endMs": 469140
+ },
+ {
+  "text": "baru.",
+  "startMs": 469140,
+  "endMs": 469380
+ },
+ {
+  "text": "Keesokan",
+  "startMs": 469380,
+  "endMs": 470740
+ },
+ {
+  "text": "paginya,",
+  "startMs": 470740,
+  "endMs": 471100
+ },
+ {
+  "text": "ia",
   "startMs": 471460,
   "endMs": 471700
  },
  {
-  "text": "Nak.",
-  "startMs": 471800,
-  "endMs": 471880
+  "text": "datang",
+  "startMs": 471700,
+  "endMs": 471940
  },
  {
-  "text": "Dari",
-  "startMs": 472700,
-  "endMs": 472980
+  "text": "lagi.",
+  "startMs": 471940,
+  "endMs": 472240
  },
  {
-  "text": "dulu.\"",
-  "startMs": 472980,
-  "endMs": 473260
+  "text": "Bukan",
+  "startMs": 472600,
+  "endMs": 472920
+ },
+ {
+  "text": "untuk",
+  "startMs": 472920,
+  "endMs": 473080
+ },
+ {
+  "text": "servis.",
+  "startMs": 473080,
+  "endMs": 473520
  },
  {
   "text": "Ia",
-  "startMs": 474460,
-  "endMs": 474920
+  "startMs": 474040,
+  "endMs": 474260
  },
  {
-  "text": "meminta",
-  "startMs": 474920,
-  "endMs": 475200
- },
- {
-  "text": "maaf",
-  "startMs": 475200,
-  "endMs": 475500
- },
- {
-  "text": "bukan",
-  "startMs": 475500,
-  "endMs": 475720
- },
- {
-  "text": "dengan",
-  "startMs": 475720,
-  "endMs": 475960
- },
- {
-  "text": "kata-kata",
-  "startMs": 475960,
-  "endMs": 476300
- },
- {
-  "text": "panjang,",
-  "startMs": 476300,
-  "endMs": 476780
- },
- {
-  "text": "melainkan",
-  "startMs": 476780,
-  "endMs": 477620
- },
- {
-  "text": "dengan",
-  "startMs": 477620,
-  "endMs": 477780
- },
- {
-  "text": "tinggal",
-  "startMs": 477780,
-  "endMs": 478300
- },
- {
-  "text": "seminggu",
-  "startMs": 478300,
-  "endMs": 478720
- },
- {
-  "text": "lebih",
-  "startMs": 478720,
-  "endMs": 478900
- },
- {
-  "text": "lama.",
-  "startMs": 478900,
-  "endMs": 479180
- },
- {
-  "text": "Dengan",
-  "startMs": 479800,
-  "endMs": 480100
- },
- {
-  "text": "ikut",
-  "startMs": 480100,
-  "endMs": 480400
- },
- {
-  "text": "memetik",
-  "startMs": 480400,
-  "endMs": 480740
- },
- {
-  "text": "durian.",
-  "startMs": 480740,
-  "endMs": 481080
- },
- {
-  "text": "Dengan",
-  "startMs": 481680,
-  "endMs": 482020
- },
- {
-  "text": "berkata",
-  "startMs": 482020,
-  "endMs": 482380
- },
- {
-  "text": "pelan,",
-  "startMs": 482380,
-  "endMs": 482700
- },
- {
-  "text": "\"Saya",
-  "startMs": 483600,
-  "endMs": 483900
- },
- {
-  "text": "bangga,",
-  "startMs": 483900,
-  "endMs": 484860
- },
- {
-  "text": "Yah.\"",
-  "startMs": 484860,
-  "endMs": 485820
- },
- {
-  "text": "Di",
-  "startMs": 485820,
-  "endMs": 486500
- },
- {
-  "text": "sinilah",
-  "startMs": 486500,
-  "endMs": 486790
- },
- {
-  "text": "letak",
-  "startMs": 486790,
-  "endMs": 487080
- },
- {
-  "text": "pelajarannya.",
-  "startMs": 487080,
-  "endMs": 487700
- },
- {
-  "text": "Tanah",
-  "startMs": 488540,
-  "endMs": 489000
- },
- {
-  "text": "tidak",
-  "startMs": 489000,
-  "endMs": 489180
- },
- {
-  "text": "berbohong",
-  "startMs": 489180,
-  "endMs": 489680
- },
- {
-  "text": "dan",
-  "startMs": 489680,
-  "endMs": 489840
- },
- {
-  "text": "tidak",
-  "startMs": 489840,
-  "endMs": 490040
- },
- {
-  "text": "pergi;",
-  "startMs": 490040,
-  "endMs": 490380
- },
- {
-  "text": "ia",
-  "startMs": 491100,
-  "endMs": 491340
- },
- {
-  "text": "membalas",
-  "startMs": 491340,
-  "endMs": 491820
- },
- {
-  "text": "sebesar",
-  "startMs": 491820,
-  "endMs": 492280
- },
- {
-  "text": "yang",
-  "startMs": 492280,
-  "endMs": 492460
- },
- {
-  "text": "kamu",
-  "startMs": 492460,
-  "endMs": 492720
- },
- {
-  "text": "rawat.",
-  "startMs": 492720,
-  "endMs": 493120
- },
- {
-  "text": "Tengkulak",
-  "startMs": 493820,
-  "endMs": 494320
- },
- {
-  "text": "itu",
-  "startMs": 494320,
-  "endMs": 494480
- },
- {
-  "text": "bisa",
-  "startMs": 494480,
-  "endMs": 494640
- },
- {
-  "text": "menekan",
-  "startMs": 494640,
-  "endMs": 495020
- },
- {
-  "text": "harga,",
-  "startMs": 495020,
-  "endMs": 495360
- },
- {
-  "text": "tetapi",
-  "startMs": 495360,
-  "endMs": 496000
- },
- {
-  "text": "ia",
-  "startMs": 496000,
-  "endMs": 496140
- },
- {
-  "text": "tidak",
-  "startMs": 496140,
-  "endMs": 496280
- },
- {
-  "text": "bisa",
-  "startMs": 496280,
-  "endMs": 496500
- },
- {
-  "text": "menekan",
-  "startMs": 496500,
-  "endMs": 496860
- },
- {
-  "text": "tanah.",
-  "startMs": 496860,
-  "endMs": 497260
- },
- {
-  "text": "Dan",
-  "startMs": 497760,
-  "endMs": 498260
- },
- {
-  "text": "anakmu",
-  "startMs": 498260,
-  "endMs": 498680
- },
- {
-  "text": "yang",
-  "startMs": 498680,
-  "endMs": 498800
- },
- {
-  "text": "dulu",
-  "startMs": 498800,
-  "endMs": 498960
- },
- {
-  "text": "malu",
-  "startMs": 498960,
-  "endMs": 499420
- },
- {
-  "text": "akhirnya",
-  "startMs": 499420,
-  "endMs": 500160
- },
- {
-  "text": "tahu:",
-  "startMs": 500160,
-  "endMs": 500400
- },
- {
-  "text": "ayahnya",
-  "startMs": 501160,
-  "endMs": 501620
- },
- {
-  "text": "tidak",
-  "startMs": 501620,
-  "endMs": 501780
- },
- {
-  "text": "pernah",
-  "startMs": 501780,
-  "endMs": 502020
- },
- {
-  "text": "miskin,",
-  "startMs": 502020,
-  "endMs": 502500
- },
- {
-  "text": "hanya",
-  "startMs": 503020,
-  "endMs": 503360
- },
- {
-  "text": "sabar.",
-  "startMs": 503360,
-  "endMs": 503780
- },
- {
-  "text": "Sebelum",
-  "startMs": 505000,
-  "endMs": 505660
- },
- {
-  "text": "kita",
-  "startMs": 505660,
-  "endMs": 505840
- },
- {
-  "text": "tutup,",
-  "startMs": 505840,
-  "endMs": 506120
- },
- {
-  "text": "satu",
-  "startMs": 506120,
-  "endMs": 506340
- },
- {
-  "text": "hal.",
-  "startMs": 506340,
-  "endMs": 506600
- },
- {
-  "text": "Kalau",
-  "startMs": 507220,
-  "endMs": 507480
- },
- {
-  "text": "kamu",
-  "startMs": 507480,
-  "endMs": 507680
- },
- {
-  "text": "pernah",
-  "startMs": 507680,
-  "endMs": 507880
- },
- {
-  "text": "diremehkan",
-  "startMs": 507880,
-  "endMs": 508420
- },
- {
-  "text": "karena",
-  "startMs": 508420,
-  "endMs": 508620
- },
- {
-  "text": "pekerjaanmu,",
-  "startMs": 508620,
-  "endMs": 509460
- },
- {
-  "text": "atau",
-  "startMs": 509780,
-  "endMs": 510000
- },
- {
-  "text": "justru",
-  "startMs": 510000,
-  "endMs": 510300
- },
- {
-  "text": "pernah",
-  "startMs": 510300,
-  "endMs": 510500
- },
- {
-  "text": "malu",
-  "startMs": 510500,
-  "endMs": 510900
- },
- {
-  "text": "pada",
-  "startMs": 510900,
-  "endMs": 511060
- },
- {
-  "text": "pekerjaan",
-  "startMs": 511060,
-  "endMs": 511540
- },
- {
-  "text": "orang",
-  "startMs": 511540,
-  "endMs": 511720
- },
- {
-  "text": "tuamu",
-  "startMs": 511720,
-  "endMs": 512280
- },
- {
-  "text": "lalu",
-  "startMs": 512280,
-  "endMs": 512420
- },
- {
-  "text": "menyesal,",
-  "startMs": 512420,
-  "endMs": 512900
- },
- {
-  "text": "ceritakan",
-  "startMs": 513560,
-  "endMs": 513980
+  "text": "berdiri",
+  "startMs": 474260,
+  "endMs": 474620
  },
  {
   "text": "di",
-  "startMs": 513980,
+  "startMs": 474620,
+  "endMs": 474800
+ },
+ {
+  "text": "depan",
+  "startMs": 474800,
+  "endMs": 475020
+ },
+ {
+  "text": "bengkelmu",
+  "startMs": 475020,
+  "endMs": 475480
+ },
+ {
+  "text": "dan",
+  "startMs": 475480,
+  "endMs": 475620
+ },
+ {
+  "text": "bertanya",
+  "startMs": 475620,
+  "endMs": 475940
+ },
+ {
+  "text": "pelan,",
+  "startMs": 475940,
+  "endMs": 476300
+ },
+ {
+  "text": "\"Jadi",
+  "startMs": 477020,
+  "endMs": 477420
+ },
+ {
+  "text": "selama",
+  "startMs": 477420,
+  "endMs": 477700
+ },
+ {
+  "text": "ini...",
+  "startMs": 477700,
+  "endMs": 478000
+ },
+ {
+  "text": "motor",
+  "startMs": 478660,
+  "endMs": 478960
+ },
+ {
+  "text": "saya...",
+  "startMs": 478960,
+  "endMs": 480260
+ },
+ {
+  "text": "dari",
+  "startMs": 480260,
+  "endMs": 480420
+ },
+ {
+  "text": "Mas?\"",
+  "startMs": 480560,
+  "endMs": 480660
+ },
+ {
+  "text": "Kamu",
+  "startMs": 481600,
+  "endMs": 481940
+ },
+ {
+  "text": "mengelap",
+  "startMs": 481940,
+  "endMs": 482220
+ },
+ {
+  "text": "tanganmu,",
+  "startMs": 482220,
+  "endMs": 482660
+ },
+ {
+  "text": "lalu",
+  "startMs": 483000,
+  "endMs": 483220
+ },
+ {
+  "text": "menjawab",
+  "startMs": 483220,
+  "endMs": 483500
+ },
+ {
+  "text": "singkat,",
+  "startMs": 483500,
+  "endMs": 483820
+ },
+ {
+  "text": "\"Dari",
+  "startMs": 484420,
+  "endMs": 484720
+ },
+ {
+  "text": "bengkel",
+  "startMs": 484720,
+  "endMs": 485020
+ },
+ {
+  "text": "ini,",
+  "startMs": 485020,
+  "endMs": 485220
+ },
+ {
+  "text": "Mas.\"",
+  "startMs": 485340,
+  "endMs": 485460
+ },
+ {
+  "text": "Ia",
+  "startMs": 486280,
+  "endMs": 486540
+ },
+ {
+  "text": "menunduk.",
+  "startMs": 486540,
+  "endMs": 486920
+ },
+ {
+  "text": "\"Saya",
+  "startMs": 487600,
+  "endMs": 487900
+ },
+ {
+  "text": "kira,",
+  "startMs": 487900,
+  "endMs": 488380
+ },
+ {
+  "text": "Mas",
+  "startMs": 489080,
+  "endMs": 489280
+ },
+ {
+  "text": "cuma",
+  "startMs": 489420,
+  "endMs": 489580
+ },
+ {
+  "text": "montir.\"",
+  "startMs": 489580,
+  "endMs": 490140
+ },
+ {
+  "text": "Kamu",
+  "startMs": 490780,
+  "endMs": 491240
+ },
+ {
+  "text": "tersenyum.",
+  "startMs": 491240,
+  "endMs": 491600
+ },
+ {
+  "text": "\"Saya",
+  "startMs": 492020,
+  "endMs": 492320
+ },
+ {
+  "text": "memang",
+  "startMs": 492320,
+  "endMs": 492500
+ },
+ {
+  "text": "montir,",
+  "startMs": 492500,
+  "endMs": 492900
+ },
+ {
+  "text": "Mas.\"",
+  "startMs": 492980,
+  "endMs": 493100
+ },
+ {
+  "text": "Seminggu",
+  "startMs": 494060,
+  "endMs": 494500
+ },
+ {
+  "text": "kemudian,",
+  "startMs": 494500,
+  "endMs": 494940
+ },
+ {
+  "text": "ia",
+  "startMs": 495360,
+  "endMs": 495520
+ },
+ {
+  "text": "membayar",
+  "startMs": 495520,
+  "endMs": 495940
+ },
+ {
+  "text": "tepat",
+  "startMs": 495940,
+  "endMs": 496260
+ },
+ {
+  "text": "waktu",
+  "startMs": 496260,
+  "endMs": 496560
+ },
+ {
+  "text": "sesuai",
+  "startMs": 496560,
+  "endMs": 497060
+ },
+ {
+  "text": "aturan",
+  "startMs": 497060,
+  "endMs": 497340
+ },
+ {
+  "text": "mingguanmu.",
+  "startMs": 497340,
+  "endMs": 497660
+ },
+ {
+  "text": "Ia",
+  "startMs": 497660,
+  "endMs": 498660
+ },
+ {
+  "text": "bahkan",
+  "startMs": 498660,
+  "endMs": 498920
+ },
+ {
+  "text": "mencuci",
+  "startMs": 498920,
+  "endMs": 499220
+ },
+ {
+  "text": "motornya",
+  "startMs": 499220,
+  "endMs": 499600
+ },
+ {
+  "text": "sendiri",
+  "startMs": 499600,
+  "endMs": 499860
+ },
+ {
+  "text": "sampai",
+  "startMs": 499860,
+  "endMs": 500120
+ },
+ {
+  "text": "bersih",
+  "startMs": 500120,
+  "endMs": 500520
+ },
+ {
+  "text": "sebelum",
+  "startMs": 500520,
+  "endMs": 500880
+ },
+ {
+  "text": "mengembalikannya.",
+  "startMs": 500880,
+  "endMs": 501500
+ },
+ {
+  "text": "Pelan-pelan,",
+  "startMs": 501500,
+  "endMs": 502640
+ },
+ {
+  "text": "driver-driver",
+  "startMs": 502640,
+  "endMs": 503780
+ },
+ {
+  "text": "lain",
+  "startMs": 503780,
+  "endMs": 504000
+ },
+ {
+  "text": "pun",
+  "startMs": 504000,
+  "endMs": 504160
+ },
+ {
+  "text": "mulai",
+  "startMs": 504160,
+  "endMs": 504460
+ },
+ {
+  "text": "memperhatikan.",
+  "startMs": 504460,
+  "endMs": 504980
+ },
+ {
+  "text": "Montir",
+  "startMs": 505700,
+  "endMs": 506160
+ },
+ {
+  "text": "yang",
+  "startMs": 506160,
+  "endMs": 506280
+ },
+ {
+  "text": "dulu",
+  "startMs": 506280,
+  "endMs": 506460
+ },
+ {
+  "text": "mereka",
+  "startMs": 506460,
+  "endMs": 506660
+ },
+ {
+  "text": "remehkan,",
+  "startMs": 506660,
+  "endMs": 507340
+ },
+ {
+  "text": "ternyata",
+  "startMs": 507600,
+  "endMs": 508060
+ },
+ {
+  "text": "memegang",
+  "startMs": 508060,
+  "endMs": 508460
+ },
+ {
+  "text": "kunci",
+  "startMs": 508460,
+  "endMs": 508760
+ },
+ {
+  "text": "motor",
+  "startMs": 508760,
+  "endMs": 509020
+ },
+ {
+  "text": "mereka.",
+  "startMs": 509020,
+  "endMs": 509300
+ },
+ {
+  "text": "Di",
+  "startMs": 509300,
+  "endMs": 510060
+ },
+ {
+  "text": "sinilah",
+  "startMs": 510060,
+  "endMs": 510820
+ },
+ {
+  "text": "pelajarannya.",
+  "startMs": 510820,
+  "endMs": 511400
+ },
+ {
+  "text": "Yang",
+  "startMs": 511920,
+  "endMs": 512220
+ },
+ {
+  "text": "terlihat",
+  "startMs": 512220,
+  "endMs": 512620
+ },
+ {
+  "text": "melayani,",
+  "startMs": 512620,
+  "endMs": 513220
+ },
+ {
+  "text": "bisa",
+  "startMs": 513600,
+  "endMs": 513840
+ },
+ {
+  "text": "jadi",
+  "startMs": 513840,
   "endMs": 514140
  },
  {
-  "text": "kolom",
+  "text": "justru",
   "startMs": 514140,
-  "endMs": 514340
- },
- {
-  "text": "komentar.",
-  "startMs": 514340,
-  "endMs": 514700
- },
- {
-  "text": "Dan",
-  "startMs": 515520,
-  "endMs": 515960
- },
- {
-  "text": "kalau",
-  "startMs": 515960,
-  "endMs": 516140
- },
- {
-  "text": "video",
-  "startMs": 516140,
-  "endMs": 516380
- },
- {
-  "text": "seperti",
-  "startMs": 516380,
-  "endMs": 516600
- },
- {
-  "text": "ini",
-  "startMs": 516600,
-  "endMs": 516900
- },
- {
-  "text": "membantumu",
-  "startMs": 516900,
-  "endMs": 517270
- },
- {
-  "text": "melihat",
-  "startMs": 517270,
-  "endMs": 517640
- },
- {
-  "text": "ekonomi",
-  "startMs": 517640,
-  "endMs": 518060
- },
- {
-  "text": "dengan",
-  "startMs": 518060,
-  "endMs": 518260
- },
- {
-  "text": "cara",
-  "startMs": 518260,
-  "endMs": 518560
+  "endMs": 514440
  },
  {
   "text": "yang",
-  "startMs": 518560,
-  "endMs": 518720
+  "startMs": 514440,
+  "endMs": 514540
  },
  {
-  "text": "berbeda,",
-  "startMs": 518720,
-  "endMs": 519640
+  "text": "memegang",
+  "startMs": 514540,
+  "endMs": 514900
  },
  {
-  "text": "tekan",
-  "startMs": 519780,
-  "endMs": 520100
+  "text": "kendali.",
+  "startMs": 514900,
+  "endMs": 515980
  },
  {
-  "text": "tombol",
-  "startMs": 520100,
-  "endMs": 520300
+  "text": "Montir",
+  "startMs": 515980,
+  "endMs": 516580
  },
  {
-  "text": "subscribe",
-  "startMs": 520300,
-  "endMs": 520700
+  "text": "yang",
+  "startMs": 516580,
+  "endMs": 516720
  },
  {
-  "text": "supaya",
+  "text": "tangannya",
+  "startMs": 516720,
+  "endMs": 517040
+ },
+ {
+  "text": "hitam",
+  "startMs": 517040,
+  "endMs": 517360
+ },
+ {
+  "text": "oli",
+  "startMs": 517360,
+  "endMs": 517620
+ },
+ {
+  "text": "bisa",
+  "startMs": 518020,
+  "endMs": 518220
+ },
+ {
+  "text": "jadi",
+  "startMs": 518220,
+  "endMs": 518440
+ },
+ {
+  "text": "pemilik",
+  "startMs": 518440,
+  "endMs": 518800
+ },
+ {
+  "text": "40",
+  "startMs": 518800,
+  "endMs": 519180
+ },
+ {
+  "text": "motor,",
+  "startMs": 519180,
+  "endMs": 519620
+ },
+ {
+  "text": "sementara",
+  "startMs": 520160,
+  "endMs": 520580
+ },
+ {
+  "text": "driver",
+  "startMs": 520580,
+  "endMs": 520880
+ },
+ {
+  "text": "yang",
+  "startMs": 520880,
+  "endMs": 521160
+ },
+ {
+  "text": "memamerkan",
   "startMs": 521160,
-  "endMs": 521500
+  "endMs": 521490
  },
  {
-  "text": "kamu",
-  "startMs": 521500,
-  "endMs": 521680
+  "text": "HP",
+  "startMs": 521490,
+  "endMs": 521820
  },
  {
-  "text": "tidak",
-  "startMs": 521680,
-  "endMs": 521880
+  "text": "baru",
+  "startMs": 521820,
+  "endMs": 522120
  },
  {
-  "text": "ketinggalan",
-  "startMs": 521880,
-  "endMs": 522340
+  "text": "bisa",
+  "startMs": 522500,
+  "endMs": 522660
  },
  {
-  "text": "video",
-  "startMs": 522340,
-  "endMs": 522600
+  "text": "jadi",
+  "startMs": 522660,
+  "endMs": 522880
  },
  {
-  "text": "berikutnya.",
-  "startMs": 522600,
-  "endMs": 523100
- },
- {
-  "text": "Jadi,",
-  "startMs": 524100,
-  "endMs": 524780
- },
- {
-  "text": "menurutmu,",
-  "startMs": 524780,
-  "endMs": 525400
- },
- {
-  "text": "siapa",
-  "startMs": 525400,
-  "endMs": 526220
- },
- {
-  "text": "yang",
-  "startMs": 526220,
-  "endMs": 526340
- },
- {
-  "text": "sebenarnya",
-  "startMs": 526340,
-  "endMs": 526720
- },
- {
-  "text": "lebih",
-  "startMs": 526720,
-  "endMs": 526880
- },
- {
-  "text": "kaya?",
-  "startMs": 526880,
-  "endMs": 527180
- },
- {
-  "text": "Tengkulak",
-  "startMs": 527800,
-  "endMs": 528440
- },
- {
-  "text": "yang",
-  "startMs": 528440,
-  "endMs": 528560
- },
- {
-  "text": "untung",
-  "startMs": 528560,
-  "endMs": 528840
- },
- {
-  "text": "besar",
-  "startMs": 528840,
-  "endMs": 529120
- },
- {
-  "text": "tetapi",
-  "startMs": 529120,
-  "endMs": 529500
- },
- {
-  "text": "tidak",
-  "startMs": 529500,
-  "endMs": 529680
+  "text": "tak",
+  "startMs": 522880,
+  "endMs": 523327
  },
  {
   "text": "punya",
-  "startMs": 529680,
-  "endMs": 529880
+  "startMs": 523327,
+  "endMs": 523773
  },
  {
-  "text": "tanah,",
-  "startMs": 529880,
-  "endMs": 530220
+  "text": "apa-apa.",
+  "startMs": 523773,
+  "endMs": 524220
  },
  {
-  "text": "atau",
-  "startMs": 530640,
-  "endMs": 531140
+  "text": "Jangan",
+  "startMs": 524220,
+  "endMs": 524600
  },
  {
-  "text": "petani",
-  "startMs": 531140,
-  "endMs": 531440
+  "text": "ukur",
+  "startMs": 524600,
+  "endMs": 524820
  },
  {
-  "text": "yang",
-  "startMs": 531440,
-  "endMs": 531580
+  "text": "orang",
+  "startMs": 524820,
+  "endMs": 525040
  },
  {
-  "text": "sepedanya",
-  "startMs": 531580,
-  "endMs": 531980
+  "text": "dari",
+  "startMs": 525040,
+  "endMs": 525260
  },
  {
-  "text": "tua",
-  "startMs": 531980,
-  "endMs": 532240
+  "text": "seragamnya.",
+  "startMs": 525260,
+  "endMs": 525860
  },
  {
-  "text": "tetapi",
-  "startMs": 532240,
-  "endMs": 532600
+  "text": "Ukur",
+  "startMs": 525860,
+  "endMs": 526640
  },
  {
-  "text": "kebunnya",
-  "startMs": 532600,
-  "endMs": 532900
+  "text": "dari",
+  "startMs": 526640,
+  "endMs": 526800
  },
  {
-  "text": "dua",
-  "startMs": 532900,
-  "endMs": 533200
- },
- {
-  "text": "hektar?",
-  "startMs": 533200,
-  "endMs": 533600
- },
- {
-  "text": "Karena",
-  "startMs": 534320,
-  "endMs": 534900
- },
- {
-  "text": "tanah",
-  "startMs": 534900,
-  "endMs": 535240
+  "text": "apa",
+  "startMs": 526800,
+  "endMs": 527040
  },
  {
   "text": "yang",
-  "startMs": 535240,
-  "endMs": 535360
+  "startMs": 527040,
+  "endMs": 527220
  },
  {
-  "text": "dirawat",
-  "startMs": 535360,
-  "endMs": 535660
+  "text": "ia",
+  "startMs": 527220,
+  "endMs": 527420
  },
  {
-  "text": "puluhan",
-  "startMs": 535660,
-  "endMs": 536000
+  "text": "bangun",
+  "startMs": 527420,
+  "endMs": 527700
  },
  {
-  "text": "tahun",
-  "startMs": 536000,
-  "endMs": 536320
+  "text": "ketika",
+  "startMs": 527700,
+  "endMs": 528020
  },
  {
   "text": "tidak",
-  "startMs": 536320,
-  "endMs": 537260
+  "startMs": 528020,
+  "endMs": 528280
+ },
+ {
+  "text": "ada",
+  "startMs": 528280,
+  "endMs": 528460
+ },
+ {
+  "text": "yang",
+  "startMs": 528460,
+  "endMs": 528580
+ },
+ {
+  "text": "melihat.",
+  "startMs": 528580,
+  "endMs": 528880
+ },
+ {
+  "text": "Sebelum",
+  "startMs": 529680,
+  "endMs": 530220
+ },
+ {
+  "text": "kita",
+  "startMs": 530220,
+  "endMs": 530420
+ },
+ {
+  "text": "tutup,",
+  "startMs": 530420,
+  "endMs": 530800
+ },
+ {
+  "text": "satu",
+  "startMs": 530980,
+  "endMs": 531180
+ },
+ {
+  "text": "hal.",
+  "startMs": 531180,
+  "endMs": 531420
+ },
+ {
+  "text": "Kalau",
+  "startMs": 532000,
+  "endMs": 532260
+ },
+ {
+  "text": "kamu",
+  "startMs": 532260,
+  "endMs": 532480
  },
  {
   "text": "pernah",
-  "startMs": 537260,
-  "endMs": 537580
+  "startMs": 532480,
+  "endMs": 532680
  },
  {
-  "text": "mengkhianati.",
-  "startMs": 537580,
-  "endMs": 538280
+  "text": "diremehkan",
+  "startMs": 532680,
+  "endMs": 533220
+ },
+ {
+  "text": "karena",
+  "startMs": 533220,
+  "endMs": 533400
+ },
+ {
+  "text": "pekerjaanmu,",
+  "startMs": 533400,
+  "endMs": 534140
+ },
+ {
+  "text": "atau",
+  "startMs": 534460,
+  "endMs": 534740
+ },
+ {
+  "text": "justru",
+  "startMs": 534740,
+  "endMs": 535040
+ },
+ {
+  "text": "pernah",
+  "startMs": 535040,
+  "endMs": 535260
+ },
+ {
+  "text": "meremehkan",
+  "startMs": 535260,
+  "endMs": 535760
+ },
+ {
+  "text": "orang",
+  "startMs": 535760,
+  "endMs": 535960
+ },
+ {
+  "text": "yang",
+  "startMs": 535960,
+  "endMs": 536160
+ },
+ {
+  "text": "ternyata",
+  "startMs": 536160,
+  "endMs": 536440
+ },
+ {
+  "text": "memegang",
+  "startMs": 536440,
+  "endMs": 536880
+ },
+ {
+  "text": "kendalimu,",
+  "startMs": 536880,
+  "endMs": 537800
+ },
+ {
+  "text": "ceritakan",
+  "startMs": 537800,
+  "endMs": 538260
+ },
+ {
+  "text": "di",
+  "startMs": 538260,
+  "endMs": 538440
+ },
+ {
+  "text": "kolom",
+  "startMs": 538440,
+  "endMs": 538580
+ },
+ {
+  "text": "komentar.",
+  "startMs": 538580,
+  "endMs": 538940
+ },
+ {
+  "text": "Dan",
+  "startMs": 539600,
+  "endMs": 539880
+ },
+ {
+  "text": "kalau",
+  "startMs": 539880,
+  "endMs": 540440
+ },
+ {
+  "text": "video",
+  "startMs": 540440,
+  "endMs": 540700
+ },
+ {
+  "text": "seperti",
+  "startMs": 540700,
+  "endMs": 540960
+ },
+ {
+  "text": "ini",
+  "startMs": 540960,
+  "endMs": 541380
+ },
+ {
+  "text": "membantumu",
+  "startMs": 541380,
+  "endMs": 542020
+ },
+ {
+  "text": "melihat",
+  "startMs": 542020,
+  "endMs": 542360
+ },
+ {
+  "text": "ekonomi",
+  "startMs": 542360,
+  "endMs": 542780
+ },
+ {
+  "text": "dengan",
+  "startMs": 542780,
+  "endMs": 543000
+ },
+ {
+  "text": "cara",
+  "startMs": 543000,
+  "endMs": 543240
+ },
+ {
+  "text": "yang",
+  "startMs": 543240,
+  "endMs": 543380
+ },
+ {
+  "text": "berbeda,",
+  "startMs": 543380,
+  "endMs": 543940
+ },
+ {
+  "text": "tekan",
+  "startMs": 544320,
+  "endMs": 544520
+ },
+ {
+  "text": "tombol",
+  "startMs": 544520,
+  "endMs": 544740
+ },
+ {
+  "text": "subscribe",
+  "startMs": 544740,
+  "endMs": 545120
+ },
+ {
+  "text": "supaya",
+  "startMs": 545480,
+  "endMs": 545800
+ },
+ {
+  "text": "kamu",
+  "startMs": 545800,
+  "endMs": 546040
+ },
+ {
+  "text": "tidak",
+  "startMs": 546040,
+  "endMs": 546220
+ },
+ {
+  "text": "ketinggalan",
+  "startMs": 546220,
+  "endMs": 546660
+ },
+ {
+  "text": "video",
+  "startMs": 546660,
+  "endMs": 546860
+ },
+ {
+  "text": "berikutnya.",
+  "startMs": 546860,
+  "endMs": 547340
+ },
+ {
+  "text": "Jadi",
+  "startMs": 548100,
+  "endMs": 548440
+ },
+ {
+  "text": "menurutmu,",
+  "startMs": 548820,
+  "endMs": 549480
+ },
+ {
+  "text": "siapa",
+  "startMs": 549480,
+  "endMs": 550200
+ },
+ {
+  "text": "yang",
+  "startMs": 550200,
+  "endMs": 550360
+ },
+ {
+  "text": "sebenarnya",
+  "startMs": 550360,
+  "endMs": 550780
+ },
+ {
+  "text": "memegang",
+  "startMs": 550780,
+  "endMs": 551120
+ },
+ {
+  "text": "kendali?",
+  "startMs": 551120,
+  "endMs": 552020
+ },
+ {
+  "text": "Montir",
+  "startMs": 552020,
+  "endMs": 552520
+ },
+ {
+  "text": "yang",
+  "startMs": 552520,
+  "endMs": 552660
+ },
+ {
+  "text": "tangannya",
+  "startMs": 552660,
+  "endMs": 552960
+ },
+ {
+  "text": "hitam",
+  "startMs": 552960,
+  "endMs": 553260
+ },
+ {
+  "text": "oli,",
+  "startMs": 553260,
+  "endMs": 553520
+ },
+ {
+  "text": "atau",
+  "startMs": 553920,
+  "endMs": 554120
+ },
+ {
+  "text": "driver",
+  "startMs": 554120,
+  "endMs": 554440
+ },
+ {
+  "text": "yang",
+  "startMs": 554440,
+  "endMs": 554660
+ },
+ {
+  "text": "motornya",
+  "startMs": 554660,
+  "endMs": 555000
+ },
+ {
+  "text": "sewaan?",
+  "startMs": 555000,
+  "endMs": 555440
+ },
+ {
+  "text": "Karena",
+  "startMs": 555860,
+  "endMs": 556500
+ },
+ {
+  "text": "tangan",
+  "startMs": 556500,
+  "endMs": 556850
+ },
+ {
+  "text": "yang",
+  "startMs": 556850,
+  "endMs": 557200
+ },
+ {
+  "text": "hitam",
+  "startMs": 557200,
+  "endMs": 557520
+ },
+ {
+  "text": "oli,",
+  "startMs": 557520,
+  "endMs": 557740
+ },
+ {
+  "text": "bisa",
+  "startMs": 558040,
+  "endMs": 558260
+ },
+ {
+  "text": "jadi",
+  "startMs": 558260,
+  "endMs": 558480
+ },
+ {
+  "text": "tangan",
+  "startMs": 558480,
+  "endMs": 558820
+ },
+ {
+  "text": "yang",
+  "startMs": 558820,
+  "endMs": 558920
+ },
+ {
+  "text": "memegang",
+  "startMs": 558920,
+  "endMs": 559200
+ },
+ {
+  "text": "kunci.",
+  "startMs": 559200,
+  "endMs": 559520
  }
 ]
